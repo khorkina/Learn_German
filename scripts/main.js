@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     // Register service worker
     if ('serviceWorker' in navigator) {
         try {
-            await navigator.serviceWorker.register('/service-worker.js');
+            await navigator.serviceWorker.register('./service-worker.js');
             console.log('Service Worker registered');
         } catch (error) {
             console.log('Service Worker registration failed:', error);
@@ -28,8 +28,6 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 async function loadHomeStats() {
     try {
-        await db.init();
-        
         // Get streak
         const streak = await db.getStreak();
         document.getElementById('streak-count').textContent = streak;

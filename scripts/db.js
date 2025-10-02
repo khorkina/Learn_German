@@ -13,7 +13,7 @@ class DatabaseManager {
     constructor() {
         this.db = null;
         this.useIndexedDB = true;
-        this.init();
+        this.ready = this.init();
     }
 
     async init() {
@@ -68,6 +68,8 @@ class DatabaseManager {
 
     // Generic get/set methods
     async get(storeName, key) {
+        await this.ready;
+        
         if (!this.useIndexedDB) {
             return this._localStorageGet(storeName, key);
         }
@@ -83,6 +85,8 @@ class DatabaseManager {
     }
 
     async set(storeName, data) {
+        await this.ready;
+        
         if (!this.useIndexedDB) {
             return this._localStorageSet(storeName, data);
         }
@@ -98,6 +102,8 @@ class DatabaseManager {
     }
 
     async getAll(storeName) {
+        await this.ready;
+        
         if (!this.useIndexedDB) {
             return this._localStorageGetAll(storeName);
         }
