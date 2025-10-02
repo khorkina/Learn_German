@@ -1,0 +1,95 @@
+Build a static website for learning German (from English) that works on GitHub Pages.
+
+Goals & scope
+
+Purpose: daily German lessons and exercises based on die neue Linie 1 (levels A1–C1). Do not include any copyrighted textbook content; use original explanations and examples.
+
+Hosting: pure static site (HTML/CSS/JS) compatible with GitHub Pages (no server/backend).
+
+Persistence: use IndexedDB to store user progress, vocabulary, quiz results, streaks, and settings entirely in the browser.
+
+Design & UX
+
+Visual style: minimalist and calm, inspired by Ko-fi, but using a beige, brown, and white color palette (soft natural tones, gentle contrasts, lots of whitespace).
+
+Rounded corners, subtle shadows, clean typography.
+
+Fully responsive (mobile-first), accessible (WCAG AA), and fast.
+
+English UI; German content for learning.
+
+Structure
+
+Pages: Home, Levels (A1–C1), Daily Lesson, Library, Exercises, Progress, About, Privacy, Contact.
+
+URL format suitable for GitHub Pages (no SPA 404 issues).
+
+Navigation with breadcrumbs and a persistent “Add New Lesson” entry point.
+
+Content model & templates
+
+Provide JSON/Markdown templates for lessons and exercises.
+
+Example content for A1 and C1 included.
+
+Auto-build index with manifest.json.
+
+IndexedDB
+
+Wrapper module db.js with methods for progress, vocab, settings.
+
+Fallback to localStorage if IndexedDB is unavailable.
+
+Author workflow
+
+Easy daily content addition:
+
+content/ folder with subfolders per level.
+
+TEMPLATE_lesson.json and TEMPLATE_exercises.json.
+
+Script or local tool to generate new lesson boilerplate.
+
+README.md with clear instructions.
+
+Exercises & feedback
+
+Multiple exercise types with instant feedback.
+
+Progress tracking with percentages and streaks.
+
+Umlaut and spelling tolerance.
+
+About & Privacy
+
+About page explains IndexedDB (data stored only locally).
+
+Privacy page: no accounts, no server storage, optional ads.
+
+Google AdSense integration
+
+Ad placeholders prepared but unobtrusive (respect design & learning flow).
+
+Config file for publisher ID.
+
+Instructions in README.md for enabling.
+
+Tech specifics
+
+Vanilla HTML/CSS/JS (no frameworks).
+
+CSS token system in styles/tokens.css for the beige/brown/white palette.
+
+Service Worker for offline use.
+
+SEO-friendly (meta, sitemap, robots.txt).
+
+Deliverables
+
+Ready-to-deploy static site for GitHub Pages.
+
+Two full lessons (A1 & C1) as examples.
+
+Documented workflow for adding daily lessons.
+
+Clean, commented, minimalistic code.
