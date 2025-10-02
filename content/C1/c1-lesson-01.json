@@ -1,0 +1,139 @@
+{
+  "title": "Subjunctive II and Hypothetical Statements",
+  "level": "C1",
+  "number": 1,
+  "grammar": [
+    {
+      "topic": "Formation of Konjunktiv II",
+      "explanation": "The Subjunctive II (Konjunktiv II) expresses hypothetical situations, wishes, and polite requests. It's formed from the simple past stem with umlaut (for strong verbs) plus specific endings: -e, -est, -e, -en, -et, -en. For weak verbs, it's identical to simple past, so 'würde + infinitive' is commonly used instead.",
+      "examples": [
+        {
+          "german": "Wenn ich Zeit hätte, würde ich dich besuchen.",
+          "english": "If I had time, I would visit you."
+        },
+        {
+          "german": "An deiner Stelle würde ich das nicht machen.",
+          "english": "In your place, I wouldn't do that."
+        }
+      ]
+    },
+    {
+      "topic": "Modal Verbs in Subjunctive II",
+      "explanation": "Modal verbs have distinct Subjunctive II forms: könnte (could), sollte (should), müsste (would have to), dürfte (might/probably), möchte (would like). These are used frequently in polite speech and hypothetical contexts.",
+      "examples": [
+        {
+          "german": "Könntest du mir bitte helfen?",
+          "english": "Could you please help me?"
+        },
+        {
+          "german": "Sie sollten sich mehr ausruhen.",
+          "english": "You should rest more."
+        }
+      ]
+    },
+    {
+      "topic": "Irrealis Conditionals",
+      "explanation": "Irrealis conditionals express contrary-to-fact situations using Subjunctive II in both clauses. The 'wenn' clause states the condition, and the main clause states the consequence. Both use Konjunktiv II.",
+      "examples": [
+        {
+          "german": "Wenn ich mehr Geld hätte, könnte ich mir ein Haus kaufen.",
+          "english": "If I had more money, I could buy a house."
+        },
+        {
+          "german": "Wäre ich früher aufgestanden, hätte ich den Zug nicht verpasst.",
+          "english": "If I had gotten up earlier, I wouldn't have missed the train."
+        }
+      ]
+    },
+    {
+      "topic": "Subjunctive II in Indirect Speech",
+      "explanation": "While Subjunctive I is standard for indirect speech, Subjunctive II is used when Subjunctive I forms are identical to indicative forms, or to express doubt about reported information.",
+      "examples": [
+        {
+          "german": "Er sagte, er hätte keine Zeit.",
+          "english": "He said he had no time."
+        },
+        {
+          "german": "Sie behauptete, sie wäre krank gewesen.",
+          "english": "She claimed she had been sick."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "german": "die Annahme",
+      "english": "assumption"
+    },
+    {
+      "german": "hypothetisch",
+      "english": "hypothetical"
+    },
+    {
+      "german": "voraussetzen",
+      "english": "to presuppose"
+    },
+    {
+      "german": "unterstellen",
+      "english": "to assume/imply"
+    },
+    {
+      "german": "die Bedingung",
+      "english": "condition"
+    },
+    {
+      "german": "annehmen",
+      "english": "to assume"
+    },
+    {
+      "german": "vermuten",
+      "english": "to suppose"
+    },
+    {
+      "german": "die Vermutung",
+      "english": "supposition"
+    },
+    {
+      "german": "irrealis",
+      "english": "irrealis/unreal"
+    },
+    {
+      "german": "gegeben",
+      "english": "given"
+    }
+  ],
+  "phrases": [
+    {
+      "german": "An deiner Stelle würde ich...",
+      "english": "In your place, I would..."
+    },
+    {
+      "german": "Es wäre besser, wenn...",
+      "english": "It would be better if..."
+    },
+    {
+      "german": "Könnten Sie mir bitte sagen...",
+      "english": "Could you please tell me..."
+    },
+    {
+      "german": "Ich hätte gerne...",
+      "english": "I would like..."
+    },
+    {
+      "german": "Falls es regnen sollte...",
+      "english": "Should it rain.../In case it rains..."
+    },
+    {
+      "german": "Gesetzt den Fall, dass...",
+      "english": "Assuming that..."
+    },
+    {
+      "german": "Unter der Voraussetzung, dass...",
+      "english": "On the condition that..."
+    },
+    {
+      "german": "Es käme darauf an, ob...",
+      "english": "It would depend on whether..."
+    }
+  ]
+}

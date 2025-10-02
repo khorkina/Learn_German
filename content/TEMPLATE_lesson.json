@@ -1,0 +1,37 @@
+{
+  "title": "Lesson Title Here",
+  "level": "A1",
+  "number": 1,
+  "grammar": [
+    {
+      "topic": "Grammar Topic Name",
+      "explanation": "Detailed explanation of the grammar concept in clear, simple English. Explain rules, patterns, and usage.",
+      "examples": [
+        {
+          "german": "Example sentence in German",
+          "english": "Translation in English"
+        },
+        {
+          "german": "Another example in German",
+          "english": "Another translation in English"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "german": "das Wort",
+      "english": "the word"
+    },
+    {
+      "german": "lernen",
+      "english": "to learn"
+    }
+  ],
+  "phrases": [
+    {
+      "german": "Useful phrase in German",
+      "english": "Translation in English"
+    }
+  ]
+}

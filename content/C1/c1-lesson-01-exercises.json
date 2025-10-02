@@ -1,0 +1,80 @@
+[
+  {
+    "type": "fill-in",
+    "question": "Complete with the correct Subjunctive II form: Wenn ich Zeit _____ (haben), würde ich kommen.",
+    "answer": "hätte",
+    "explanation": "The Subjunctive II of 'haben' is 'hätte' (from 'hatte' with umlaut)."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Which sentence uses Subjunctive II correctly for a polite request?",
+    "options": [
+      "Kannst du mir helfen?",
+      "Könntest du mir helfen?",
+      "Konntest du mir helfen?",
+      "Du kannst mir helfen."
+    ],
+    "correctIndex": 1,
+    "explanation": "Könntest (Subjunctive II) is more polite than the indicative 'kannst'."
+  },
+  {
+    "type": "fill-in",
+    "question": "Transform to Subjunctive II: Er sagte, er ist krank. → Er sagte, er _____ krank.",
+    "answer": "wäre",
+    "explanation": "In indirect speech with doubt or when forms match indicative, use Subjunctive II: wäre."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "What is the Subjunctive II form of 'sollen' (should)?",
+    "options": [
+      "sollt",
+      "sollte",
+      "solle",
+      "soll"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Subjunctive II of 'sollen' is 'sollte', used for recommendations and advice."
+  },
+  {
+    "type": "fill-in",
+    "question": "Complete the irrealis conditional: Wäre ich früher gekommen, _____ ich ihn getroffen. (hätte/würde)",
+    "answer": "hätte",
+    "explanation": "For past subjunctive (irrealis of past), use 'hätte/wäre + past participle'."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Which expresses a hypothetical situation?",
+    "options": [
+      "Ich habe viel Geld.",
+      "Wenn ich viel Geld hätte...",
+      "Ich hatte viel Geld.",
+      "Ich werde viel Geld haben."
+    ],
+    "correctIndex": 1,
+    "explanation": "Subjunctive II with 'wenn' clause expresses contrary-to-fact hypotheticals."
+  },
+  {
+    "type": "fill-in",
+    "question": "Polite form: Complete with Subjunctive II: _____ Sie mir bitte sagen, wie spät es ist? (können)",
+    "answer": "Könnten",
+    "explanation": "Könnten Sie is the polite Subjunctive II form for requests."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "What does 'An deiner Stelle würde ich...' mean?",
+    "options": [
+      "At your place I would...",
+      "In your place I would...",
+      "For your sake I would...",
+      "Instead of you I would..."
+    ],
+    "correctIndex": 1,
+    "explanation": "This idiom means 'In your place/If I were you, I would...'"
+  },
+  {
+    "type": "fill-in",
+    "question": "Complete: Es _____ besser, wenn du früher kämest. (sein in Subjunctive II)",
+    "answer": "wäre",
+    "explanation": "Wäre is the Subjunctive II form of sein, used for hypothetical statements."
+  }
+]

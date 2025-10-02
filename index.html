@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn German daily with structured lessons from A1 to C1. Free, ad-free, privacy-focused learning.">
+    <title>Learn German Daily - A1 to C1</title>
+    <link rel="stylesheet" href="styles/tokens.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="index.html" class="logo">Learn German</a>
+            <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="pages/levels.html">Levels</a></li>
+                <li><a href="pages/daily-lesson.html">Daily Lesson</a></li>
+                <li><a href="pages/library.html">Library</a></li>
+                <li><a href="pages/exercises.html">Exercises</a></li>
+                <li><a href="pages/progress.html">Progress</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <h1>Learn German Every Day</h1>
+            <p>Structured lessons from beginner (A1) to advanced (C1). All your progress stays private in your browser.</p>
+            <div class="hero-buttons">
+                <a href="pages/daily-lesson.html" class="btn btn-primary">Start Today's Lesson</a>
+                <a href="pages/levels.html" class="btn btn-secondary">Browse All Levels</a>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="feature-card">
+                <h2>📚 Structured Learning</h2>
+                <p>Follow a clear path from A1 (beginner) to C1 (advanced) with daily lessons and exercises.</p>
+            </div>
+            <div class="feature-card">
+                <h2>🔒 Privacy First</h2>
+                <p>All your progress is stored locally in your browser. No accounts, no tracking, no data collection.</p>
+            </div>
+            <div class="feature-card">
+                <h2>🎯 Daily Practice</h2>
+                <p>Build a streak with daily lessons. Interactive exercises with instant feedback help you learn faster.</p>
+            </div>
+        </section>
+
+        <section class="quick-stats">
+            <h2>Your Progress</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-value" id="streak-count">0</div>
+                    <div class="stat-label">Day Streak</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="lessons-completed">0</div>
+                    <div class="stat-label">Lessons Completed</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="vocab-learned">0</div>
+                    <div class="stat-label">Words Learned</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <nav class="footer-nav">
+            <a href="pages/about.html">About</a>
+            <a href="pages/privacy.html">Privacy</a>
+            <a href="pages/contact.html">Contact</a>
+        </nav>
+        <p>&copy; 2025 Learn German Daily</p>
+    </footer>
+
+    <script src="scripts/db.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>

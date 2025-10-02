@@ -1,0 +1,20 @@
+[
+  {
+    "type": "fill-in",
+    "question": "Question or prompt here. Use blanks or ask for specific words.",
+    "answer": "correct answer",
+    "explanation": "Optional: Explain why this is correct or provide additional context."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Question or prompt for multiple choice",
+    "options": [
+      "First option",
+      "Second option",
+      "Third option (correct answer)",
+      "Fourth option"
+    ],
+    "correctIndex": 2,
+    "explanation": "Optional: Explain the correct answer."
+  }
+]

@@ -1,0 +1,129 @@
+{
+  "title": "Greetings and Introductions",
+  "level": "A1",
+  "number": 1,
+  "grammar": [
+    {
+      "topic": "Basic Greetings",
+      "explanation": "In German, greetings vary by time of day and formality. 'Guten Morgen' (good morning), 'Guten Tag' (good day), and 'Guten Abend' (good evening) are formal greetings. 'Hallo' is informal and can be used anytime.",
+      "examples": [
+        {
+          "german": "Guten Morgen! Wie geht es Ihnen?",
+          "english": "Good morning! How are you? (formal)"
+        },
+        {
+          "german": "Hallo! Wie geht's?",
+          "english": "Hello! How are you? (informal)"
+        }
+      ]
+    },
+    {
+      "topic": "Personal Pronouns",
+      "explanation": "German has three persons in singular and plural. 'Ich' (I), 'du' (you informal), 'er/sie/es' (he/she/it), 'wir' (we), 'ihr' (you plural informal), 'sie/Sie' (they/you formal).",
+      "examples": [
+        {
+          "german": "Ich heiße Maria. Wie heißt du?",
+          "english": "My name is Maria. What's your name?"
+        },
+        {
+          "german": "Er kommt aus Deutschland.",
+          "english": "He comes from Germany."
+        }
+      ]
+    },
+    {
+      "topic": "The Verb 'sein' (to be)",
+      "explanation": "The verb 'sein' is irregular and essential for introductions. Conjugation: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind.",
+      "examples": [
+        {
+          "german": "Ich bin Student.",
+          "english": "I am a student."
+        },
+        {
+          "german": "Wir sind aus Berlin.",
+          "english": "We are from Berlin."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "german": "Hallo",
+      "english": "Hello"
+    },
+    {
+      "german": "Guten Morgen",
+      "english": "Good morning"
+    },
+    {
+      "german": "Guten Tag",
+      "english": "Good day"
+    },
+    {
+      "german": "Guten Abend",
+      "english": "Good evening"
+    },
+    {
+      "german": "Tschüss",
+      "english": "Goodbye (informal)"
+    },
+    {
+      "german": "Auf Wiedersehen",
+      "english": "Goodbye (formal)"
+    },
+    {
+      "german": "heißen",
+      "english": "to be called/named"
+    },
+    {
+      "german": "kommen aus",
+      "english": "to come from"
+    },
+    {
+      "german": "wohnen",
+      "english": "to live"
+    },
+    {
+      "german": "sein",
+      "english": "to be"
+    }
+  ],
+  "phrases": [
+    {
+      "german": "Wie heißen Sie?",
+      "english": "What is your name? (formal)"
+    },
+    {
+      "german": "Ich heiße...",
+      "english": "My name is..."
+    },
+    {
+      "german": "Woher kommen Sie?",
+      "english": "Where do you come from? (formal)"
+    },
+    {
+      "german": "Ich komme aus...",
+      "english": "I come from..."
+    },
+    {
+      "german": "Wo wohnen Sie?",
+      "english": "Where do you live? (formal)"
+    },
+    {
+      "german": "Ich wohne in...",
+      "english": "I live in..."
+    },
+    {
+      "german": "Freut mich!",
+      "english": "Nice to meet you!"
+    },
+    {
+      "german": "Wie geht es Ihnen?",
+      "english": "How are you? (formal)"
+    },
+    {
+      "german": "Mir geht es gut, danke.",
+      "english": "I'm fine, thank you."
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+/* Design Tokens - Beige/Brown/White Palette */
+:root {
+    /* Colors */
+    --color-bg-primary: #FDFBF7;
+    --color-bg-secondary: #F5F1E8;
+    --color-bg-card: #FFFFFF;
+    --color-surface: #EDE8DB;
+    
+    --color-text-primary: #3E3731;
+    --color-text-secondary: #6B6157;
+    --color-text-muted: #9B8F7F;
+    
+    --color-accent-primary: #8B6F47;
+    --color-accent-hover: #705A38;
+    --color-accent-light: #A68A5E;
+    
+    --color-border: #D4C9B8;
+    --color-border-light: #E8DFD0;
+    
+    --color-success: #6B8E4E;
+    --color-error: #B85C50;
+    --color-warning: #C4934F;
+    
+    /* Typography */
+    --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    --font-size-xs: 0.75rem;
+    --font-size-sm: 0.875rem;
+    --font-size-base: 1rem;
+    --font-size-lg: 1.125rem;
+    --font-size-xl: 1.25rem;
+    --font-size-2xl: 1.5rem;
+    --font-size-3xl: 2rem;
+    --font-size-4xl: 2.5rem;
+    
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    
+    --line-height-tight: 1.25;
+    --line-height-normal: 1.5;
+    --line-height-relaxed: 1.75;
+    
+    /* Spacing */
+    --space-xs: 0.25rem;
+    --space-sm: 0.5rem;
+    --space-md: 1rem;
+    --space-lg: 1.5rem;
+    --space-xl: 2rem;
+    --space-2xl: 3rem;
+    --space-3xl: 4rem;
+    
+    /* Border Radius */
+    --radius-sm: 0.375rem;
+    --radius-md: 0.5rem;
+    --radius-lg: 0.75rem;
+    --radius-xl: 1rem;
+    --radius-full: 9999px;
+    
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 rgba(62, 55, 49, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(62, 55, 49, 0.08), 0 2px 4px -1px rgba(62, 55, 49, 0.04);
+    --shadow-lg: 0 10px 15px -3px rgba(62, 55, 49, 0.08), 0 4px 6px -2px rgba(62, 55, 49, 0.04);
+    --shadow-xl: 0 20px 25px -5px rgba(62, 55, 49, 0.08), 0 10px 10px -5px rgba(62, 55, 49, 0.04);
+    
+    /* Transitions */
+    --transition-fast: 150ms ease-in-out;
+    --transition-base: 200ms ease-in-out;
+    --transition-slow: 300ms ease-in-out;
+    
+    /* Layout */
+    --max-width-sm: 640px;
+    --max-width-md: 768px;
+    --max-width-lg: 1024px;
+    --max-width-xl: 1280px;
+}

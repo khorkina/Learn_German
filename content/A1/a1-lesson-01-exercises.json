@@ -1,0 +1,68 @@
+[
+  {
+    "type": "fill-in",
+    "question": "How do you say 'Hello' in German?",
+    "answer": "Hallo",
+    "explanation": "Hallo is the most common informal greeting in German."
+  },
+  {
+    "type": "fill-in",
+    "question": "Complete: Ich ____ Maria. (My name is Maria)",
+    "answer": "heiße",
+    "explanation": "The verb 'heißen' means 'to be called/named'. In first person: ich heiße."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Which greeting is appropriate in the morning?",
+    "options": [
+      "Guten Abend",
+      "Guten Morgen",
+      "Gute Nacht",
+      "Auf Wiedersehen"
+    ],
+    "correctIndex": 1,
+    "explanation": "Guten Morgen means 'Good morning' and is used in the morning hours."
+  },
+  {
+    "type": "fill-in",
+    "question": "How do you ask 'Where do you come from?' formally in German?",
+    "answer": "Woher kommen Sie",
+    "explanation": "Use 'Woher kommen Sie?' for the formal question about origin."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "What is the correct conjugation: Ich ____ aus Deutschland.",
+    "options": [
+      "kommt",
+      "kommen",
+      "komme",
+      "kommst"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Ich komme' is the first person singular form of 'kommen' (to come)."
+  },
+  {
+    "type": "fill-in",
+    "question": "Complete: Wie geht ____ Ihnen? (How are you - formal)",
+    "answer": "es",
+    "explanation": "The phrase 'Wie geht es Ihnen?' is the formal way to ask how someone is."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Which is the informal way to say goodbye?",
+    "options": [
+      "Auf Wiedersehen",
+      "Guten Tag",
+      "Tschüss",
+      "Freut mich"
+    ],
+    "correctIndex": 2,
+    "explanation": "Tschüss is the informal goodbye, while Auf Wiedersehen is formal."
+  },
+  {
+    "type": "fill-in",
+    "question": "Complete: Ich ____ in Berlin. (I live in Berlin)",
+    "answer": "wohne",
+    "explanation": "The verb 'wohnen' means 'to live'. First person: ich wohne."
+  }
+]
