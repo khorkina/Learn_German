@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://yourdomain.github.io/sitemap.xml
+Sitemap: https://khorkina.github.io/Learn_German/index.html

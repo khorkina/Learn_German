@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://yourdomain.github.io/</loc>
+    <loc>https://khorkina.github.io/Learn_German/index.html</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://yourdomain.github.io/pages/levels.html</loc>
+    <loc>https://khorkina.github.io/Learn_German/pages/levels.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://yourdomain.github.io/pages/daily-lesson.html</loc>
+    <loc>https://khorkina.github.io/Learn_German/pages/daily-lesson.html</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://yourdomain.github.io/pages/library.html</loc>
+    <loc>https://khorkina.github.io/Learn_German/pages/library.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://yourdomain.github.io/pages/exercises.html</loc>
+    <loc>https://khorkina.github.io/Learn_German/pages/exercises.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://yourdomain.github.io/pages/progress.html</loc>
+    <loc>https://khorkina.github.io/Learn_German/pages/progress.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourdomain.github.io/pages/about.html</loc>
+    <loc>https://khorkina.github.io/Learn_German/pages/about.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://yourdomain.github.io/pages/privacy.html</loc>
+    <loc>https://khorkina.github.io/Learn_German/pages/privacy.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://yourdomain.github.io/pages/contact.html</loc>
+    <loc>https://khorkina.github.io/Learn_German/pages/contact.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
