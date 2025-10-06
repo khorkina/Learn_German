@@ -1,18 +1,16 @@
-// service-worker.js
-const CACHE_VERSION = 'v3-2025-10-06'; // <-- увеличивай при правках
+const CACHE_VERSION = 'v5-2025-10-06';
 const STATIC_CACHE = `learn-german-static-${CACHE_VERSION}`;
 const RUNTIME_CACHE = `learn-german-runtime-${CACHE_VERSION}`;
 
 const STATIC_ASSETS = [
-  '/', '/index.html',
-  '/styles/tokens.css', '/styles/main.css', '/styles/pages.css',
-  '/scripts/db.js', '/scripts/main.js',
-  '/pages/levels.html', '/pages/daily-lesson.html', '/pages/library.html',
-  '/pages/exercises.html', '/pages/progress.html', '/pages/about.html',
-  '/pages/privacy.html', '/pages/contact.html',
-  '/scripts/levels.js', '/scripts/lesson.js', '/scripts/library.js',
-  '/scripts/exercises.js', '/scripts/progress.js'
-  // Не кладём сюда контент JSON — их обновляем сетью
+  './', './index.html',
+  './styles/tokens.css', './styles/main.css', './styles/pages.css',
+  './scripts/db.js', './scripts/main.js',
+  './pages/levels.html', './pages/daily-lesson.html', './pages/library.html',
+  './pages/exercises.html', './pages/progress.html',
+  './pages/about.html', './pages/privacy.html', './pages/contact.html',
+  './scripts/levels.js', './scripts/lesson.js', './scripts/library.js',
+  './scripts/exercises.js', './scripts/progress.js'
 ];
 
 self.addEventListener('install', (event) => {
