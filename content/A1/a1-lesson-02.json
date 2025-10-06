@@ -1,17 +1,62 @@
 {
-  "id": "a1-lesson-02",
+  "title": "Vorstellen und Personen beschreiben",
   "level": "A1",
   "number": 2,
-  "title": "Introducing Others",
-  "description": "Learn how to introduce someone else and ask about names",
-  "content": [
+  "grammar": [
     {
-      "type": "text",
-      "data": "Das ist meine Freundin Anna. Sie kommt aus Berlin."
+      "topic": "Sich vorstellen (Name, Herkunft, Wohnort, Beruf)",
+      "explanation": "Für eine kurze Selbstvorstellung benutzt man feste Redemittel: Ich heiße ... / Ich bin ... / Ich komme aus ... / Ich wohne in ... / Ich arbeite als ...",
+      "examples": [
+        { "german": "Ich heiße Tim Becker. Ich bin Student.", "english": "My name is Tim Becker. I am a student." },
+        { "german": "Ich komme aus Köln und wohne in Berlin.", "english": "I come from Cologne and live in Berlin." },
+        { "german": "Ich arbeite als Lehrerin.", "english": "I work as a teacher." }
+      ]
     },
     {
-      "type": "audio",
-      "src": "../audio/a1-lesson-02-dialog.mp3"
+      "topic": "Nach persönlichen Angaben fragen",
+      "explanation": "Typische Fragen: Wie heißt du / heißen Sie? Woher kommst du / kommen Sie? Wo wohnst du / wohnen Sie? Was bist du von Beruf / was sind Sie von Beruf? Wie alt bist du / sind Sie?",
+      "examples": [
+        { "german": "Wie heißt du? – Ich heiße Anna.", "english": "What is your name? – My name is Anna." },
+        { "german": "Woher kommen Sie? – Ich komme aus Österreich.", "english": "Where are you from? – I am from Austria." },
+        { "german": "Was sind Sie von Beruf? – Ich bin Ingenieur.", "english": "What is your profession? – I am an engineer." }
+      ]
+    },
+    {
+      "topic": "Personen beschreiben mit „sein“, „haben“ und Adjektiven",
+      "explanation": "Für einfache Beschreibungen nutzt man: sein + Adjektiv/Nomen; haben + Substantiv. Adjektive bleiben im Prädikat unverändert.",
+      "examples": [
+        { "german": "Anna ist freundlich und sportlich.", "english": "Anna is friendly and athletic." },
+        { "german": "Sie hat braune Haare und blaue Augen.", "english": "She has brown hair and blue eyes." },
+        { "german": "Tim ist mein Freund. Er ist 25 Jahre alt.", "english": "Tim is my friend. He is 25 years old." }
+      ]
     }
+  ],
+  "vocabulary": [
+    { "german": "der Name", "english": "name" },
+    { "german": "heißen", "english": "to be called" },
+    { "german": "kommen aus", "english": "to come from" },
+    { "german": "wohnen", "english": "to live (reside)" },
+    { "german": "der Beruf", "english": "profession, job" },
+    { "german": "arbeiten (als)", "english": "to work (as)" },
+    { "german": "alt (… Jahre alt)", "english": "old (… years old)" },
+    { "german": "freundlich", "english": "friendly" },
+    { "german": "schüchtern", "english": "shy" },
+    { "german": "sportlich", "english": "athletic" },
+    { "german": "groß / klein", "english": "tall / short (height)" },
+    { "german": "die Haare / die Augen", "english": "hair / eyes" },
+    { "german": "haben", "english": "to have" },
+    { "german": "sein", "english": "to be" },
+    { "german": "die Adresse", "english": "address" }
+  ],
+  "phrases": [
+    { "german": "Darf ich mich vorstellen? Ich heiße …", "english": "May I introduce myself? My name is …" },
+    { "german": "Das ist mein Freund / meine Freundin …", "english": "This is my (male) friend / (female) friend …" },
+    { "german": "Woher kommst du? / Woher kommen Sie?", "english": "Where are you from? (informal / formal)" },
+    { "german": "Wo wohnst du? / Wo wohnen Sie?", "english": "Where do you live? (informal / formal)" },
+    { "german": "Was machst du beruflich? / Was sind Sie von Beruf?", "english": "What do you do for a living? (informal / formal)" },
+    { "german": "Wie alt bist du? / Wie alt sind Sie?", "english": "How old are you? (informal / formal)" },
+    { "german": "Sie ist sehr nett. Er ist ziemlich ruhig.", "english": "She is very nice. He is quite quiet." },
+    { "german": "Er hat kurze, dunkle Haare.", "english": "He has short, dark hair." },
+    { "german": "Freut mich, Sie kennenzulernen!", "english": "Nice to meet you!" }
   ]
 }

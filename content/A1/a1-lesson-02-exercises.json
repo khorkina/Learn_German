@@ -1,15 +1,97 @@
-{
-  "lessonId": "a1-lesson-02",
-  "exercises": [
-    {
-      "type": "translate",
-      "question": "This is my friend Anna.",
-      "answer": "Das ist meine Freundin Anna."
-    },
-    {
-      "type": "fill",
-      "question": "____ ist mein Freund Peter.",
-      "answer": "Das"
-    }
-  ]
-}
+[
+  {
+    "type": "fill-in",
+    "question": "Complete: Ich ____ Anna Müller. (My name is Anna Müller)",
+    "answer": "heiße",
+    "explanation": "The verb 'heißen' means 'to be called'. In first person: ich heiße."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Choose the correct sentence to say where you live:",
+    "options": [
+      "Ich komme Berlin.",
+      "Ich wohne in Berlin.",
+      "Ich bin aus wohne Berlin.",
+      "Ich lebt in Berlin."
+    ],
+    "correctIndex": 1,
+    "answer": "Ich wohne in Berlin.",
+    "explanation": "'wohnen in' means 'to live in'. The correct form is 'Ich wohne in Berlin.'"
+  },
+  {
+    "type": "fill-in",
+    "question": "Complete: Ich komme ____ Deutschland.",
+    "answer": "aus",
+    "explanation": "The preposition 'aus' means 'from' when talking about origin."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Which question means 'What is your profession?'",
+    "options": [
+      "Wie heißen Sie?",
+      "Wo wohnen Sie?",
+      "Was sind Sie von Beruf?",
+      "Wie alt sind Sie?"
+    ],
+    "correctIndex": 2,
+    "answer": "Was sind Sie von Beruf?",
+    "explanation": "‘Was sind Sie von Beruf?’ asks about someone's profession or job."
+  },
+  {
+    "type": "fill-in",
+    "question": "Complete: Ich arbeite als ____ . (I work as a teacher)",
+    "answer": "Lehrer" ,
+    "explanation": "‘arbeiten als’ means ‘to work as’. Example: Ich arbeite als Lehrer / Lehrerin."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Which sentence correctly describes appearance?",
+    "options": [
+      "Sie hat braune Haare und blaue Augen.",
+      "Sie ist braune Haare und blaue Augen.",
+      "Sie hat ist braun Augen.",
+      "Sie hat freundlich Haare."
+    ],
+    "correctIndex": 0,
+    "answer": "Sie hat braune Haare und blaue Augen.",
+    "explanation": "Use 'haben' for features (to have): Sie hat braune Haare."
+  },
+  {
+    "type": "fill-in",
+    "question": "Complete: Er ist sehr ____ . (He is very friendly)",
+    "answer": "freundlich",
+    "explanation": "Adjectives like 'freundlich' (friendly) follow 'sein' without endings."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Choose the correct answer: Wie alt bist du?",
+    "options": [
+      "Ich bin alt.",
+      "Ich bin 25 Jahre alt.",
+      "Ich habe alt.",
+      "Ich komme alt."
+    ],
+    "correctIndex": 1,
+    "answer": "Ich bin 25 Jahre alt.",
+    "explanation": "To say age, use 'sein': Ich bin ... Jahre alt."
+  },
+  {
+    "type": "fill-in",
+    "question": "Complete: Das ist mein Freund. ____ heißt Lukas.",
+    "answer": "Er",
+    "explanation": "‘Er’ means 'he'. Pronoun used to refer to masculine nouns like 'Freund'."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Which sentence is correct?",
+    "options": [
+      "Ich sind Student.",
+      "Ich bin Student.",
+      "Ich habe Student.",
+      "Ich komme Student."
+    ],
+    "correctIndex": 1,
+    "answer": "Ich bin Student.",
+    "explanation": "‘sein’ is used to describe who or what someone is: Ich bin Student."
+  }
+]
