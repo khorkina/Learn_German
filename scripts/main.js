@@ -18,7 +18,11 @@ document.addEventListener('DOMContentLoaded', async () => {
     // Register service worker
     if ('serviceWorker' in navigator) {
         try {
-            await navigator.serviceWorker.register('./service-worker.js');
+            const inPages = location.pathname.includes('/pages/');
+            const swPath = inPages ? '../service-worker.js' : './service-worker.js';
+            const swScope = inPages ? '../' : './';
+
+            await navigator.serviceWorker.register(swPath, { scope: swScope });
             console.log('Service Worker registered');
         } catch (error) {
             console.log('Service Worker registration failed:', error);

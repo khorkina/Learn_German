@@ -1,0 +1,4007 @@
+[
+  {
+    "word": "ab",
+    "part": "Adv.",
+    "example": "Ab morgen muss ich arbeiten."
+  },
+  {
+    "word": "Abend",
+    "part": "Subst.",
+    "example": "-e die Nacht,¨-e Tag/Tageszeiten"
+  },
+  {
+    "word": "aber",
+    "part": "Konj.",
+    "example": "Ich bin oft im Büro, aber nur für wenige Stunden."
+  },
+  {
+    "word": "abfahren",
+    "part": "Verb",
+    "example": "Wir fahren um zwölf Uhr ab."
+  },
+  {
+    "word": "Abfahrt",
+    "part": "Subst.",
+    "example": "Vor der Abfahrt rufe ich an."
+  },
+  {
+    "word": "abfliegen",
+    "part": "Verb",
+    "example": "Wann fliegst du ab?"
+  },
+  {
+    "word": "Abflug",
+    "part": "Subst.",
+    "example": "Der Abflug ist um 11.20 Uhr."
+  },
+  {
+    "word": "abgeben",
+    "part": "Verb",
+    "example": "Ich muss meine Schlüssel abgeben."
+  },
+  {
+    "word": "abholen",
+    "part": "Verb",
+    "example": "Wann kann ich den Schrank bei dir abholen?"
+  },
+  {
+    "word": "Absender",
+    "part": "Subst.",
+    "example": "Da ist ein Brief für dich ohne Absender."
+  },
+  {
+    "word": "Achtung",
+    "part": "Interj.",
+    "example": "Achtung! Das dürfen Sie nicht tun."
+  },
+  {
+    "word": "achtzig",
+    "part": "Adj.",
+    "example": "neunzig"
+  },
+  {
+    "word": "Adresse",
+    "part": "Subst.",
+    "example": "-en Können Sie mir seine Adresse sagen?"
+  },
+  {
+    "word": "all",
+    "part": "Adv.",
+    "example": "Alles Gute!"
+  },
+  {
+    "word": "Alle",
+    "part": "Subst.",
+    "example": "Freunde kommen."
+  },
+  {
+    "word": "allein",
+    "part": "Adv.",
+    "example": "Er kommt allein."
+  },
+  {
+    "word": "Als",
+    "part": "Subst.",
+    "example": "aktiver Wortschatz sollte einem Lernenden auf dieser Stufe etwa die"
+  },
+  {
+    "word": "also",
+    "part": "Adv.",
+    "example": "Also, es ist so: ..."
+  },
+  {
+    "word": "Also",
+    "part": "Subst.",
+    "example": "auf Wiederhören!"
+  },
+  {
+    "word": "alt",
+    "part": "Adj.",
+    "example": "Wie alt sind Sie?"
+  },
+  {
+    "word": "ALTE",
+    "part": "Subst.",
+    "example": "Handbuch. Europäische Sprachprüfungen und Prüfungsverfahren,"
+  },
+  {
+    "word": "Alter",
+    "part": "Subst.",
+    "example": "Alter: 26 Jahre."
+  },
+  {
+    "word": "am",
+    "part": "Adv.",
+    "example": "Wochenendewoche/wochentage"
+  },
+  {
+    "word": "Am",
+    "part": "Subst.",
+    "example": "nächsten Montag geht es leider nicht."
+  },
+  {
+    "word": "an",
+    "part": "Präp.",
+    "example": "Fahren Sie an der nächsten Straße nach rechts."
+  },
+  {
+    "word": "anbieten",
+    "part": "Verb",
+    "example": "Was darf ich dir anbieten?"
+  },
+  {
+    "word": "ander",
+    "part": "Adv.",
+    "example": "WiIlst du diese Jacke?"
+  },
+  {
+    "word": "Anfang",
+    "part": "Subst.",
+    "example": "Sie wohnt am Anfang der Straße."
+  },
+  {
+    "word": "anfangen",
+    "part": "Verb",
+    "example": "Hier fängt die Bahnhofstraße an."
+  },
+  {
+    "word": "Angabe",
+    "part": "Subst.",
+    "example": "der eigenen Herkunft oder Nationalität"
+  },
+  {
+    "word": "Angebot",
+    "part": "Subst.",
+    "example": "-e Heute sind Sportschuhe im Angebot."
+  },
+  {
+    "word": "anklicken",
+    "part": "Verb",
+    "example": "Da musst du dieses Wort anklicken."
+  },
+  {
+    "word": "ankommen",
+    "part": "Verb",
+    "example": "Wann kommt dieser Zug in Hamburg an?"
+  },
+  {
+    "word": "ankreuzen",
+    "part": "Verb",
+    "example": "Auf dem Formular müssen Sie an mehreren Stellen"
+  },
+  {
+    "word": "Ankunft",
+    "part": "Subst.",
+    "example": "Auf diesem Plan steht nur die Ankunft(-szeit) der"
+  },
+  {
+    "word": "anmachen",
+    "part": "Verb",
+    "example": "Mach bitte das Licht an!"
+  },
+  {
+    "word": "anmelden",
+    "part": "Verb",
+    "example": "Wo kann ich mich anmelden? die Anmeldung Eine Anmeldung für diesen Kurs ist nicht mehr möglich."
+  },
+  {
+    "word": "Anrede",
+    "part": "Subst.",
+    "example": "Schreiben Sie auch eine Anrede und einen Gruß."
+  },
+  {
+    "word": "Anruf",
+    "part": "Subst.",
+    "example": "-e Sie bekommt viele Anrufe auf ihrem Handy."
+  },
+  {
+    "word": "anrufen",
+    "part": "Verb",
+    "example": "Kann man Sie anrufen?"
+  },
+  {
+    "word": "Ansage",
+    "part": "Subst.",
+    "example": "-n Hören Sie die Ansagen."
+  },
+  {
+    "word": "Anschluss",
+    "part": "Subst.",
+    "example": "In Mannheim haben Sie Anschluss nach Saarbrücken."
+  },
+  {
+    "word": "Antwort",
+    "part": "Subst.",
+    "example": "-en Er gibt leider keine Antwort."
+  },
+  {
+    "word": "antworten",
+    "part": "Verb",
+    "example": "Er antwortet nicht."
+  },
+  {
+    "word": "Anzeige",
+    "part": "Subst.",
+    "example": "-n Ich habe Ihre Anzeige in der Zeitung gelesen."
+  },
+  {
+    "word": "anziehen",
+    "part": "Verb",
+    "example": "Ich muss mich noch anziehen."
+  },
+  {
+    "word": "Apartment",
+    "part": "Subst.",
+    "example": "-s Wir haben ein Apartment gemietet."
+  },
+  {
+    "word": "Apfel",
+    "part": "Subst.",
+    "example": "-Ä Ein Pfund Äpfel bitte."
+  },
+  {
+    "word": "Appetit",
+    "part": "Subst.",
+    "example": ". Es wird zwischen Haupt- und ableitbaren Nebeneinträgen unter-"
+  },
+  {
+    "word": "April",
+    "part": "Subst.",
+    "example": ""
+  },
+  {
+    "word": "Arbeit",
+    "part": "Subst.",
+    "example": "-en Mein Bruder sucht Arbeit."
+  },
+  {
+    "word": "arbeiten",
+    "part": "Verb",
+    "example": "Wo arbeiten Sie?"
+  },
+  {
+    "word": "arbeitslos",
+    "part": "Adv.",
+    "example": "Es gibt bei uns viele Leute, die schon lange arbeitslos"
+  },
+  {
+    "word": "Arbeitsplatz",
+    "part": "Subst.",
+    "example": "-ä, e An meinem Arbeitsplatz fehlt ein Drucker."
+  },
+  {
+    "word": "Arm",
+    "part": "Subst.",
+    "example": "-e Mein Arm tut weh."
+  },
+  {
+    "word": "Arzt",
+    "part": "Subst.",
+    "example": "-Ä, e Morgen habe ich einen Termin bei meiner Ärztin."
+  },
+  {
+    "word": "auch",
+    "part": "Adv.",
+    "example": "Ich bin auch Spanier."
+  },
+  {
+    "word": "Auf",
+    "part": "Präp.",
+    "example": "Wiedersehen oder Guten"
+  },
+  {
+    "word": "auf",
+    "part": "Präp.",
+    "example": "Die Kinder spielen auf der Straße."
+  },
+  {
+    "word": "Aufgabe",
+    "part": "Subst.",
+    "example": "-n Das ist eine schwere Aufgabe."
+  },
+  {
+    "word": "Aufgenommen",
+    "part": "Subst.",
+    "example": "werden auch Wörter, die für die Bewältigung der Prüfungsauf-"
+  },
+  {
+    "word": "aufhören",
+    "part": "Verb",
+    "example": "Der Kurs hört in einer Woche auf."
+  },
+  {
+    "word": "aufstehen",
+    "part": "Verb",
+    "example": "Ich muss immer um vier Uhr aufstehen."
+  },
+  {
+    "word": "Aufzug",
+    "part": "Subst.",
+    "example": "-ü, e In diesem Haus gibt es keinen Aufzug."
+  },
+  {
+    "word": "Auge",
+    "part": "Subst.",
+    "example": "-n Er hat blaue Augen."
+  },
+  {
+    "word": "aus",
+    "part": "Präp.",
+    "example": "Er kommt aus Brasilien."
+  },
+  {
+    "word": "Ausflug",
+    "part": "Subst.",
+    "example": "Morgen machen wir einen Ausflug nach Heidelberg."
+  },
+  {
+    "word": "ausfüllen",
+    "part": "Verb",
+    "example": "Füllen Sie bitte dieses Formular aus."
+  },
+  {
+    "word": "Ausgang",
+    "part": "Subst.",
+    "example": "Wo ist der Ausgang?"
+  },
+  {
+    "word": "Ausgenommen",
+    "part": "Subst.",
+    "example": "von diesen Listen sind einzelne Wörter innerhalb der"
+  },
+  {
+    "word": "Auskunft",
+    "part": "Subst.",
+    "example": "-ü, e Können Sie mir eine Auskunft geben?"
+  },
+  {
+    "word": "Ausland",
+    "part": "Subst.",
+    "example": "der Ausländer,"
+  },
+  {
+    "word": "Ausländer",
+    "part": "Subst.",
+    "example": "- SInd Sie Ausländerin?"
+  },
+  {
+    "word": "ausländisch",
+    "part": "Adv.",
+    "example": "Leider habe ich nur ausländisches Geld."
+  },
+  {
+    "word": "ausmachen",
+    "part": "Verb",
+    "example": "Mach bitte das Licht aus!"
+  },
+  {
+    "word": "Aussage",
+    "part": "Subst.",
+    "example": "-n Ist die Aussage richtig oder falsch?"
+  },
+  {
+    "word": "aussehen",
+    "part": "Verb",
+    "example": "Das sieht schön aus."
+  },
+  {
+    "word": "aussteigen",
+    "part": "Verb",
+    "example": "Wo muss ich aussteigen?"
+  },
+  {
+    "word": "Ausweis",
+    "part": "Subst.",
+    "example": "Hier ist mein Ausweis."
+  },
+  {
+    "word": "ausziehen",
+    "part": "Verb",
+    "example": "Zieh die Schuhe aus, bitte!das Auto, -s Er kommt mit dem Auto."
+  },
+  {
+    "word": "Autobahn",
+    "part": "Subst.",
+    "example": "-en Wo geht‘s hier bitte zur Autobahn?"
+  },
+  {
+    "word": "Automat",
+    "part": "Subst.",
+    "example": "Die Fahrkarten gibt es nur am Automaten."
+  },
+  {
+    "word": "automatisch",
+    "part": "Adv.",
+    "example": "Du musst nichts machen. Das geht automatisch."
+  },
+  {
+    "word": "Außerdem",
+    "part": "Subst.",
+    "example": "wurden alle in dieser Broschüre vereinigten Inventarlisten vergli-"
+  },
+  {
+    "word": "Baby",
+    "part": "Subst.",
+    "example": "-s Mein Kind ist noch ein Baby."
+  },
+  {
+    "word": "Bad",
+    "part": "Subst.",
+    "example": "Wir haben kein großes Bad."
+  },
+  {
+    "word": "baden",
+    "part": "Verb",
+    "example": "Ich bade nicht so gern, ich dusche lieber."
+  },
+  {
+    "word": "Bahn",
+    "part": "Subst.",
+    "example": "Wir fahren lieber mit der Bahn."
+  },
+  {
+    "word": "Bahnhof",
+    "part": "Subst.",
+    "example": "Komme ich hier zum Bahnhof?"
+  },
+  {
+    "word": "Bahnsteig",
+    "part": "Subst.",
+    "example": "Auf welchem Bahnsteig fährt der Zug?"
+  },
+  {
+    "word": "bald",
+    "part": "Adv.",
+    "example": "Ich komme bald."
+  },
+  {
+    "word": "Balkon",
+    "part": "Subst.",
+    "example": "Die Wohnung hat auch einen kleinen Balkon."
+  },
+  {
+    "word": "Banane",
+    "part": "Subst.",
+    "example": "-n Drei Bananen, bitte!"
+  },
+  {
+    "word": "Bank",
+    "part": "Subst.",
+    "example": "Die Bank schließt schon um vier Uhr."
+  },
+  {
+    "word": "bar",
+    "part": "Adj.",
+    "example": "Muss ich bar zahlen oder geht‘s auch mit Karte?"
+  },
+  {
+    "word": "Bauch",
+    "part": "Subst.",
+    "example": "Seit gestern tut mir der Bauch weh."
+  },
+  {
+    "word": "Baum",
+    "part": "Subst.",
+    "example": "-ä, e Vorsicht, fahr nicht an den Baum!"
+  },
+  {
+    "word": "Beamte",
+    "part": "Subst.",
+    "example": "-n Fragen Sie die Beamtin an Schalter acht!"
+  },
+  {
+    "word": "beantworter",
+    "part": "Adv.",
+    "example": "den Anrufbeantworter."
+  },
+  {
+    "word": "bedeuten",
+    "part": "Verb",
+    "example": "Was bedeutet das Wort?"
+  },
+  {
+    "word": "Bedeutung",
+    "part": "Subst.",
+    "example": "der Einträge wird durch Beispielsätze illustriert."
+  },
+  {
+    "word": "beginnen",
+    "part": "Verb",
+    "example": "Das Spiel beginnt um 15.30 Uhr."
+  },
+  {
+    "word": "bei",
+    "part": "Präp.",
+    "example": "Offenbach liegt bei Frankfurt."
+  },
+  {
+    "word": "Bei",
+    "part": "Präp.",
+    "example": "uns regnet es heute."
+  },
+  {
+    "word": "beide",
+    "part": "Adv.",
+    "example": "Beide Eltern arbeiten."
+  },
+  {
+    "word": "Bein",
+    "part": "Subst.",
+    "example": "-e Mein rechtes Bein tut weh."
+  },
+  {
+    "word": "Beispiel",
+    "part": "Subst.",
+    "example": "-e Kannst du mir ein Beispiel sagen?"
+  },
+  {
+    "word": "bekannt",
+    "part": "Adv.",
+    "example": "Picasso ist sehr bekannt."
+  },
+  {
+    "word": "bekommen",
+    "part": "Verb",
+    "example": "Haben Sie meinen Brief bekommen?"
+  },
+  {
+    "word": "benutzen",
+    "part": "Verb",
+    "example": "Die Aufzüge bitte nicht benutzen!"
+  },
+  {
+    "word": "Beruf",
+    "part": "Subst.",
+    "example": "-e Was sind Sie von Beruf?"
+  },
+  {
+    "word": "besetzt",
+    "part": "Adv.",
+    "example": "Die Nummer ist immer besetzt."
+  },
+  {
+    "word": "besichtigen",
+    "part": "Verb",
+    "example": "Ich möchte gern den Dom besichtigen."
+  },
+  {
+    "word": "besser",
+    "part": "Adv.",
+    "example": "Es geht mir schon besser."
+  },
+  {
+    "word": "best",
+    "part": "Adv.",
+    "example": "Am besten treffen wir uns morgen."
+  },
+  {
+    "word": "bestellen",
+    "part": "Verb",
+    "example": "Wir möchten bestellen, bitte."
+  },
+  {
+    "word": "besuchen",
+    "part": "Verb",
+    "example": "Darf ich dich besuchen?"
+  },
+  {
+    "word": "Bett",
+    "part": "Subst.",
+    "example": "-en Wir brauchen noch ein Kinderbett."
+  },
+  {
+    "word": "bezahlen",
+    "part": "Verb",
+    "example": "Wo muss ich bezahlen?"
+  },
+  {
+    "word": "Bier",
+    "part": "Subst.",
+    "example": "Noch ein Bier bitte."
+  },
+  {
+    "word": "Bild",
+    "part": "Subst.",
+    "example": "-er Hast du ein Bild von deinem Sohn?"
+  },
+  {
+    "word": "billig",
+    "part": "Adj.",
+    "example": "Die Jacke kostet nur 10 Euro! Die ist aber billig!"
+  },
+  {
+    "word": "Birne",
+    "part": "Subst.",
+    "example": "-n Ein Kilo Birnen, bitte!"
+  },
+  {
+    "word": "bis",
+    "part": "Präp.",
+    "example": "Ich fahre nur bis Stuttgart."
+  },
+  {
+    "word": "bisschen",
+    "part": "Verb",
+    "example": "Ich spreche Englisch, Französisch und ein bisschen"
+  },
+  {
+    "word": "bitte",
+    "part": "Interj.",
+    "example": "Eine Tasse Kaffee, bitte!"
+  },
+  {
+    "word": "Bitte",
+    "part": "Subst.",
+    "example": "-n Ich habe noch eine Bitte."
+  },
+  {
+    "word": "Bitte nehmen",
+    "part": "Verb",
+    "example": "Sie Platz!"
+  },
+  {
+    "word": "bitten",
+    "part": "Verb",
+    "example": "Darf ich Sie um etwas bitten?"
+  },
+  {
+    "word": "bitter",
+    "part": "Adv.",
+    "example": "Der Kaffee schmeckt bitter."
+  },
+  {
+    "word": "bleiben",
+    "part": "Verb",
+    "example": "Ich bleibe heute zu Hause."
+  },
+  {
+    "word": "Bleistift",
+    "part": "Subst.",
+    "example": "-e Hast du einen Bleistift?"
+  },
+  {
+    "word": "Blick",
+    "part": "Subst.",
+    "example": "Von diesem Hotel hat man einen guten Blick auf den"
+  },
+  {
+    "word": "Blume",
+    "part": "Subst.",
+    "example": "-n Gefallen dir die Blumen?"
+  },
+  {
+    "word": "Bogen",
+    "part": "Subst.",
+    "example": "Schreiben Sie Ihre Lösungen bitte auf den Antwortbogen."
+  },
+  {
+    "word": "brauchen",
+    "part": "Verb",
+    "example": "Brauchst du die Zeitung noch?"
+  },
+  {
+    "word": "Brauchen",
+    "part": "Subst.",
+    "example": "Sie meine Hilfe?"
+  },
+  {
+    "word": "breit",
+    "part": "Adj.",
+    "example": "Wie breit ist der Schrank?"
+  },
+  {
+    "word": "Brief",
+    "part": "Subst.",
+    "example": "-e Haben Sie einen Brief für mich?"
+  },
+  {
+    "word": "Briefmarke",
+    "part": "Subst.",
+    "example": "-n Kaufst du bitte Briefmarken bei der Post."
+  },
+  {
+    "word": "bringen",
+    "part": "Verb",
+    "example": "Bringen Sie mir bitte noch einen Kaffee!"
+  },
+  {
+    "word": "Brot",
+    "part": "Subst.",
+    "example": "-e Haben Sie auch Weißbrot?"
+  },
+  {
+    "word": "Bruder",
+    "part": "Subst.",
+    "example": "-ü Sein Bruder arbeitet auch hier."
+  },
+  {
+    "word": "Brötchen",
+    "part": "Subst.",
+    "example": "– Möchtest du Brötchen zum Frühstück?"
+  },
+  {
+    "word": "Buch",
+    "part": "Subst.",
+    "example": "-ü, er Gute Bücher sind oft sehr teuer."
+  },
+  {
+    "word": "Buchstabe",
+    "part": "Subst.",
+    "example": "-n Diesen Buchstaben gibt es in meiner Sprache nicht."
+  },
+  {
+    "word": "buchstabieren",
+    "part": "Verb",
+    "example": "Bitte buchstabieren Sie Ihren Namen."
+  },
+  {
+    "word": "Bus",
+    "part": "Subst.",
+    "example": "-se Wann kommt der nächste Bus?"
+  },
+  {
+    "word": "Butter",
+    "part": "Subst.",
+    "example": "Für mich bitte ein Brötchen mit Butter und Käse."
+  },
+  {
+    "word": "Bäckerei",
+    "part": "Subst.",
+    "example": "Ich geh mal schnell zur Bäckerei."
+  },
+  {
+    "word": "böse",
+    "part": "Adv.",
+    "example": "Sie ist böse auf mich."
+  },
+  {
+    "word": "Caf",
+    "part": "Subst.",
+    "example": "é, -s Sollen wir uns im Café treffen?"
+  },
+  {
+    "word": "CD",
+    "part": "Subst.",
+    "example": "-s Bring bitte deine Lieblings-CD mit."
+  },
+  {
+    "word": "Chef",
+    "part": "Subst.",
+    "example": "Wir haben eine neue Chefin."
+  },
+  {
+    "word": "chen",
+    "part": "Verb",
+    "example": "mit folgenden Kompendien:"
+  },
+  {
+    "word": "Computer",
+    "part": "Subst.",
+    "example": "– Wann bekommst du deinen neuen Computer?"
+  },
+  {
+    "word": "da",
+    "part": "Adv.",
+    "example": "Da hinten ist er ja."
+  },
+  {
+    "word": "Da",
+    "part": "Subst.",
+    "example": "kommt er gerade um die Ecke."
+  },
+  {
+    "word": "Dame",
+    "part": "Subst.",
+    "example": "-n Damen (an der Toilette) Sehr geehrte Damen und Herren!"
+  },
+  {
+    "word": "daneben",
+    "part": "Verb",
+    "example": "Du kennst doch die Post. Daneben ist die Bank."
+  },
+  {
+    "word": "Dank",
+    "part": "Subst.",
+    "example": "Vielen Dank!"
+  },
+  {
+    "word": "danke",
+    "part": "Interj.",
+    "example": "Soll ich Ihnen helfen? - Nein, danke!"
+  },
+  {
+    "word": "danken",
+    "part": "Verb",
+    "example": "Ich danke Ihnen für die Einladung."
+  },
+  {
+    "word": "dann",
+    "part": "Adv.",
+    "example": "Ich muss noch schnell zur Post, dann komme ich."
+  },
+  {
+    "word": "Darf",
+    "part": "Subst.",
+    "example": "ich Sie zu einem Kaffee einladen?"
+  },
+  {
+    "word": "Das",
+    "part": "Art.",
+    "example": "ist alles."
+  },
+  {
+    "word": "Datum",
+    "part": "Subst.",
+    "example": "Bitte schreiben Sie noch das Datum auf das Formular."
+  },
+  {
+    "word": "dauern",
+    "part": "Adv.",
+    "example": "Wie lange dauert der Film?"
+  },
+  {
+    "word": "dein",
+    "part": "Adv.",
+    "example": "Ist das dein Auto?"
+  },
+  {
+    "word": "Den",
+    "part": "Subst.",
+    "example": "Grundstock des ausgewählten Wortschatzes bilden neben dem Zertifikat"
+  },
+  {
+    "word": "denn",
+    "part": "Konj.",
+    "example": "Ich kann nicht kommen, denn ich bin krank."
+  },
+  {
+    "word": "Der",
+    "part": "Art.",
+    "example": "der start Deutsch 1 -Prüfung zugrunde liegende Wortschatz ist in zwei"
+  },
+  {
+    "word": "Deutsch",
+    "part": "Subst.",
+    "example": "· Deutschprüfungen für Erwachsene · Prüfungsziele, Testbeschrei-"
+  },
+  {
+    "word": "Dezembermonat",
+    "part": "Subst.",
+    "example": "/monatsnamen"
+  },
+  {
+    "word": "dich",
+    "part": "Pron.",
+    "example": "Die Blumen sind für dich."
+  },
+  {
+    "word": "Die",
+    "part": "Art.",
+    "example": "Prüfung Start Deutsch 1 dokumentiert die erste Stufe – A1 – der im"
+  },
+  {
+    "word": "Dienstag",
+    "part": "Subst.",
+    "example": ""
+  },
+  {
+    "word": "Dienstleistungen",
+    "part": "Subst.",
+    "example": "• Post"
+  },
+  {
+    "word": "dies",
+    "part": "Adv.",
+    "example": "Ich nehme lieber diesen Kuchen."
+  },
+  {
+    "word": "Dieses",
+    "part": "Subst.",
+    "example": "Medikament bekommen Sie in der Apotheke."
+  },
+  {
+    "word": "dir",
+    "part": "Adv.",
+    "example": "Gefallen dir die Blumen?"
+  },
+  {
+    "word": "Disco",
+    "part": "Subst.",
+    "example": "Heute abend gehen wir in die Disco tanzen."
+  },
+  {
+    "word": "Doktor",
+    "part": "Subst.",
+    "example": "Meine Tochter ist krank. Wir gehen zum Doktor."
+  },
+  {
+    "word": "Doppelzimmer",
+    "part": "Subst.",
+    "example": "Wollen Sie ein Doppelzimmer oder ein Einzelzimmer?"
+  },
+  {
+    "word": "Dorf",
+    "part": "Subst.",
+    "example": "-ö, er Meine Familie lebt in einem Dorf."
+  },
+  {
+    "word": "Dort",
+    "part": "Adv.",
+    "example": "ist unser Haus."
+  },
+  {
+    "word": "draußen",
+    "part": "Adv.",
+    "example": "Wollen wir draußen sitzen?"
+  },
+  {
+    "word": "dreizehn",
+    "part": "Adv.",
+    "example": "Uhr siebzehn"
+  },
+  {
+    "word": "drucken",
+    "part": "Verb",
+    "example": "Bitte drucke das Formular für mich."
+  },
+  {
+    "word": "Drucker",
+    "part": "Subst.",
+    "example": "– Mein Drucker ist kaputt."
+  },
+  {
+    "word": "drücken",
+    "part": "Verb",
+    "example": "Drück hier, dann geht der Computer an."
+  },
+  {
+    "word": "dungen",
+    "part": "Verb",
+    "example": "und idiomatische Ausdrücke, denen Neuankömmlinge in Deutschland"
+  },
+  {
+    "word": "durch",
+    "part": "Präp.",
+    "example": "Am besten gehen Sie durch die Breite Straße."
+  },
+  {
+    "word": "Durchsage",
+    "part": "Subst.",
+    "example": "-n Ich habe die Durchsage nicht verstanden."
+  },
+  {
+    "word": "Durst",
+    "part": "Subst.",
+    "example": "Hast du etwas zu trinken? Ich habe großen Durst."
+  },
+  {
+    "word": "Dusche",
+    "part": "Subst.",
+    "example": "Unsere Wohnung hat nur eine Dusche."
+  },
+  {
+    "word": "duschen",
+    "part": "Verb",
+    "example": "Ich bade nicht so gern, ich dusche lieber."
+  },
+  {
+    "word": "dürfen",
+    "part": "Verb",
+    "example": "Sie dürfen hier nicht rauchen."
+  },
+  {
+    "word": "E-Mail",
+    "part": "Subst.",
+    "example": "-s Ich habe Ihre E-Mail nicht bekommen."
+  },
+  {
+    "word": "Ecke",
+    "part": "Subst.",
+    "example": "-n An der nächsten Ecke links."
+  },
+  {
+    "word": "Ehefrau",
+    "part": "Subst.",
+    "example": "-en/"
+  },
+  {
+    "word": "Ehemann",
+    "part": "Subst.",
+    "example": "ä, er Das ist mein (Ehe-) Mann/meine (Ehe-) Frau."
+  },
+  {
+    "word": "Ei",
+    "part": "Subst.",
+    "example": "-er Möchtest du ein Ei zum Frühstück?"
+  },
+  {
+    "word": "eilig",
+    "part": "Adj.",
+    "example": "Hast du es eilig?"
+  },
+  {
+    "word": "ein",
+    "part": "Art.",
+    "example": "Uhr"
+  },
+  {
+    "word": "Ein",
+    "part": "Art.",
+    "example": "gutes neues Jahr!"
+  },
+  {
+    "word": "eine",
+    "part": "Art.",
+    "example": "Wortgruppenliste mit 13 Kategorien."
+  },
+  {
+    "word": "Einen",
+    "part": "Art.",
+    "example": "Moment bitte."
+  },
+  {
+    "word": "einfach",
+    "part": "Adv.",
+    "example": "Die Prüfung ist ganz einfach."
+  },
+  {
+    "word": "Eingang",
+    "part": "Subst.",
+    "example": "Der Eingang ist um die Ecke."
+  },
+  {
+    "word": "einkaufen",
+    "part": "Verb",
+    "example": "Ich muss noch für morgen einkaufen."
+  },
+  {
+    "word": "einladen",
+    "part": "Verb",
+    "example": "Darf ich Sie zu einem Kaffee einladen?"
+  },
+  {
+    "word": "Einladung",
+    "part": "Subst.",
+    "example": "Danke für die Einladung!"
+  },
+  {
+    "word": "einmal",
+    "part": "Adv.",
+    "example": "Diese Prüfung mache ich nicht noch einmal."
+  },
+  {
+    "word": "einsteigen",
+    "part": "Verb",
+    "example": "Schnell, steig ein, der Zug fährt gleich."
+  },
+  {
+    "word": "Eintritt",
+    "part": "Subst.",
+    "example": "Der Preis für den Eintritt ist 5 Euro."
+  },
+  {
+    "word": "Einzelzimmer",
+    "part": "Subst.",
+    "example": "Haben Sie noch ein Einzelzimmer?"
+  },
+  {
+    "word": "Eltern",
+    "part": "Subst.",
+    "example": "(pl.) Meine Eltern leben in Spanien."
+  },
+  {
+    "word": "empfehlen",
+    "part": "Verb",
+    "example": "Welchen Wein können Sie mir empfehlen?"
+  },
+  {
+    "word": "Empfänger",
+    "part": "Subst.",
+    "example": "– Auf dem Brief steht dein Name, also bist du der"
+  },
+  {
+    "word": "Ende",
+    "part": "Subst.",
+    "example": "Sie wohnt am Ende der Straße."
+  },
+  {
+    "word": "enden",
+    "part": "Verb",
+    "example": "Die Straße endet hier."
+  },
+  {
+    "word": "entschuldigen",
+    "part": "Verb",
+    "example": "Entschuldigen Sie bitte!"
+  },
+  {
+    "word": "Entschuldigung",
+    "part": "Subst.",
+    "example": "Entschuldigung! – Bitte."
+  },
+  {
+    "word": "Er",
+    "part": "Pron.",
+    "example": "hat Zeit, also muss er uns helfen."
+  },
+  {
+    "word": "er",
+    "part": "Pron.",
+    "example": "Er heißt Ali."
+  },
+  {
+    "word": "Ergebnis",
+    "part": "Subst.",
+    "example": "-se Das Ergebnis des Tests bekommen Sie in zwei Wochen."
+  },
+  {
+    "word": "erklären",
+    "part": "Verb",
+    "example": "Kannst du mir das erklären?"
+  },
+  {
+    "word": "erlauben",
+    "part": "Verb",
+    "example": "Rauchen ist hier nicht erlaubt."
+  },
+  {
+    "word": "erschließbar",
+    "part": "Adj.",
+    "example": "sind, wie folgende Beispiele zeigen:"
+  },
+  {
+    "word": "Erwachsene",
+    "part": "Subst.",
+    "example": "-n Dieser Film ist nur für Erwachsene."
+  },
+  {
+    "word": "erzählen",
+    "part": "Verb",
+    "example": "Wir müssen euch etwas erzählen!"
+  },
+  {
+    "word": "Es",
+    "part": "Pron.",
+    "example": "handelt sich um einen Auszug aus der aktualisierten Publikation Start"
+  },
+  {
+    "word": "es",
+    "part": "Pron.",
+    "example": "Es regnet."
+  },
+  {
+    "word": "essen",
+    "part": "Verb",
+    "example": "Was gibt es zu essen?"
+  },
+  {
+    "word": "Essen",
+    "part": "Subst.",
+    "example": "Das Essen ist heute sehr gut."
+  },
+  {
+    "word": "etwas",
+    "part": "Adv.",
+    "example": "ankreuzen."
+  },
+  {
+    "word": "euer",
+    "part": "Pron.",
+    "example": "Euer Kurs beginnt heute."
+  },
+  {
+    "word": "fahren",
+    "part": "Verb",
+    "example": "Ich fahre mit dem Auto zur Arbeit."
+  },
+  {
+    "word": "Fahren",
+    "part": "Subst.",
+    "example": "Sie bitte nicht so schnell!"
+  },
+  {
+    "word": "Fahrer",
+    "part": "Subst.",
+    "example": "Bitte nicht mit dem Fahrer sprechen!"
+  },
+  {
+    "word": "Fahrkarte",
+    "part": "Subst.",
+    "example": "-n Hast du schon eine Fahrkarte?"
+  },
+  {
+    "word": "Fahrrad",
+    "part": "Subst.",
+    "example": "-ä, er Fährst du mit dem Fahrrad oder mit dem Auto?"
+  },
+  {
+    "word": "falsch",
+    "part": "Adj.",
+    "example": "Das ist falsch."
+  },
+  {
+    "word": "Familie",
+    "part": "Subst.",
+    "example": "-n Meine Familie lebt in Spanien."
+  },
+  {
+    "word": "Familienname",
+    "part": "Subst.",
+    "example": "Meine Familiennamen sind García González."
+  },
+  {
+    "word": "Familienstand",
+    "part": "Subst.",
+    "example": "Bei „Familienstand“ musst du „ledig“ ankreuzen."
+  },
+  {
+    "word": "Farbe",
+    "part": "Subst.",
+    "example": "-n Die Farbe gefällt mir gut."
+  },
+  {
+    "word": "Fax",
+    "part": "Subst.",
+    "example": "-e Schicken Sie uns einfach ein Fax!"
+  },
+  {
+    "word": "fehlen",
+    "part": "Verb",
+    "example": "Herr Müller ist nicht da, er fehlt schon seit drei Tagen."
+  },
+  {
+    "word": "Fehler",
+    "part": "Subst.",
+    "example": "– Diesen Fehler mache ich immer."
+  },
+  {
+    "word": "Feier",
+    "part": "Subst.",
+    "example": "z. B. Feierabend, Feiertag"
+  },
+  {
+    "word": "feiern",
+    "part": "Adv.",
+    "example": "Wir feiern heute meinen Geburtstag."
+  },
+  {
+    "word": "fernsehen",
+    "part": "Verb",
+    "example": "Wollen wir heute Abend mal fernsehen?"
+  },
+  {
+    "word": "fertig",
+    "part": "Adj.",
+    "example": "Bist du fertig?"
+  },
+  {
+    "word": "Feuer",
+    "part": "Subst.",
+    "example": "Haben Sie Feuer?"
+  },
+  {
+    "word": "Fieber",
+    "part": "Subst.",
+    "example": "Mein Mann hat noch immer Fieber."
+  },
+  {
+    "word": "Film",
+    "part": "Subst.",
+    "example": "-e Ich möchte gern diesen Film sehen."
+  },
+  {
+    "word": "finden",
+    "part": "Verb",
+    "example": "Wir müssen den Schlüssel finden."
+  },
+  {
+    "word": "Firma",
+    "part": "Subst.",
+    "example": "Er arbeitet jetzt bei einer anderen Firma."
+  },
+  {
+    "word": "Fisch",
+    "part": "Subst.",
+    "example": "-e Ich esse gern Fisch. Fleisch mag ich nicht."
+  },
+  {
+    "word": "Flasche",
+    "part": "Subst.",
+    "example": "-n Eine Flasche Bier, bitte."
+  },
+  {
+    "word": "Fleisch",
+    "part": "Subst.",
+    "example": "Fleisch mag ich nicht."
+  },
+  {
+    "word": "fliegen",
+    "part": "Verb",
+    "example": "Ich fliege nicht gern. Deshalb fahre ich mit dem Zug."
+  },
+  {
+    "word": "Flughafen",
+    "part": "Subst.",
+    "example": "Kannst du mich zum Flughafen bringen?"
+  },
+  {
+    "word": "Flugzeug",
+    "part": "Subst.",
+    "example": "Das Flugzeug aus Berlin kommt heute später an."
+  },
+  {
+    "word": "Formular",
+    "part": "Subst.",
+    "example": "-e Sie müssen dieses Formular ausfüllen."
+  },
+  {
+    "word": "Foto",
+    "part": "Subst.",
+    "example": "-s Darf ich ein Foto machen?"
+  },
+  {
+    "word": "Frage",
+    "part": "Subst.",
+    "example": "-n Ich habe eine Frage."
+  },
+  {
+    "word": "fragen",
+    "part": "Verb",
+    "example": "Er möchte Sie etwas fragen. Wann kommen Sie?"
+  },
+  {
+    "word": "Frankfurt",
+    "part": "Subst.",
+    "example": "ist eine große Stadt."
+  },
+  {
+    "word": "Frau",
+    "part": "Subst.",
+    "example": "-en Das ist Frau Becker."
+  },
+  {
+    "word": "frei",
+    "part": "Adj.",
+    "example": "Ist der Platz noch frei?"
+  },
+  {
+    "word": "Freitag",
+    "part": "Subst.",
+    "example": ""
+  },
+  {
+    "word": "Freizeit",
+    "part": "Subst.",
+    "example": "In meiner Freizeit spiele ich oft Fußball."
+  },
+  {
+    "word": "fremd",
+    "part": "Adv.",
+    "example": "Das weiß ich nicht; ich bin fremd hier."
+  },
+  {
+    "word": "freuen",
+    "part": "Verb",
+    "example": "Ich freue mich auf den Urlaub."
+  },
+  {
+    "word": "Freund",
+    "part": "Subst.",
+    "example": "-e Das ist ein Freund von mir."
+  },
+  {
+    "word": "früher",
+    "part": "Adv.",
+    "example": "Früher waren wir oft zusammen im Kino."
+  },
+  {
+    "word": "Frühling",
+    "part": "Subst.",
+    "example": "/das Frühjahr"
+  },
+  {
+    "word": "Frühstück",
+    "part": "Subst.",
+    "example": "Möchtest du ein Ei zum Frühstück?"
+  },
+  {
+    "word": "frühstücken",
+    "part": "Verb",
+    "example": "Am Sonntag frühstücke ich gern im Bett."
+  },
+  {
+    "word": "Fuß",
+    "part": "Subst.",
+    "example": "-ü, e Der linke Fuß tut mir weh."
+  },
+  {
+    "word": "Fußball",
+    "part": "Subst.",
+    "example": "Spielt ihr gerne Fußball?"
+  },
+  {
+    "word": "Führung",
+    "part": "Subst.",
+    "example": "Die Führung durch das Haus beginnt in 3 Minuten."
+  },
+  {
+    "word": "fünf",
+    "part": "Adv.",
+    "example": "Minuten vor/nach eins (ein Uhr)"
+  },
+  {
+    "word": "für",
+    "part": "Präp.",
+    "example": "Das ist für Sie."
+  },
+  {
+    "word": "gaben",
+    "part": "Verb",
+    "example": "unerlässlich sind, z. B. Antwort bogen, Lösungen, ankreuzen,"
+  },
+  {
+    "word": "Garten",
+    "part": "Subst.",
+    "example": "Wir haben leider keinen Garten."
+  },
+  {
+    "word": "Gast",
+    "part": "Subst.",
+    "example": "-ä, e Am Wochenende haben wir mehrere Gäste."
+  },
+  {
+    "word": "geben",
+    "part": "Verb",
+    "example": "Kannst du mir bitte deinen Kugelschreiber geben?"
+  },
+  {
+    "word": "geboren",
+    "part": "Verb",
+    "example": "Ich bin in Zagreb geboren."
+  },
+  {
+    "word": "Geburtsjahr",
+    "part": "Subst.",
+    "example": "Das Geburtsjahr Ihres Sohnes, bitte?der Geburtsort Bitte schreiben Sie Ihren Geburtsort auf das Formular."
+  },
+  {
+    "word": "Geburtstag",
+    "part": "Subst.",
+    "example": "Herzlichen Glückwunsch zum Geburtstag!"
+  },
+  {
+    "word": "gefallen",
+    "part": "Verb",
+    "example": "Das gefällt mir."
+  },
+  {
+    "word": "gegen",
+    "part": "Präp.",
+    "example": "Fahr nicht gegen den Baum!"
+  },
+  {
+    "word": "gehen",
+    "part": "Verb",
+    "example": "Ich weiß nicht, wie das geht."
+  },
+  {
+    "word": "gehören",
+    "part": "Verb",
+    "example": "Wem gehört das?"
+  },
+  {
+    "word": "Geld",
+    "part": "Subst.",
+    "example": "Hast du noch Geld?"
+  },
+  {
+    "word": "Gemeinsamen",
+    "part": "Subst.",
+    "example": "europäischen Referenzrahmen beschriebenen sechsstufigen"
+  },
+  {
+    "word": "Gemeinsamer",
+    "part": "Subst.",
+    "example": "europäischer Refere"
+  },
+  {
+    "word": "Gemüse",
+    "part": "Subst.",
+    "example": "Gemüse brauchen wir auch noch."
+  },
+  {
+    "word": "Gepäck",
+    "part": "Subst.",
+    "example": "Wollen Sie Ihr Gepäck mitnehmen?"
+  },
+  {
+    "word": "gerade",
+    "part": "Adv.",
+    "example": "Da kommt er ja gerade."
+  },
+  {
+    "word": "geradeaus",
+    "part": "Adv.",
+    "example": "Gehen Sie immer geradeaus!"
+  },
+  {
+    "word": "Geschenk",
+    "part": "Subst.",
+    "example": "-e Danke für das schöne Geschenk."
+  },
+  {
+    "word": "geschlossen",
+    "part": "Verb",
+    "example": "Die Bank hat am Samstag geschlossen."
+  },
+  {
+    "word": "Geschwister",
+    "part": "Subst.",
+    "example": "(pl.) Ich habe leider keine Geschwister. das Gespräch, -e Das Gespräch mit Frau Kunz ist um 14 Uhr."
+  },
+  {
+    "word": "Geschäft",
+    "part": "Subst.",
+    "example": "-e Die Geschäfte schließen um 18.30 Uhr."
+  },
+  {
+    "word": "gesehen",
+    "part": "Verb",
+    "example": "sind. Es folgen 13 häufig gebrauchte Wortgruppen wie zum Beispiel"
+  },
+  {
+    "word": "gestern",
+    "part": "Adv.",
+    "example": "Gestern war ich krank."
+  },
+  {
+    "word": "gestorben",
+    "part": "Verb",
+    "example": "Meine Frau ist gestern gestorben."
+  },
+  {
+    "word": "Getränk",
+    "part": "Subst.",
+    "example": "-e Mein Lieblingsgetränk ist Tomatensaft."
+  },
+  {
+    "word": "Gewicht",
+    "part": "Subst.",
+    "example": "Bei „Gewicht“ schreibst du: 62 Kilo."
+  },
+  {
+    "word": "gewinnen",
+    "part": "Verb",
+    "example": "Wer gewinnt das Spiel?"
+  },
+  {
+    "word": "geöffnet",
+    "part": "Adv.",
+    "example": "Der Laden ist samstags bis 16.00 Uhr geöffnet."
+  },
+  {
+    "word": "Glas",
+    "part": "Subst.",
+    "example": "-ä, er Bitte noch ein Glas Wein!"
+  },
+  {
+    "word": "glauben",
+    "part": "Verb",
+    "example": "Sie können mir glauben, es ist so."
+  },
+  {
+    "word": "gleich",
+    "part": "Adv.",
+    "example": "Das ist mir gleich."
+  },
+  {
+    "word": "Gleis",
+    "part": "Subst.",
+    "example": "-e Der ICE nach Berlin hält heute an Gleis 12."
+  },
+  {
+    "word": "Glück",
+    "part": "Subst.",
+    "example": "Viel Glück!"
+  },
+  {
+    "word": "glücklich",
+    "part": "Adj.",
+    "example": "Meine Kinder sind glücklich verheiratet."
+  },
+  {
+    "word": "Glückwunsch",
+    "part": "Subst.",
+    "example": "Herzlichen Glückwunsch zum Geburtstag."
+  },
+  {
+    "word": "Grad",
+    "part": "Subst.",
+    "example": "(Celsius) Heute haben wir dreißig Grad.gratulieren Ich gratuliere dir!"
+  },
+  {
+    "word": "grillen",
+    "part": "Verb",
+    "example": "Heute grillen wir im Garten."
+  },
+  {
+    "word": "groß",
+    "part": "Adj.",
+    "example": "Mein Bruder und ich sind gleich groß."
+  },
+  {
+    "word": "Großeltern",
+    "part": "Subst.",
+    "example": "(pl.) Meine Großeltern leben in Japan."
+  },
+  {
+    "word": "Großmutter",
+    "part": "Subst.",
+    "example": "Meine Großmutter heißt Eva."
+  },
+  {
+    "word": "Großvater",
+    "part": "Subst.",
+    "example": "Mein Großvater ist schon 80."
+  },
+  {
+    "word": "Gruppe",
+    "part": "Subst.",
+    "example": "-n Die erste Gruppe beginnt um 16 Uhr."
+  },
+  {
+    "word": "Gruß",
+    "part": "Subst.",
+    "example": "-ü, e Viele Grüße an Ihre Frau."
+  },
+  {
+    "word": "Größe",
+    "part": "Subst.",
+    "example": "Haben Sie das auch in Größe 40?"
+  },
+  {
+    "word": "gut",
+    "part": "Adj.",
+    "example": "Das finde ich gut."
+  },
+  {
+    "word": "Guten",
+    "part": "Subst.",
+    "example": "Tag, Frau Schmitt!"
+  },
+  {
+    "word": "gültig",
+    "part": "Adj.",
+    "example": "Der Pass ist nicht mehr gültig."
+  },
+  {
+    "word": "günstig",
+    "part": "Adj.",
+    "example": "Dort gibt es günstige Angebote."
+  },
+  {
+    "word": "Haar",
+    "part": "Subst.",
+    "example": "-e Sie hat lange Haare."
+  },
+  {
+    "word": "haben",
+    "part": "Verb",
+    "example": "Ich habe ein neues Auto."
+  },
+  {
+    "word": "Halbpension",
+    "part": "Subst.",
+    "example": "Möchten Sie Vollpension oder Halbpension?"
+  },
+  {
+    "word": "Halle",
+    "part": "Subst.",
+    "example": "Wir treffen uns in Halle B"
+  },
+  {
+    "word": "hallo",
+    "part": "Interj.",
+    "example": "Hallo Inge! Wie geht’s?"
+  },
+  {
+    "word": "halten",
+    "part": "Verb",
+    "example": "Dieser Zug hält nicht in Rüdesheim."
+  },
+  {
+    "word": "Haltestelle",
+    "part": "Subst.",
+    "example": "An der nächsten Haltestelle müssen Sie aussteigen."
+  },
+  {
+    "word": "Hand",
+    "part": "Subst.",
+    "example": "-ä, e Er gibt mir die Hand."
+  },
+  {
+    "word": "Handy",
+    "part": "Subst.",
+    "example": "-s In der Schule bitte die Handys ausmachen!"
+  },
+  {
+    "word": "Hast",
+    "part": "Subst.",
+    "example": "du alles?"
+  },
+  {
+    "word": "Haus",
+    "part": "Subst.",
+    "example": "-ä, er In welchem Haus wohnst du?"
+  },
+  {
+    "word": "Hausaufgabe",
+    "part": "Subst.",
+    "example": "-n Kannst du mir bei den Hausaufgaben helfen?"
+  },
+  {
+    "word": "Hausfrau",
+    "part": "Subst.",
+    "example": "-en/"
+  },
+  {
+    "word": "Hausmann",
+    "part": "Subst.",
+    "example": "Die Hausfrau/der Hausmann wäscht, kocht und kauft"
+  },
+  {
+    "word": "Heimat",
+    "part": "Subst.",
+    "example": "Ich komme aus der Schweiz. Das ist meine Heimat."
+  },
+  {
+    "word": "heiraten",
+    "part": "Verb",
+    "example": "Meine Schwester heiratet einen Japaner."
+  },
+  {
+    "word": "heißen",
+    "part": "Verb",
+    "example": "Ich heiße Charlotte Meier."
+  },
+  {
+    "word": "helfen",
+    "part": "Verb",
+    "example": "Können Sie mir helfen, bitte?"
+  },
+  {
+    "word": "hell",
+    "part": "Adj.",
+    "example": "Im Sommer ist es bis 21 Uhr hell."
+  },
+  {
+    "word": "Herd",
+    "part": "Subst.",
+    "example": "In der neuen Küche fehlt noch der Herd."
+  },
+  {
+    "word": "Herr",
+    "part": "Subst.",
+    "example": "-en Guten Tag, Herr Sommer!"
+  },
+  {
+    "word": "herzlich",
+    "part": "Adj.",
+    "example": "Herzlichen Glückwunsch!"
+  },
+  {
+    "word": "Herzlichen",
+    "part": "Subst.",
+    "example": "Dank!"
+  },
+  {
+    "word": "heute",
+    "part": "Adv.",
+    "example": "ist der 1. März = heute ist der erste März/der erste Dritte"
+  },
+  {
+    "word": "Hier",
+    "part": "Adv.",
+    "example": "hört die Bahnhofstraße auf."
+  },
+  {
+    "word": "hier",
+    "part": "Adv.",
+    "example": "Hier ist 06131-553221, Pamela Linke."
+  },
+  {
+    "word": "Hilfe",
+    "part": "Subst.",
+    "example": "Hilfe! Bitte helfen Sie mir!"
+  },
+  {
+    "word": "Himmelsrichtungender",
+    "part": "Subst.",
+    "example": "Norden der Süden der Westen der Osten"
+  },
+  {
+    "word": "Hin",
+    "part": "Subst.",
+    "example": "und zurück? – Nein, bitte nur einfach."
+  },
+  {
+    "word": "hinten",
+    "part": "Verb",
+    "example": "Die Tür zum Aussteigen ist hinten."
+  },
+  {
+    "word": "Hobby",
+    "part": "Subst.",
+    "example": "-s Meine Hobbys sind Wandern und Schwimmen."
+  },
+  {
+    "word": "hoch",
+    "part": "Adv.",
+    "example": "Der Mount Everest ist 8.880 Meter hoch."
+  },
+  {
+    "word": "Hochzeit",
+    "part": "Subst.",
+    "example": "Zur dieser Hochzeit kommen mehr als fünfzig Gäste."
+  },
+  {
+    "word": "holen",
+    "part": "Verb",
+    "example": "Ich hole zwei Flaschen Wasser aus der Küche."
+  },
+  {
+    "word": "Hotel",
+    "part": "Subst.",
+    "example": "-s Im Urlaub sind wir in einem Hotel am Meer."
+  },
+  {
+    "word": "Hund",
+    "part": "Subst.",
+    "example": "-e Der Hund ist noch jung."
+  },
+  {
+    "word": "Hunger",
+    "part": "Subst.",
+    "example": "Ich habe Hunger! Wann ist das Essen fertig?"
+  },
+  {
+    "word": "Hähnchen",
+    "part": "Subst.",
+    "example": "- Ein Hähnchen mit Pommes bitte!"
+  },
+  {
+    "word": "Hälfte",
+    "part": "Subst.",
+    "example": "dieser circa 650 Wörter zur Verfügung stehen."
+  },
+  {
+    "word": "Hör",
+    "part": "Subst.",
+    "example": "und Lesetexte, die zum Verständnis und zum Erfüllen der Aufgabe nicht"
+  },
+  {
+    "word": "hörden",
+    "part": "Verb",
+    "example": "als Nachweis im Rahmen des Ehegattennachzugs anerkannt ist."
+  },
+  {
+    "word": "hören",
+    "part": "Verb",
+    "example": "Hör mal! Was ist das?"
+  },
+  {
+    "word": "Ich",
+    "part": "Pron.",
+    "example": "nehme die nächste Bahn."
+  },
+  {
+    "word": "Ihre",
+    "part": "Subst.",
+    "example": "Eltern leben nicht mehr."
+  },
+  {
+    "word": "Iich",
+    "part": "Subst.",
+    "example": "Ich heiße Veronika."
+  },
+  {
+    "word": "Im",
+    "part": "Subst.",
+    "example": "Zug fahre ich immer 2. Klasse."
+  },
+  {
+    "word": "immer",
+    "part": "Adv.",
+    "example": "Frau Bast kommt immer zu spät."
+  },
+  {
+    "word": "In",
+    "part": "Präp.",
+    "example": "diesem Inventar sind die für die Stufe A1 notwendigen Themenbereiche"
+  },
+  {
+    "word": "in",
+    "part": "Präp.",
+    "example": "Ich wohne in Wiesbaden."
+  },
+  {
+    "word": "Information",
+    "part": "Subst.",
+    "example": "-en Wenn Sie Fragen haben, gehen Sie zur Information."
+  },
+  {
+    "word": "international",
+    "part": "Adv.",
+    "example": "Unser Deutschkurs ist international: Silvana kommt aus Italien, Conchi aus Spanien, Yin aus China ..."
+  },
+  {
+    "word": "Internet",
+    "part": "Subst.",
+    "example": "Das findest du im Internet."
+  },
+  {
+    "word": "Ist",
+    "part": "Subst.",
+    "example": "das die Anmeldung für einen Telefonanschluss?"
+  },
+  {
+    "word": "ja",
+    "part": "Adv.",
+    "example": "Sind Sie Herr Watanabe? – Ja."
+  },
+  {
+    "word": "Jacke",
+    "part": "Subst.",
+    "example": "-n Zieh dir eine Jacke an. Es ist kalt."
+  },
+  {
+    "word": "Jahr",
+    "part": "Subst.",
+    "example": "-ezeitmaße, zeitangaben"
+  },
+  {
+    "word": "Januar",
+    "part": "Subst.",
+    "example": "der Februar"
+  },
+  {
+    "word": "jed",
+    "part": "Adv.",
+    "example": "Blumen kannst du in jedem Bahnhof kaufen."
+  },
+  {
+    "word": "Jetzt",
+    "part": "Adv.",
+    "example": "muss ich (aber) leider gehen."
+  },
+  {
+    "word": "jetzt",
+    "part": "Adv.",
+    "example": "Jetzt machen wir eine Pause."
+  },
+  {
+    "word": "Job",
+    "part": "Subst.",
+    "example": "-s Jenny hat einen neuen Job bei der Post."
+  },
+  {
+    "word": "John",
+    "part": "Subst.",
+    "example": "Trim. Cambridge 2002."
+  },
+  {
+    "word": "Jugendliche",
+    "part": "Subst.",
+    "example": "-n Viele Jugendliche kaufen gern ein."
+  },
+  {
+    "word": "jung",
+    "part": "Adv.",
+    "example": "Claudia ist 21. – Was? Noch so jung?"
+  },
+  {
+    "word": "Junge",
+    "part": "Subst.",
+    "example": "-n Ich habe zwei Kinder. Einen Jungen und ein Mädchen."
+  },
+  {
+    "word": "Junider",
+    "part": "Subst.",
+    "example": "Julider August"
+  },
+  {
+    "word": "ka",
+    "part": "Adv.",
+    "example": "tion in folgenden vier Bereichen:"
+  },
+  {
+    "word": "kaputt",
+    "part": "Adv.",
+    "example": "Das Glas war teuer. Es geht sehr leicht kaputt."
+  },
+  {
+    "word": "Karte",
+    "part": "Subst.",
+    "example": "-n Ich schreibe meinen Bekannten eine Karte aus dem"
+  },
+  {
+    "word": "Kartoffel",
+    "part": "Subst.",
+    "example": "-n Für Pommes frites braucht man Kartoffeln."
+  },
+  {
+    "word": "Kasse",
+    "part": "Subst.",
+    "example": "Zahlen Sie bitte an der Kasse."
+  },
+  {
+    "word": "kaufen",
+    "part": "Verb",
+    "example": "Tim kauft sich ein neues Auto."
+  },
+  {
+    "word": "Kder",
+    "part": "Subst.",
+    "example": "Kaffee Zum Frühstück trinke ich immer Kaffee."
+  },
+  {
+    "word": "kein",
+    "part": "Art.",
+    "example": "Es gibt keine Eintrittskarten mehr."
+  },
+  {
+    "word": "kennen",
+    "part": "Verb",
+    "example": "Kennen Sie diese Frau? – Nein, leider nicht."
+  },
+  {
+    "word": "kennenlernen",
+    "part": "Verb",
+    "example": "Wir sind neu hier. Wir möchten Sie kennenlernen."
+  },
+  {
+    "word": "Kind",
+    "part": "Subst.",
+    "example": "-er Wie viele Kinder haben Sie?"
+  },
+  {
+    "word": "Kindergarten",
+    "part": "Subst.",
+    "example": "."
+  },
+  {
+    "word": "Kino",
+    "part": "Subst.",
+    "example": "-s Wir sehen heute Abend im Kino einen schönen Film."
+  },
+  {
+    "word": "Kiosk",
+    "part": "Subst.",
+    "example": "Am Kiosk bekommen Sie Getränke, Zigaretten und"
+  },
+  {
+    "word": "klar",
+    "part": "Adv.",
+    "example": "Kommst du mit? – Klar!"
+  },
+  {
+    "word": "Klasse",
+    "part": "Subst.",
+    "example": "In unserer Klasse sind fünfundzwanzig Schüler."
+  },
+  {
+    "word": "Kleidung",
+    "part": "Subst.",
+    "example": "Wo finde ich Kleidung? – Jacken im ersten, Jeans im"
+  },
+  {
+    "word": "klein",
+    "part": "Adj.",
+    "example": "Eltville ist eine kleine Stadt am Rhein."
+  },
+  {
+    "word": "kochen",
+    "part": "Verb",
+    "example": "Herr Georgi kann gut kochen."
+  },
+  {
+    "word": "Koffer",
+    "part": "Subst.",
+    "example": "– Ist das Ihr Koffer?"
+  },
+  {
+    "word": "Kollege",
+    "part": "Subst.",
+    "example": "-n Wie heißt die neue Kollegin?"
+  },
+  {
+    "word": "kommen",
+    "part": "Verb",
+    "example": "Woher kommen Sie? – Aus Frankreich."
+  },
+  {
+    "word": "Kommst",
+    "part": "Subst.",
+    "example": "du mit ins Schwimmbad?"
+  },
+  {
+    "word": "Komposita",
+    "part": "Subst.",
+    "example": "bei Nomen, wie zum Beispiel Kinderbett wurden nicht aufgenom-"
+  },
+  {
+    "word": "Konto",
+    "part": "Subst.",
+    "example": "Das Geld überweisen wir am ersten März auf Ihr Konto."
+  },
+  {
+    "word": "Kopf",
+    "part": "Subst.",
+    "example": "Mein Kopf tut weh!"
+  },
+  {
+    "word": "kosten",
+    "part": "Verb",
+    "example": "Wie viel kostet das? – 10 Euro."
+  },
+  {
+    "word": "krank",
+    "part": "Adj.",
+    "example": "Ich kann heute nicht zur Arbeit kommen, ich bin krank"
+  },
+  {
+    "word": "kriegen",
+    "part": "Verb",
+    "example": "Ich kriege 15 Euro in der Stunde für meine Arbeit."
+  },
+  {
+    "word": "Kuchen",
+    "part": "Subst.",
+    "example": "Ich nehme ein Stück Kuchen."
+  },
+  {
+    "word": "Kugelschreiber",
+    "part": "Subst.",
+    "example": "Hast du einen Kugelschreiber für mich?"
+  },
+  {
+    "word": "kulturell",
+    "part": "Adv.",
+    "example": "Ich bin kulturell interessiert. Ich gehe oft ins Museum."
+  },
+  {
+    "word": "Kunde",
+    "part": "Subst.",
+    "example": "ist beispielsweise auch die Kundin Teil des geforderten Wortschatzes."
+  },
+  {
+    "word": "Kurs",
+    "part": "Subst.",
+    "example": "-e Der Deutschkurs geht bis zum Sommer."
+  },
+  {
+    "word": "kurz",
+    "part": "Adj.",
+    "example": "Ricardo hat kurzes Haar."
+  },
+  {
+    "word": "Köln",
+    "part": "Subst.",
+    "example": "ist eine alte Stadt."
+  },
+  {
+    "word": "können",
+    "part": "Verb",
+    "example": "Ich kann Deutsch und Russisch."
+  },
+  {
+    "word": "Können",
+    "part": "Subst.",
+    "example": "Sie mir helfen?"
+  },
+  {
+    "word": "Küche",
+    "part": "Subst.",
+    "example": "Der neue Herd kommt in die Küche."
+  },
+  {
+    "word": "Kühlschrank",
+    "part": "Subst.",
+    "example": "Haben wir noch Milch? – Ja, im Kühlschrank."
+  },
+  {
+    "word": "lachen",
+    "part": "Verb",
+    "example": "Die Kinder lachen viel."
+  },
+  {
+    "word": "Laden",
+    "part": "Subst.",
+    "example": "-ä Im Buchladen können Sie Bücher kaufen."
+  },
+  {
+    "word": "Land",
+    "part": "Subst.",
+    "example": "-ä, er Italien ist ein schönes Land."
+  },
+  {
+    "word": "lang",
+    "part": "Adj.",
+    "example": "Die Jeans ist zu lang."
+  },
+  {
+    "word": "lange",
+    "part": "Adv.",
+    "example": "Wie lange fährt der Zug von Hamburg nach Berlin?"
+  },
+  {
+    "word": "langsam",
+    "part": "Adv.",
+    "example": "Könnten Sie bitte etwas langsamer sprechen?"
+  },
+  {
+    "word": "laufen",
+    "part": "Verb",
+    "example": "Ich möchte nicht Auto fahren, ich möchte laufen."
+  },
+  {
+    "word": "laut",
+    "part": "Adj.",
+    "example": "Nicht so laut! Das Baby schläft."
+  },
+  {
+    "word": "leben",
+    "part": "Verb",
+    "example": "Sie lebt bei ihrer Schwester."
+  },
+  {
+    "word": "Leben",
+    "part": "Subst.",
+    "example": "Das Leben in diesem Land ist teuer."
+  },
+  {
+    "word": "Lebens",
+    "part": "Subst.",
+    "example": ""
+  },
+  {
+    "word": "ledig",
+    "part": "Adj.",
+    "example": "Sind Sie verheiratet? – Nein. Ledig."
+  },
+  {
+    "word": "legen",
+    "part": "Verb",
+    "example": "Legen Sie das Buch auf den Tisch."
+  },
+  {
+    "word": "Lehrer",
+    "part": "Subst.",
+    "example": "– Unsere Deutschlehrerin heißt Frau Müller.leicht Der Koffer ist leicht."
+  },
+  {
+    "word": "leider",
+    "part": "Adv.",
+    "example": "Leider kann ich nicht kommen. Ich muss zum Arzt."
+  },
+  {
+    "word": "leise",
+    "part": "Adj.",
+    "example": "Seid leise. Die anderen schlafen schon."
+  },
+  {
+    "word": "lernen",
+    "part": "Verb",
+    "example": "Wie lange lernen Sie schon Deutsch?"
+  },
+  {
+    "word": "lesen",
+    "part": "Verb",
+    "example": "Ich lese ein Buch von García Márquez."
+  },
+  {
+    "word": "letzt",
+    "part": "Adv.",
+    "example": "Morgen ist der letzte Kurstag."
+  },
+  {
+    "word": "Leute",
+    "part": "Subst.",
+    "example": "(pl.) In der Disko sind viele Leute."
+  },
+  {
+    "word": "Licht",
+    "part": "Subst.",
+    "example": "Wo macht man hier das Licht an?"
+  },
+  {
+    "word": "lieb",
+    "part": "Adv.",
+    "example": "Liebe Susanne, lieber Hans,"
+  },
+  {
+    "word": "lieben",
+    "part": "Verb",
+    "example": "Ich liebe dich!"
+  },
+  {
+    "word": "lieber",
+    "part": "Adv.",
+    "example": "Sie fährt lieber mit der Bahn."
+  },
+  {
+    "word": "Lieblings",
+    "part": "Subst.",
+    "example": "Mein Lieblingsfilm ist „Schwarze Augen“."
+  },
+  {
+    "word": "Lied",
+    "part": "Subst.",
+    "example": "-er Welches ist dein Lieblingslied?"
+  },
+  {
+    "word": "liegen",
+    "part": "Verb",
+    "example": "Um neun Uhr liegt Judith noch im Bett."
+  },
+  {
+    "word": "links",
+    "part": "Adv.",
+    "example": "Gehen Sie die nächste Straße links."
+  },
+  {
+    "word": "Listen",
+    "part": "Subst.",
+    "example": "zusammengestellt: Vor der alphabetischen Liste befindet sich"
+  },
+  {
+    "word": "Lkw",
+    "part": "Subst.",
+    "example": "-s Dieser Lastkraftwagen ist sehr groß."
+  },
+  {
+    "word": "Lokal",
+    "part": "Subst.",
+    "example": "In unserer Straße gibt es ein neues Lokal."
+  },
+  {
+    "word": "lustig",
+    "part": "Adj.",
+    "example": "Frau Mertens ist lustig. Sie lacht immer."
+  },
+  {
+    "word": "Lösung",
+    "part": "Subst.",
+    "example": "-en Die Lösung ist ganz einfach."
+  },
+  {
+    "word": "Mai",
+    "part": "Subst.",
+    "example": ""
+  },
+  {
+    "word": "man",
+    "part": "Adv.",
+    "example": "Hier darf man nicht rauchen."
+  },
+  {
+    "word": "Mann",
+    "part": "Subst.",
+    "example": "-ä, er Mein Mann arbeitet bei der Polizei."
+  },
+  {
+    "word": "Maschine",
+    "part": "Subst.",
+    "example": "-n Die Waschmaschine ist günstig."
+  },
+  {
+    "word": "Meer",
+    "part": "Subst.",
+    "example": "Wir machen Urlaub am Meer."
+  },
+  {
+    "word": "mehr",
+    "part": "Adv.",
+    "example": "Dieses Auto kostet 1.000 Euro mehr als das andere."
+  },
+  {
+    "word": "Mein",
+    "part": "Pron.",
+    "example": "Auto ist schon sehr alt."
+  },
+  {
+    "word": "mein",
+    "part": "Pron.",
+    "example": "Mein Vater ist Arzt."
+  },
+  {
+    "word": "Meine",
+    "part": "Subst.",
+    "example": "Frau ist so groß wie ich."
+  },
+  {
+    "word": "meist",
+    "part": "Adv.",
+    "example": "Die meisten Norddeutschen sind sehr groß."
+  },
+  {
+    "word": "Mensch",
+    "part": "Subst.",
+    "example": "-en Die Menschen sind hier anders als bei uns."
+  },
+  {
+    "word": "Michaela",
+    "part": "Subst.",
+    "example": "Perlmann-Balme"
+  },
+  {
+    "word": "Miete",
+    "part": "Subst.",
+    "example": "Die Miete für diese Wohnung ist 600 Euro."
+  },
+  {
+    "word": "mieten",
+    "part": "Verb",
+    "example": "Ich möchte ein Auto mieten."
+  },
+  {
+    "word": "Milch",
+    "part": "Subst.",
+    "example": "Die Milch steht im Kühlschrank."
+  },
+  {
+    "word": "Mir",
+    "part": "Subst.",
+    "example": "ist kalt."
+  },
+  {
+    "word": "Mit",
+    "part": "Präp.",
+    "example": "freundlichen Grüßen"
+  },
+  {
+    "word": "mit",
+    "part": "Präp.",
+    "example": "Trinken Sie den Kaffee mit Milch?"
+  },
+  {
+    "word": "mitbringen",
+    "part": "Verb",
+    "example": "Ich gehe einkaufen. Soll ich dir was mitbringen?"
+  },
+  {
+    "word": "mitkommen",
+    "part": "Verb",
+    "example": "Ich gehe ins Kino. Kommst du mit?"
+  },
+  {
+    "word": "mitmachen",
+    "part": "Verb",
+    "example": "Warum macht ihr nicht mit?"
+  },
+  {
+    "word": "mitnehmen",
+    "part": "Verb",
+    "example": "Nehmen wir meine Schwester ins Kino mit?"
+  },
+  {
+    "word": "Mittagder",
+    "part": "Subst.",
+    "example": "Nachmittag,-e"
+  },
+  {
+    "word": "Mitte",
+    "part": "Subst.",
+    "example": "Der Lehrer steht in der Mitte des Klassenzimmers."
+  },
+  {
+    "word": "mittel",
+    "part": "Adv.",
+    "example": "(pl.) Lebensmittel bekommen Sie im Supermarkt."
+  },
+  {
+    "word": "Mittwoch",
+    "part": "Subst.",
+    "example": "der Donnerstag"
+  },
+  {
+    "word": "mmachen",
+    "part": "Verb",
+    "example": "Was machst du heute Abend?"
+  },
+  {
+    "word": "Moment",
+    "part": "Subst.",
+    "example": "Moment mal bitte!"
+  },
+  {
+    "word": "Montag",
+    "part": "Subst.",
+    "example": ""
+  },
+  {
+    "word": "Morgen",
+    "part": "Subst.",
+    "example": "der Vormittag,-e"
+  },
+  {
+    "word": "morgen",
+    "part": "Adv.",
+    "example": "Morgen beginnt die Schule um 10 Uhr."
+  },
+  {
+    "word": "Mund",
+    "part": "Subst.",
+    "example": "Öffnen Sie den Mund."
+  },
+  {
+    "word": "Mutter",
+    "part": "Subst.",
+    "example": "-ü Frau Berghäuser ist die Mutter von Michaela."
+  },
+  {
+    "word": "Mädchen",
+    "part": "Subst.",
+    "example": "– Familie Kurz bekommt ein Baby. – Junge oder Mädchen?"
+  },
+  {
+    "word": "männlich",
+    "part": "Adj.",
+    "example": "Kreuzen Sie bitte an: „weiblich“ oder „männlich“."
+  },
+  {
+    "word": "März",
+    "part": "Subst.",
+    "example": ""
+  },
+  {
+    "word": "Möbel",
+    "part": "Subst.",
+    "example": "(pl.) Sind die Möbel neu?"
+  },
+  {
+    "word": "möchten",
+    "part": "Verb",
+    "example": "Was möchten Sie trinken?"
+  },
+  {
+    "word": "mögen",
+    "part": "Verb",
+    "example": "Magst du Kaffee oder Tee?"
+  },
+  {
+    "word": "möglich",
+    "part": "Adj.",
+    "example": "Mit dieser Fahrkarte ist die Fahrt ab 9 Uhr möglich."
+  },
+  {
+    "word": "müde",
+    "part": "Adj.",
+    "example": "Ich bin müde. Ich gehe schlafen."
+  },
+  {
+    "word": "müssen",
+    "part": "Verb",
+    "example": "Ich muss jeden Tag von 8 Uhr bis 18 Uhr arbeiten."
+  },
+  {
+    "word": "Name",
+    "part": "Subst.",
+    "example": "-n Mein Name ist Thomas Schmidt."
+  },
+  {
+    "word": "nehmen",
+    "part": "Verb",
+    "example": "Heute gibt es Hähnchen. Das nehme ich."
+  },
+  {
+    "word": "nein",
+    "part": "Adv.",
+    "example": "Fährst du auch nach München? – Nein, ich habe keine"
+  },
+  {
+    "word": "neu",
+    "part": "Adj.",
+    "example": "Ich bin der neue Kollege."
+  },
+  {
+    "word": "nicht",
+    "part": "Adv.",
+    "example": "Das stimmt nicht."
+  },
+  {
+    "word": "nichts",
+    "part": "Adv.",
+    "example": "Das macht nichts."
+  },
+  {
+    "word": "nie",
+    "part": "Adv.",
+    "example": "Er kommt nie pünktlich."
+  },
+  {
+    "word": "Nimm",
+    "part": "Subst.",
+    "example": "noch ein paar Brote für die Fahrt mit."
+  },
+  {
+    "word": "Nnach",
+    "part": "Subst.",
+    "example": "Ich gehe jetzt nach Hause."
+  },
+  {
+    "word": "noch",
+    "part": "Adv.",
+    "example": "Vielleicht kommt er noch."
+  },
+  {
+    "word": "normal",
+    "part": "Adj.",
+    "example": "75 kg. Sein Gewicht ist normal."
+  },
+  {
+    "word": "November",
+    "part": "Subst.",
+    "example": ""
+  },
+  {
+    "word": "Nummer",
+    "part": "Subst.",
+    "example": "-n Sie haben Zimmer Nummer zwölf."
+  },
+  {
+    "word": "nur",
+    "part": "Adv.",
+    "example": "Ich möchte nur ein Glas Wasser."
+  },
+  {
+    "word": "nächst",
+    "part": "Adv.",
+    "example": "Sehen wir uns nächste Woche?"
+  },
+  {
+    "word": "oben",
+    "part": "Verb",
+    "example": "Ich wohne oben."
+  },
+  {
+    "word": "Obst",
+    "part": "Subst.",
+    "example": "Im Sommer ist das Obst billig."
+  },
+  {
+    "word": "oder",
+    "part": "Konj.",
+    "example": "Wann können Sie kommen – heute oder morgen?"
+  },
+  {
+    "word": "oft",
+    "part": "Adv.",
+    "example": "Petra treffe ich oft."
+  },
+  {
+    "word": "ohne",
+    "part": "Präp.",
+    "example": "Ohne Geld kann er nichts kaufen."
+  },
+  {
+    "word": "Oktober",
+    "part": "Subst.",
+    "example": ""
+  },
+  {
+    "word": "Oma",
+    "part": "Subst.",
+    "example": "-s Meine Oma ist schon tot."
+  },
+  {
+    "word": "Opa",
+    "part": "Subst.",
+    "example": "-s Mein Opa heißt Hans."
+  },
+  {
+    "word": "Ordnung",
+    "part": "Subst.",
+    "example": "Das ist in Ordnung."
+  },
+  {
+    "word": "Ort",
+    "part": "Subst.",
+    "example": "-e Der Ort liegt am Meer."
+  },
+  {
+    "word": "Papiere",
+    "part": "Subst.",
+    "example": "(pl.) Haben Sie Ihre Papiere dabei?"
+  },
+  {
+    "word": "Partner",
+    "part": "Subst.",
+    "example": "-/"
+  },
+  {
+    "word": "Partnerin",
+    "part": "Subst.",
+    "example": "-nen Sie ist meine Partnerin."
+  },
+  {
+    "word": "Party",
+    "part": "Subst.",
+    "example": "Heute Abend machen wir eine Party."
+  },
+  {
+    "word": "Pass",
+    "part": "Subst.",
+    "example": "-ä, e Im Hotel brauchst du deinen Pass."
+  },
+  {
+    "word": "Paul",
+    "part": "Subst.",
+    "example": "ist nicht zu Hause."
+  },
+  {
+    "word": "Pause",
+    "part": "Subst.",
+    "example": "-n Von 12.00 bis 12.30 Uhr haben wir Mittagspause.der Plan, -ä, e Ich kaufe mir einen Stadtplan."
+  },
+  {
+    "word": "Pdas",
+    "part": "Subst.",
+    "example": "Papier Hier sind Papier und Bleistift."
+  },
+  {
+    "word": "Peter",
+    "part": "Subst.",
+    "example": "ruft kurz seine Freundin an."
+  },
+  {
+    "word": "Platz",
+    "part": "Subst.",
+    "example": "-ä, e Tut mir leid, der Platz ist besetzt."
+  },
+  {
+    "word": "Pluralformen",
+    "part": "Subst.",
+    "example": "sind angeführt, wo sie für das Sprachniveau relevant sind."
+  },
+  {
+    "word": "Polizei",
+    "part": "Subst.",
+    "example": "Holen Sie die Polizei!"
+  },
+  {
+    "word": "Pommes",
+    "part": "Subst.",
+    "example": "frites (pl.) Die Kinder essen Hähnchen mit Pommes frites."
+  },
+  {
+    "word": "Post",
+    "part": "Subst.",
+    "example": "Wo ist die Post, bitte?"
+  },
+  {
+    "word": "Postleitzahl",
+    "part": "Subst.",
+    "example": "Wie ist Ihre Postleitzahl?"
+  },
+  {
+    "word": "Praktikum",
+    "part": "Subst.",
+    "example": "Ich mache ein Praktikum bei Siemens."
+  },
+  {
+    "word": "Praxis",
+    "part": "Subst.",
+    "example": "Die Praxis ist ab acht Uhr geöffnet."
+  },
+  {
+    "word": "Preis",
+    "part": "Subst.",
+    "example": "-e Die Preise sind hoch."
+  },
+  {
+    "word": "Problem",
+    "part": "Subst.",
+    "example": "-e Mein Problem ist die Sprache."
+  },
+  {
+    "word": "Prospekt",
+    "part": "Subst.",
+    "example": "-e Bitte schicken Sie mir einen Prospekt von Ihrem Hotel."
+  },
+  {
+    "word": "Prüfung",
+    "part": "Subst.",
+    "example": "Start Deutsch 1 . Weniger geeignet ist diese Liste für die Ein-"
+  },
+  {
+    "word": "pünktlich",
+    "part": "Adj.",
+    "example": "Der Bus fährt pünktlich um acht Uhr."
+  },
+  {
+    "word": "Rad fahren",
+    "part": "Verb",
+    "example": "Das Kind kann schon Rad fahren."
+  },
+  {
+    "word": "rauchen",
+    "part": "Verb",
+    "example": "Ich rauche nicht."
+  },
+  {
+    "word": "Raum",
+    "part": "Subst.",
+    "example": "-ä, e Der Unterricht ist in Raum 332."
+  },
+  {
+    "word": "Rechnung",
+    "part": "Subst.",
+    "example": "-en Die Rechnung, bitte."
+  },
+  {
+    "word": "rechts",
+    "part": "Adv.",
+    "example": "Die Schillerstraße ist hier rechts."
+  },
+  {
+    "word": "Regen",
+    "part": "Subst.",
+    "example": "Bei diesem Regen gehe ich nicht raus."
+  },
+  {
+    "word": "regnen",
+    "part": "Verb",
+    "example": "Heute regnet es."
+  },
+  {
+    "word": "Reis",
+    "part": "Subst.",
+    "example": "Ich esse gern Reis."
+  },
+  {
+    "word": "Reise",
+    "part": "Subst.",
+    "example": "Wir machen eine Reise nach Österreich."
+  },
+  {
+    "word": "Reisebüro",
+    "part": "Subst.",
+    "example": "-s Mein Mann arbeitet im Reisebüro."
+  },
+  {
+    "word": "Reiseführer",
+    "part": "Subst.",
+    "example": "Ich kaufe mir einen Reiseführer von Berlin."
+  },
+  {
+    "word": "reisen",
+    "part": "Verb",
+    "example": "Ich reise gern."
+  },
+  {
+    "word": "Reparatur",
+    "part": "Subst.",
+    "example": "Die Reparatur ist sehr teuer."
+  },
+  {
+    "word": "reparieren",
+    "part": "Verb",
+    "example": "Er hat das Fahrrad repariert."
+  },
+  {
+    "word": "Restaurant",
+    "part": "Subst.",
+    "example": "-s Wir essen heute in einem Restaurant."
+  },
+  {
+    "word": "Rezeption",
+    "part": "Subst.",
+    "example": "Fragen Sie bitte im Hotel an der Rezeption."
+  },
+  {
+    "word": "richtig",
+    "part": "Adj.",
+    "example": "Habe ich das richtig verstanden?"
+  },
+  {
+    "word": "riechen",
+    "part": "Verb",
+    "example": "Dieser Wein riecht gut."
+  },
+  {
+    "word": "Ruf",
+    "part": "Subst.",
+    "example": "ihn bitte an."
+  },
+  {
+    "word": "ruhig",
+    "part": "Adj.",
+    "example": "Ich möchte ein ruhiges Zimmer."
+  },
+  {
+    "word": "S-Bahn",
+    "part": "Subst.",
+    "example": "Ich nehme lieber die S-Bahn."
+  },
+  {
+    "word": "Saft",
+    "part": "Subst.",
+    "example": "Möchtest du einen Apfelsaft?"
+  },
+  {
+    "word": "sagen",
+    "part": "Verb",
+    "example": "Sag mal, wie geht es dir denn?"
+  },
+  {
+    "word": "Salat",
+    "part": "Subst.",
+    "example": "Wie schmeckt dir der Salat?"
+  },
+  {
+    "word": "Salz",
+    "part": "Subst.",
+    "example": "Herr Ober, kann ich bitte Salz haben?"
+  },
+  {
+    "word": "Samstag",
+    "part": "Subst.",
+    "example": "/Sonnabend das Wochenende"
+  },
+  {
+    "word": "Schalter",
+    "part": "Subst.",
+    "example": "Gehen Sie bitte zum Schalter drei!"
+  },
+  {
+    "word": "scheinen",
+    "part": "Verb",
+    "example": "Die Sonne scheint."
+  },
+  {
+    "word": "schen",
+    "part": "Verb",
+    "example": "sollten. Alle aufgeführten Wörter sollten passiv verstanden werden, wenn sie den Lernenden in gesprochenen oder geschriebenen Texten begeg-"
+  },
+  {
+    "word": "schicken",
+    "part": "Verb",
+    "example": "Bitte schicken Sie mir eine E-Mail."
+  },
+  {
+    "word": "Schild",
+    "part": "Subst.",
+    "example": "-er Haben Sie nicht das Schild gesehen?"
+  },
+  {
+    "word": "Schinken",
+    "part": "Subst.",
+    "example": "– Ich möchte gern ein Schinkenbrot."
+  },
+  {
+    "word": "schlafen",
+    "part": "Verb",
+    "example": "Ich schlafe meistens acht Stunden."
+  },
+  {
+    "word": "schlecht",
+    "part": "Adj.",
+    "example": "Mir ist schlecht!"
+  },
+  {
+    "word": "schließen",
+    "part": "Verb",
+    "example": "Bitte, schließen Sie die Tür."
+  },
+  {
+    "word": "Schluss",
+    "part": "Subst.",
+    "example": "Ich muss jetzt Schluss machen."
+  },
+  {
+    "word": "Schlüssel",
+    "part": "Subst.",
+    "example": "– Ich gebe Ihnen noch den Zimmerschlüssel."
+  },
+  {
+    "word": "schmecken",
+    "part": "Verb",
+    "example": "Schmeckt das gut?"
+  },
+  {
+    "word": "schnell",
+    "part": "Adv.",
+    "example": "Er fährt schnell."
+  },
+  {
+    "word": "schon",
+    "part": "Adv.",
+    "example": "Ist das Essen schon fertig?"
+  },
+  {
+    "word": "Schrank",
+    "part": "Subst.",
+    "example": "-ä, e Die Gläser stehen im Schrank."
+  },
+  {
+    "word": "schreiben",
+    "part": "Verb",
+    "example": "Er schreibt jeden Tag fünfzig E-Mails."
+  },
+  {
+    "word": "Schuh",
+    "part": "Subst.",
+    "example": "-e Zieh die Schuhe aus!"
+  },
+  {
+    "word": "Schule",
+    "part": "Subst.",
+    "example": "Meine Tochter geht schon in die Schule."
+  },
+  {
+    "word": "schwarz",
+    "part": "Adv.",
+    "example": "grau blau grün"
+  },
+  {
+    "word": "schwer",
+    "part": "Adv.",
+    "example": "Ist Ihr Gepäck sehr schwer?"
+  },
+  {
+    "word": "Schwester",
+    "part": "Subst.",
+    "example": "-n Meine Schwester kommt am Dienstag."
+  },
+  {
+    "word": "Schwimmbad",
+    "part": "Subst.",
+    "example": "Kommst du mit ins Schwimmbad?"
+  },
+  {
+    "word": "schwimmen",
+    "part": "Verb",
+    "example": "Ich schwimme jeden Tag einen Kilometer."
+  },
+  {
+    "word": "schön",
+    "part": "Adv.",
+    "example": "Schönen Urlaub!"
+  },
+  {
+    "word": "Schüler",
+    "part": "Subst.",
+    "example": "– In meinem Kurs sind acht Schülerinnen und fünf"
+  },
+  {
+    "word": "See",
+    "part": "Subst.",
+    "example": "Komm, wir fahren zum Starnberger See."
+  },
+  {
+    "word": "sehen",
+    "part": "Verb",
+    "example": "Ich kann dich nicht sehen."
+  },
+  {
+    "word": "Sehenswürdigkeit",
+    "part": "Subst.",
+    "example": "-en"
+  },
+  {
+    "word": "sehr",
+    "part": "Adv.",
+    "example": "Danke sehr!"
+  },
+  {
+    "word": "sein",
+    "part": "Pron.",
+    "example": "Herr Müller ist in seinem Zimmer."
+  },
+  {
+    "word": "seit",
+    "part": "Präp.",
+    "example": "Ich wohne seit drei Jahren in Köln."
+  },
+  {
+    "word": "Sekunde",
+    "part": "Subst.",
+    "example": "-n die Minute, -n"
+  },
+  {
+    "word": "selbstständig",
+    "part": "Adj.",
+    "example": "Er ist selbstständig."
+  },
+  {
+    "word": "September",
+    "part": "Subst.",
+    "example": ""
+  },
+  {
+    "word": "sich",
+    "part": "Adv.",
+    "example": "kümmern Jede Mutter kümmert sich um ihre kleinen Kinder."
+  },
+  {
+    "word": "Sie",
+    "part": "Pron.",
+    "example": "ermöglicht einen Überblick über das Anspruchsniveau der Stufe A1 und"
+  },
+  {
+    "word": "sie",
+    "part": "Pron.",
+    "example": "Wie heißt sie?"
+  },
+  {
+    "word": "Sie sehen aber nicht so alt",
+    "part": "Verb",
+    "example": "aus."
+  },
+  {
+    "word": "Sie sehen schlecht",
+    "part": "Verb",
+    "example": "aus."
+  },
+  {
+    "word": "Sind",
+    "part": "Subst.",
+    "example": "alle da?"
+  },
+  {
+    "word": "sinntragend",
+    "part": "Adv.",
+    "example": "sind. Ausgenommen sind außerdem Wörter, die sich aus der"
+  },
+  {
+    "word": "sitzen",
+    "part": "Verb",
+    "example": "Wo sitzen Sie?"
+  },
+  {
+    "word": "so",
+    "part": "Adv.",
+    "example": "Sie müssen das so machen!"
+  },
+  {
+    "word": "Sofa",
+    "part": "Subst.",
+    "example": "Das Sofa ist neu."
+  },
+  {
+    "word": "sofort",
+    "part": "Adv.",
+    "example": "begegnen werden, wie zum Beispiel"
+  },
+  {
+    "word": "Sohn",
+    "part": "Subst.",
+    "example": "-ö, e Das ist Hans, mein Sohn."
+  },
+  {
+    "word": "Soll",
+    "part": "Subst.",
+    "example": "ich aufstehen?"
+  },
+  {
+    "word": "sollen",
+    "part": "Verb",
+    "example": "Soll ich kommen?"
+  },
+  {
+    "word": "Sommerder",
+    "part": "Subst.",
+    "example": "Herbst der WinterJahr/Jahreszeiten"
+  },
+  {
+    "word": "Sonne",
+    "part": "Subst.",
+    "example": "Die Sonne scheint."
+  },
+  {
+    "word": "Speisekarte",
+    "part": "Subst.",
+    "example": "Bringen Sie mir die Speisekarte, bitte."
+  },
+  {
+    "word": "spielen",
+    "part": "Verb",
+    "example": "Die Kinder spielen draußen."
+  },
+  {
+    "word": "Spielen",
+    "part": "Subst.",
+    "example": "Sie Karten?"
+  },
+  {
+    "word": "Sport",
+    "part": "Subst.",
+    "example": "Ich mache viel Sport."
+  },
+  {
+    "word": "Sprache",
+    "part": "Subst.",
+    "example": "-n Welche Sprachen sprichst du?"
+  },
+  {
+    "word": "Sprachkurses",
+    "part": "Subst.",
+    "example": "und die Verwendung von didaktisch aufgebautem Lehrmaterial."
+  },
+  {
+    "word": "Sprechen",
+    "part": "Subst.",
+    "example": "Sie bitte leise!"
+  },
+  {
+    "word": "sprechen",
+    "part": "Verb",
+    "example": "Kann ich (mit) Herrn Klein sprechen?"
+  },
+  {
+    "word": "spät",
+    "part": "Adv.",
+    "example": "Es ist schon spät, ich muss gehen."
+  },
+  {
+    "word": "später",
+    "part": "Adv.",
+    "example": "Das können wir später machen."
+  },
+  {
+    "word": "Stadt",
+    "part": "Subst.",
+    "example": "-ä, e Heidelberg ist eine alte Stadt."
+  },
+  {
+    "word": "Start",
+    "part": "Subst.",
+    "example": "Deutsch 1 , die von deutschen Auslandsvertretungen und Ausländerbe-"
+  },
+  {
+    "word": "stehen",
+    "part": "Verb",
+    "example": "Ich glaube es nicht, aber es steht in der Zeitung."
+  },
+  {
+    "word": "Stelle",
+    "part": "Subst.",
+    "example": "-n Ich habe eine neue Stelle."
+  },
+  {
+    "word": "stellen",
+    "part": "Verb",
+    "example": "Stell die Tasche rechts in die Ecke!"
+  },
+  {
+    "word": "Stock",
+    "part": "Subst.",
+    "example": "Unsere Wohnung liegt im ersten Stock."
+  },
+  {
+    "word": "Straße",
+    "part": "Subst.",
+    "example": "-n In welcher Straße wohnen Sie?"
+  },
+  {
+    "word": "Straßenbahn",
+    "part": "Subst.",
+    "example": "Wo fährt die Straßenbahn ab?"
+  },
+  {
+    "word": "Student",
+    "part": "Subst.",
+    "example": "-en Ich bin Studentin."
+  },
+  {
+    "word": "studieren",
+    "part": "Verb",
+    "example": "Ich studiere in Mainz."
+  },
+  {
+    "word": "Studium",
+    "part": "Subst.",
+    "example": "Das Studium beginnt im Oktober."
+  },
+  {
+    "word": "Stunde",
+    "part": "Subst.",
+    "example": "-nder Tag, -e"
+  },
+  {
+    "word": "suchen",
+    "part": "Verb",
+    "example": "Suchst du etwas?"
+  },
+  {
+    "word": "systeme",
+    "part": "Adv.",
+    "example": "GmbH, heute telc GmbH, im Jahr 2004."
+  },
+  {
+    "word": "Tag",
+    "part": "Subst.",
+    "example": ""
+  },
+  {
+    "word": "tanzen",
+    "part": "Verb",
+    "example": "Tanzen Sie gern?"
+  },
+  {
+    "word": "Tasche",
+    "part": "Subst.",
+    "example": "-n Ich habe die Schlüssel in der Tasche."
+  },
+  {
+    "word": "Taxi",
+    "part": "Subst.",
+    "example": "-s Es gibt heute keinen Bus mehr. Er fährt mit dem Taxi."
+  },
+  {
+    "word": "Tee",
+    "part": "Subst.",
+    "example": "Ich trinke morgens immer Tee."
+  },
+  {
+    "word": "Teil",
+    "part": "Subst.",
+    "example": "des geforderten Wortschatzes."
+  },
+  {
+    "word": "Telefon",
+    "part": "Subst.",
+    "example": "Haben Sie Telefon?"
+  },
+  {
+    "word": "telefonieren",
+    "part": "Verb",
+    "example": "Darf ich mal telefonieren?"
+  },
+  {
+    "word": "Termin",
+    "part": "Subst.",
+    "example": "-e Am besten machen wir sofort einen Termin."
+  },
+  {
+    "word": "Test",
+    "part": "Subst.",
+    "example": "Der Test war einfach."
+  },
+  {
+    "word": "teuer",
+    "part": "Adj.",
+    "example": "Das ist mir zu teuer."
+  },
+  {
+    "word": "Text",
+    "part": "Subst.",
+    "example": "-e Lesen Sie bitte diesen Text."
+  },
+  {
+    "word": "Thema",
+    "part": "Subst.",
+    "example": "Wir sprechen heute über das Thema „Essen und"
+  },
+  {
+    "word": "Ticket",
+    "part": "Subst.",
+    "example": "-s Wie viel kostet das Ticket?"
+  },
+  {
+    "word": "Tisch",
+    "part": "Subst.",
+    "example": "-e Die Fotos liegen auf dem Tisch."
+  },
+  {
+    "word": "Tochter",
+    "part": "Subst.",
+    "example": "-ö Das ist meine Tochter Katharina."
+  },
+  {
+    "word": "Toilette",
+    "part": "Subst.",
+    "example": "-en Wo ist die Toilette, bitte?"
+  },
+  {
+    "word": "Tomate",
+    "part": "Subst.",
+    "example": "-n Die Tomate ist noch grün."
+  },
+  {
+    "word": "tot",
+    "part": "Adv.",
+    "example": "Sein Vater ist schon lange tot."
+  },
+  {
+    "word": "treffen",
+    "part": "Verb",
+    "example": "Ich treffe in der Stadt einen Kollegen. Wir treffen uns immer freitags."
+  },
+  {
+    "word": "Treppe",
+    "part": "Subst.",
+    "example": "-n Die Toilette? Die Treppe hoch und dann links."
+  },
+  {
+    "word": "trinken",
+    "part": "Verb",
+    "example": "Möchtest du etwas trinken?"
+  },
+  {
+    "word": "tschüss",
+    "part": "Interj.",
+    "example": "Junge Leute sagen meistens „tschüss!“ und nicht"
+  },
+  {
+    "word": "tun",
+    "part": "Adv.",
+    "example": "Ich habe noch etwas zu tun."
+  },
+  {
+    "word": "Uhr",
+    "part": "Subst.",
+    "example": "Es ist vier Uhr."
+  },
+  {
+    "word": "um",
+    "part": "Präp.",
+    "example": "Er kommt um sieben Uhr."
+  },
+  {
+    "word": "umziehen",
+    "part": "Verb",
+    "example": "Nächsten Monat ziehen wir um."
+  },
+  {
+    "word": "und",
+    "part": "Konj.",
+    "example": "liege im Bett."
+  },
+  {
+    "word": "Unser",
+    "part": "Pron.",
+    "example": "Reiseführer heißt Peter."
+  },
+  {
+    "word": "unser",
+    "part": "Adv.",
+    "example": "Das ist unsere Lehrerin."
+  },
+  {
+    "word": "unten",
+    "part": "Verb",
+    "example": "Er wohnt ganz unten im Haus."
+  },
+  {
+    "word": "unter",
+    "part": "Präp.",
+    "example": "Unter uns wohnt eine Familie mit drei Kindern."
+  },
+  {
+    "word": "Unterricht",
+    "part": "Subst.",
+    "example": "Wir haben Unterricht von 8.00 bis 12.00 Uhr."
+  },
+  {
+    "word": "unterschreiben",
+    "part": "Verb",
+    "example": "Wo muss ich unterschreiben?"
+  },
+  {
+    "word": "Unterschrift",
+    "part": "Subst.",
+    "example": "Hier fehlt noch Ihre Unterschrift.der Urlaub Ich nehme im September Urlaub."
+  },
+  {
+    "word": "Vater",
+    "part": "Subst.",
+    "example": "-ä Mein Vater ist Arbeiter."
+  },
+  {
+    "word": "verboten",
+    "part": "Verb",
+    "example": "Hier ist Rauchen verboten."
+  },
+  {
+    "word": "verdienen",
+    "part": "Verb",
+    "example": "Ich verdiene 1.500 Euro im Monat."
+  },
+  {
+    "word": "Verein",
+    "part": "Subst.",
+    "example": "Es gibt einen neuen Sportverein in der Stadt."
+  },
+  {
+    "word": "verheiratet",
+    "part": "Adv.",
+    "example": "Ich bin verheiratet und habe drei Kinder."
+  },
+  {
+    "word": "verkaufen",
+    "part": "Verb",
+    "example": "Er verkauft sein altes Auto."
+  },
+  {
+    "word": "Verkäufer",
+    "part": "Subst.",
+    "example": "– Meine Mutter ist Verkäuferin im Kaufhaus."
+  },
+  {
+    "word": "vermieten",
+    "part": "Verb",
+    "example": "Die Wohnung ist schon vermietet."
+  },
+  {
+    "word": "Vermieter",
+    "part": "Subst.",
+    "example": "Unser Vermieter heißt Huber. Er wohnt auch hier.verstehen Können Sie mich verstehen?"
+  },
+  {
+    "word": "Verwandte",
+    "part": "Subst.",
+    "example": "-n Peter besucht seine Verwandten in Polen."
+  },
+  {
+    "word": "viel",
+    "part": "Adv.",
+    "example": "Hier regnet es viel."
+  },
+  {
+    "word": "vielleicht",
+    "part": "Adv.",
+    "example": "Ich komme vielleicht mit dem Bus."
+  },
+  {
+    "word": "Viertel",
+    "part": "Subst.",
+    "example": "vor/nach zwei (zwei Uhr) halb drei"
+  },
+  {
+    "word": "vierundzwanzig",
+    "part": "Adj.",
+    "example": "Uhr"
+  },
+  {
+    "word": "von",
+    "part": "Präp.",
+    "example": "Das Auto von Felix ist kaputt."
+  },
+  {
+    "word": "vor",
+    "part": "Präp.",
+    "example": "Der Termin war vor einer Stunde."
+  },
+  {
+    "word": "Vorname",
+    "part": "Subst.",
+    "example": "-n Ich heiße Müller, mein Vorname ist Eva."
+  },
+  {
+    "word": "Vorsicht",
+    "part": "Subst.",
+    "example": "Vorsicht! Da kommt ein Auto."
+  },
+  {
+    "word": "vorstellen",
+    "part": "Verb",
+    "example": "Wir wollen uns kennenlernen. Können Sie sich bitte vorstellen?"
+  },
+  {
+    "word": "Vorwahl",
+    "part": "Subst.",
+    "example": "Wie ist die Vorwahl von München?"
+  },
+  {
+    "word": "wandern",
+    "part": "Adv.",
+    "example": "Wir wandern um den Chiemsee."
+  },
+  {
+    "word": "wann",
+    "part": "Adv.",
+    "example": "Wann bist du fertig?"
+  },
+  {
+    "word": "Wann",
+    "part": "Adv.",
+    "example": "kann ich Sie anrufen?"
+  },
+  {
+    "word": "warten",
+    "part": "Verb",
+    "example": "Können Sie ein paar Minuten warten?"
+  },
+  {
+    "word": "warum",
+    "part": "Adv.",
+    "example": "Warum kommt er nicht?"
+  },
+  {
+    "word": "Was",
+    "part": "Subst.",
+    "example": "bekommen Sie?"
+  },
+  {
+    "word": "was",
+    "part": "Adv.",
+    "example": "Was ist das?"
+  },
+  {
+    "word": "waschen",
+    "part": "Verb",
+    "example": "Wo kann ich mir die Hände waschen?"
+  },
+  {
+    "word": "Wasser",
+    "part": "Subst.",
+    "example": "Ein Glas Wasser, bitte."
+  },
+  {
+    "word": "weg",
+    "part": "Adv.",
+    "example": "sein Herr Meier ist schon weg."
+  },
+  {
+    "word": "weh",
+    "part": "Adv.",
+    "example": "tun Ich muss zum Arzt. Mein Bein tut weh."
+  },
+  {
+    "word": "weiblich",
+    "part": "Adj.",
+    "example": "Kreuzen Sie bitte an: „weiblich“ oder „männlich“."
+  },
+  {
+    "word": "Wein",
+    "part": "Subst.",
+    "example": "Nein danke, ich möchte keinen Wein."
+  },
+  {
+    "word": "weit",
+    "part": "Adv.",
+    "example": "Zum Bahnhof ist es nicht weit."
+  },
+  {
+    "word": "weiter",
+    "part": "Adv.",
+    "example": "Der Bus fährt nicht weiter."
+  },
+  {
+    "word": "weiß",
+    "part": "Adv.",
+    "example": "rot gelb braun"
+  },
+  {
+    "word": "welch",
+    "part": "Adv.",
+    "example": "Welches Buch möchtest du?"
+  },
+  {
+    "word": "Welche",
+    "part": "Subst.",
+    "example": "Hausnummer haben Sie?"
+  },
+  {
+    "word": "Welt",
+    "part": "Subst.",
+    "example": "Es gibt viele Probleme auf der Welt."
+  },
+  {
+    "word": "wenig",
+    "part": "Adj.",
+    "example": "Ich habe leider nur wenig verstanden."
+  },
+  {
+    "word": "Wer",
+    "part": "Subst.",
+    "example": "spielt gegen wen?"
+  },
+  {
+    "word": "wer",
+    "part": "Adv.",
+    "example": "Wer ist das?"
+  },
+  {
+    "word": "werden",
+    "part": "Verb",
+    "example": "Mein Sohn will Arzt werden."
+  },
+  {
+    "word": "Wetter",
+    "part": "Subst.",
+    "example": "Wir hatten schlechtes Wetter."
+  },
+  {
+    "word": "wichtig",
+    "part": "Adj.",
+    "example": "Dieses Formular ist sehr wichtig."
+  },
+  {
+    "word": "Wie",
+    "part": "Adv.",
+    "example": "heißt das auf Deutsch?"
+  },
+  {
+    "word": "wie",
+    "part": "Adv.",
+    "example": "Wie heißt du?"
+  },
+  {
+    "word": "wiederholen",
+    "part": "Verb",
+    "example": "Können Sie das bitte wiederholen?"
+  },
+  {
+    "word": "Wiederhören",
+    "part": "Subst.",
+    "example": "Wir müssen jetzt Schluss machen."
+  },
+  {
+    "word": "Wiedersehen",
+    "part": "Subst.",
+    "example": "Auf Wiedersehen!"
+  },
+  {
+    "word": "willkommen",
+    "part": "Interj.",
+    "example": "Herzlich willkommen!"
+  },
+  {
+    "word": "Wind",
+    "part": "Subst.",
+    "example": "Der Wind kommt aus Osten."
+  },
+  {
+    "word": "Wir",
+    "part": "Pron.",
+    "example": "müssen noch meinen Bruder abholen."
+  },
+  {
+    "word": "wir",
+    "part": "Pron.",
+    "example": "Wir lernen Deutsch."
+  },
+  {
+    "word": "Wir bleiben nur bis",
+    "part": "Verb",
+    "example": "morgen."
+  },
+  {
+    "word": "Wir kommen",
+    "part": "Verb",
+    "example": "beide."
+  },
+  {
+    "word": "Wir machen",
+    "part": "Verb",
+    "example": "Anfang Juli Urlaub."
+  },
+  {
+    "word": "wird",
+    "part": "Adv.",
+    "example": "durch Beispielsätze illustriert. Darunter finden sich wichtige Redewen-"
+  },
+  {
+    "word": "wissen",
+    "part": "Verb",
+    "example": "Weißt du, wie er heißt?"
+  },
+  {
+    "word": "wo",
+    "part": "Adv.",
+    "example": "Wo waren Sie im Urlaub?"
+  },
+  {
+    "word": "Wo",
+    "part": "Adv.",
+    "example": "ist die Post?"
+  },
+  {
+    "word": "Woche",
+    "part": "Subst.",
+    "example": "-e"
+  },
+  {
+    "word": "Wochentag",
+    "part": "Subst.",
+    "example": "-e der Sonntag"
+  },
+  {
+    "word": "woher",
+    "part": "Adv.",
+    "example": "Woher kommen Sie?"
+  },
+  {
+    "word": "wohin",
+    "part": "Adv.",
+    "example": "Wohin fährt dieser Bus?"
+  },
+  {
+    "word": "Wohin",
+    "part": "Adv.",
+    "example": "wollen Sie am Wochenende?"
+  },
+  {
+    "word": "wohnen",
+    "part": "Verb",
+    "example": "Ich wohne in München."
+  },
+  {
+    "word": "Wohnung",
+    "part": "Subst.",
+    "example": "-en Seit wann haben Sie diese Wohnung?"
+  },
+  {
+    "word": "Wollen",
+    "part": "Subst.",
+    "example": "wir Karten spielen?"
+  },
+  {
+    "word": "wollen",
+    "part": "Verb",
+    "example": "Wollen Sie einen Kaffee trinken?"
+  },
+  {
+    "word": "Wort",
+    "part": "Subst.",
+    "example": "-ö, er/-e Ich kenne das Wort nicht.wunderbar Das Essen schmeckt wunderbar."
+  },
+  {
+    "word": "Wortbildung",
+    "part": "Subst.",
+    "example": "erschließen lassen."
+  },
+  {
+    "word": "zahlen",
+    "part": "Verb",
+    "example": "Zahlen, bitte!"
+  },
+  {
+    "word": "Zeit",
+    "part": "Subst.",
+    "example": "Ich habe heute keine Zeit."
+  },
+  {
+    "word": "Zeitung",
+    "part": "Subst.",
+    "example": "-en Ich lese gern Zeitung."
+  },
+  {
+    "word": "zentrale",
+    "part": "Adv.",
+    "example": "des Deutschen Volkshochschulverbands, Frankfurt,"
+  },
+  {
+    "word": "Zigarette",
+    "part": "Subst.",
+    "example": "-n Wie teuer sind die Zigaretten?"
+  },
+  {
+    "word": "Zimmer",
+    "part": "Subst.",
+    "example": "– Das Zimmer ist groß."
+  },
+  {
+    "word": "Zoll",
+    "part": "Subst.",
+    "example": "Wir müssen noch durch den Zoll."
+  },
+  {
+    "word": "zu",
+    "part": "Präp.",
+    "example": "sein Die Tür ist zu."
+  },
+  {
+    "word": "zufrieden",
+    "part": "Verb",
+    "example": "Ich bin mit der Wohnung zufrieden."
+  },
+  {
+    "word": "Zug",
+    "part": "Subst.",
+    "example": "-ü, e Ich fahre gern mit dem Zug."
+  },
+  {
+    "word": "zum",
+    "part": "Adv.",
+    "example": "Beispiel/z. B. Viele meiner Verwandten, z. B. meine beiden"
+  },
+  {
+    "word": "Zum",
+    "part": "Subst.",
+    "example": "Schluss gibt er uns allen die Hand."
+  },
+  {
+    "word": "Zunächst",
+    "part": "Subst.",
+    "example": "werden die Themenbereiche genannt, die für das Niveau A1 vor-"
+  },
+  {
+    "word": "zurzeit",
+    "part": "Adv.",
+    "example": "Zurzeit habe ich sehr viel zu tun."
+  },
+  {
+    "word": "zurück",
+    "part": "Adv.",
+    "example": "Einmal Frankfurt und zurück."
+  },
+  {
+    "word": "zusammen",
+    "part": "Adv.",
+    "example": "Sollen wir zusammen essen gehen?"
+  },
+  {
+    "word": "Zusammenstellung",
+    "part": "Subst.",
+    "example": "der einzelnen Wörter an. Die Bedeutung dieser Wörter"
+  },
+  {
+    "word": "zusätzlich",
+    "part": "Adj.",
+    "example": "aufgelistet, neben der Lehrer ist beispielsweise auch die Lehrerin"
+  },
+  {
+    "word": "zweihundert",
+    "part": "Adv.",
+    "example": "Kilometer"
+  },
+  {
+    "word": "zweiten",
+    "part": "Verb",
+    "example": "Stock."
+  },
+  {
+    "word": "zwischen",
+    "part": "Präp.",
+    "example": "Heidelberg liegt zwischen Frankfurt und Stuttgart."
+  },
+  {
+    "word": "Zwischen",
+    "part": "Präp.",
+    "example": "8 und 10 Uhr bin ich zu Hause."
+  },
+  {
+    "word": "Öffne",
+    "part": "Subst.",
+    "example": "im Schlafzimmer das Fenster, bitte!"
+  },
+  {
+    "word": "öffnen",
+    "part": "Verb",
+    "example": "Ich öffne die Tür."
+  },
+  {
+    "word": "Öl",
+    "part": "Subst.",
+    "example": "Den Salat machen wir ohne Öl."
+  },
+  {
+    "word": "über",
+    "part": "Präp.",
+    "example": "Gehen Sie hier über die Straße."
+  },
+  {
+    "word": "übernachten",
+    "part": "Verb",
+    "example": "Du kannst bei mir übernachten."
+  },
+  {
+    "word": "Übernachtung",
+    "part": "Subst.",
+    "example": ". Weibliche Formen werden in der Regel nicht zusätzlich"
+  },
+  {
+    "word": "überweisen",
+    "part": "Verb",
+    "example": "Sie können das Geld auch überweisen."
+  },
+  {
+    "word": "übung",
+    "part": "Adv.",
+    "example": "und Festigung des Wortschatzes. Dazu empfiehlt sich der Besuch eines"
+  }
+]
