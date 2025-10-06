@@ -1,0 +1,15 @@
+{
+  "lessonId": "a1-lesson-02",
+  "exercises": [
+    {
+      "type": "translate",
+      "question": "This is my friend Anna.",
+      "answer": "Das ist meine Freundin Anna."
+    },
+    {
+      "type": "fill",
+      "question": "____ ist mein Freund Peter.",
+      "answer": "Das"
+    }
+  ]
+}

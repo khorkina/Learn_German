@@ -1,0 +1,17 @@
+{
+  "id": "a1-lesson-02",
+  "level": "A1",
+  "number": 2,
+  "title": "Introducing Others",
+  "description": "Learn how to introduce someone else and ask about names",
+  "content": [
+    {
+      "type": "text",
+      "data": "Das ist meine Freundin Anna. Sie kommt aus Berlin."
+    },
+    {
+      "type": "audio",
+      "src": "../audio/a1-lesson-02-dialog.mp3"
+    }
+  ]
+}
