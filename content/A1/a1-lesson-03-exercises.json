@@ -1,0 +1,64 @@
+[
+  {
+    "type": "fill-in",
+    "question": "Ergänze: Ich ____ ein Buch.",
+    "answer": "habe",
+    "explanation": "Das Verb „haben“ in der ersten Person Singular ist „habe“."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Welcher Artikel ist richtig? ____ Lampe.",
+    "options": ["der", "die", "das", "ein"],
+    "correctIndex": 1,
+    "explanation": "„Lampe“ ist feminin, also „die Lampe“."
+  },
+  {
+    "type": "fill-in",
+    "question": "Wie fragt man nach einer Person?",
+    "answer": "Wer ist das?",
+    "explanation": "Mit „Wer“ fragt man nach einer Person."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Was ist der Plural von „Buch“?",
+    "options": ["Bücher", "Buchs", "Büchen", "Büche"],
+    "correctIndex": 0,
+    "explanation": "Die Pluralform ist „Bücher“ mit Umlaut."
+  },
+  {
+    "type": "fill-in",
+    "question": "Ergänze: Wir ____ Deutsch im Kurs.",
+    "answer": "sprechen",
+    "explanation": "Das Verb „sprechen“ wird mit „wir sprechen“ konjugiert."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Welche Aussage ist richtig?",
+    "options": [
+      "Ich hat ein Handy.",
+      "Ich habe ein Handy.",
+      "Ich haben ein Handy.",
+      "Ich habt ein Handy."
+    ],
+    "correctIndex": 1,
+    "explanation": "Die korrekte Form ist „Ich habe ein Handy.“"
+  },
+  {
+    "type": "fill-in",
+    "question": "Wie sagt man: Ich habe keine Frage?",
+    "answer": "Ich habe keine Frage.",
+    "explanation": "Die Verneinung mit „kein“ wird für Nomen ohne Artikel benutzt."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Was bedeutet: ‚Wie heißt das auf Deutsch?‘",
+    "options": [
+      "How are you?",
+      "What is this?",
+      "What is it called in German?",
+      "Where is it?"
+    ],
+    "correctIndex": 2,
+    "explanation": "‚Wie heißt das auf Deutsch?‘ fragt nach der deutschen Bezeichnung."
+  }
+]

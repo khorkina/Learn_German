@@ -18,8 +18,21 @@ async function loadProgressData() {
     const learnedVocab = allVocab.filter(v => v.learned);
     document.getElementById('total-vocab').textContent = learnedVocab.length;
     
-    // Übungsgenauigkeit (Platzhalter)
-    document.getElementById('exercise-accuracy').textContent = '—';
+    // ⬇️ NEU: Übungsgenauigkeit berechnen (Durchschnitt über alle Versuche)
+    try {
+        const exerciseResults = await db.getAll('exercises'); // liest alle gespeicherten Übungsergebnisse
+        if (exerciseResults.length > 0) {
+            const avg = Math.round(
+                exerciseResults.reduce((sum, r) => sum + (Number(r.accuracy) || 0), 0) / exerciseResults.length
+            );
+            document.getElementById('exercise-accuracy').textContent = `${avg}%`;
+        } else {
+            document.getElementById('exercise-accuracy').textContent = '—';
+        }
+    } catch (e) {
+        console.error('Fehler beim Laden der Übungsergebnisse:', e);
+        document.getElementById('exercise-accuracy').textContent = '—';
+    }
     
     // Fortschritt nach Niveau laden
     await loadLevelProgress();

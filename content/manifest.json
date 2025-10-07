@@ -18,6 +18,15 @@
       "file": "a1-lesson-02.json",
       "exercisesFile": "a1-lesson-02-exercises.json"
     },
+      {
+      "id": "a1-lesson-03",
+      "level": "A1",
+      "number": 3,
+      "title": "Im Kurs und im Alltag",
+      "description": "Lerne den Wortschatz und die Grammatik für den Unterricht und einfache Alltagssituationen.",
+      "file": "a1-lesson-03.json",
+      "exercisesFile": "a1-lesson-03-exercises.json"
+    },
     {
       "id": "c1-lesson-01",
       "level": "C1",

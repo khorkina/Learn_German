@@ -1,0 +1,75 @@
+{
+  "title": "Im Kurs und im Alltag",
+  "level": "A1",
+  "number": 3,
+  "grammar": [
+    {
+      "topic": "Bestimmte und unbestimmte Artikel",
+      "explanation": "Im Deutschen gibt es bestimmte (der, die, das) und unbestimmte Artikel (ein, eine, ein). Der Artikel hängt vom Genus des Nomens ab: maskulin, feminin oder neutral.",
+      "examples": [
+        { "german": "der Tisch, die Lampe, das Buch" },
+        { "german": "ein Tisch, eine Lampe, ein Buch" }
+      ]
+    },
+    {
+      "topic": "Pluralformen von Nomen",
+      "explanation": "Die Pluralbildung ist im Deutschen nicht regelmäßig. Häufige Endungen sind -e, -er, -n/-en oder keine Endung. Viele Pluralformen verändern auch den Umlaut.",
+      "examples": [
+        { "german": "der Stuhl – die Stühle" },
+        { "german": "die Lampe – die Lampen" },
+        { "german": "das Heft – die Hefte" }
+      ]
+    },
+    {
+      "topic": "Das Verb „haben“",
+      "explanation": "Das Verb „haben“ bedeutet Besitz oder Zugehörigkeit. Konjugation: ich habe, du hast, er/sie/es hat, wir haben, ihr habt, sie/Sie haben.",
+      "examples": [
+        { "german": "Ich habe ein Buch." },
+        { "german": "Wir haben einen Kurs." }
+      ]
+    },
+    {
+      "topic": "Fragen mit „Was“, „Wer“ und „Wo“",
+      "explanation": "Fragewörter helfen, Informationen zu erfragen: Was – Dinge, Wer – Personen, Wo – Orte.",
+      "examples": [
+        { "german": "Was ist das?" },
+        { "german": "Wer ist das?" },
+        { "german": "Wo ist das Buch?" }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "german": "das Buch" },
+    { "german": "der Stuhl" },
+    { "german": "der Tisch" },
+    { "german": "die Lampe" },
+    { "german": "das Heft" },
+    { "german": "der Kugelschreiber" },
+    { "german": "das Handy" },
+    { "german": "haben" },
+    { "german": "sein" },
+    { "german": "lernen" },
+    { "german": "sprechen" },
+    { "german": "lesen" },
+    { "german": "schreiben" },
+    { "german": "die Tafel" },
+    { "german": "der Lehrer / die Lehrerin" },
+    { "german": "der Schüler / die Schülerin" },
+    { "german": "die Aufgabe" },
+    { "german": "die Sprache" },
+    { "german": "die Frage" },
+    { "german": "die Antwort" }
+  ],
+  "phrases": [
+    { "german": "Was ist das?" },
+    { "german": "Das ist ein Buch." },
+    { "german": "Ich habe eine Frage." },
+    { "german": "Ich verstehe das nicht." },
+    { "german": "Können Sie das wiederholen?" },
+    { "german": "Wie heißt das auf Deutsch?" },
+    { "german": "Ich habe kein Heft." },
+    { "german": "Wir sprechen Deutsch im Kurs." },
+    { "german": "Ich lerne neue Wörter." },
+    { "german": "Alles klar!" }
+  ]
+}

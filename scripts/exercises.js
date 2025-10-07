@@ -3,6 +3,9 @@ let currentExercises = [];
 let currentQuestionIndex = 0;
 let score = 0;
 
+// ⬇️ НОВОЕ: запоминаем, из какой лекции запущены упражнения
+let currentLesson = null;
+
 document.addEventListener('DOMContentLoaded', async () => {
     await loadExerciseList();
 });
@@ -31,6 +34,9 @@ async function loadExerciseList() {
 
 async function loadExercises(lesson) {
     try {
+        // ⬇️ НОВОЕ: сохраняем текущую лекцию
+        currentLesson = lesson;
+
         const response = await fetch(`../content/${lesson.level}/${lesson.exercisesFile}`);
         currentExercises = await response.json();
         currentQuestionIndex = 0;
@@ -77,7 +83,6 @@ function showQuestion() {
             <button class="btn btn-primary" onclick="checkAnswer()">Antwort prüfen</button>
         `;
         
-        // Allow Enter key to submit
         setTimeout(() => {
             const input = document.getElementById('answer-input');
             if (input) {
@@ -103,7 +108,7 @@ function showQuestion() {
         contentDiv.appendChild(choicesDiv);
         
         actionsDiv.innerHTML = `
-            <button class="btn btn-primary" onclick="checkMultipleChoice()">Antwort prüfen</button>
+            <button class="btn btn-primary" onclick="checkMultipleChoice()">Ответ prüfen</button>
         `;
     }
 }
@@ -180,10 +185,25 @@ function nextQuestion() {
     showQuestion();
 }
 
-function showResults() {
+async function showResults() {
     const percentage = Math.round((score / currentExercises.length) * 100);
     const contentDiv = document.getElementById('exercise-content');
     const actionsDiv = document.getElementById('exercise-actions');
+
+    // ⬇️ НОВОЕ: сохраняем результат попытки в IndexedDB
+    try {
+        await db.saveExerciseResult(
+            `${(currentLesson && currentLesson.id) ? currentLesson.id : 'unknown'}_${Date.now()}`,
+            {
+                lessonId: currentLesson ? currentLesson.id : null,
+                correct: score,
+                total: currentExercises.length,
+                accuracy: percentage
+            }
+        );
+    } catch (e) {
+        console.error('Fehler beim Speichern des Übungsergebnisses:', e);
+    }
     
     contentDiv.innerHTML = `
         <div style="text-align: center; padding: var(--space-2xl);">
