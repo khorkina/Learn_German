@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Practice German with interactive exercises">
-    <title>Exercises - Learn German Daily</title>
+    <meta name="description" content="Übe Deutsch mit interaktiven Aufgaben">
+    <title>Übungen - Deutsch lernen täglich</title>
     <link rel="stylesheet" href="../styles/tokens.css">
     <link rel="stylesheet" href="../styles/main.css">
     <link rel="stylesheet" href="../styles/pages.css">
@@ -12,33 +12,32 @@
 <body>
     <header class="header">
         <nav class="nav">
-            <a href="../index.html" class="logo">Learn German</a>
-            <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+            <a href="../index.html" class="logo">Deutsch lernen</a>
+            <button class="nav-toggle" aria-label="Navigation umschalten">☰</button>
             <ul class="nav-menu">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="levels.html">Levels</a></li>
-                <li><a href="daily-lesson.html">Daily Lesson</a></li>
-                <li><a href="library.html">Library</a></li>
-                <li><a href="exercises.html" class="active">Exercises</a></li>
-                <li><a href="progress.html">Progress</a></li>
-                <li><a href="words.html">Words</a></li>
-                
+                <li><a href="../index.html">Startseite</a></li>
+                <li><a href="levels.html">Niveaustufen</a></li>
+                <li><a href="daily-lesson.html">Tägliche Lektion</a></li>
+                <li><a href="library.html">Bibliothek</a></li>
+                <li><a href="exercises.html" class="active">Übungen</a></li>
+                <li><a href="progress.html">Fortschritt</a></li>
+                <li><a href="words.html">Wörter</a></li>
             </ul>
         </nav>
     </header>
 
     <main class="main">
         <div class="breadcrumbs">
-            <a href="../index.html">Home</a>
+            <a href="../index.html">Startseite</a>
             <span>/</span>
-            <span>Exercises</span>
+            <span>Übungen</span>
         </div>
 
-        <h1 class="page-title">Practice Exercises</h1>
+        <h1 class="page-title">Übungsaufgaben</h1>
         
         <div class="exercise-container" id="exercise-container">
             <div class="exercise-header">
-                <h2 id="exercise-title">Select a lesson to practice</h2>
+                <h2 id="exercise-title">Wähle eine Lektion zum Üben</h2>
                 <div class="exercise-progress">
                     <span id="current-question">0</span> / <span id="total-questions">0</span>
                 </div>
@@ -46,9 +45,9 @@
 
             <div class="exercise-content" id="exercise-content">
                 <div class="exercise-selector">
-                    <p>Choose exercises from your lessons:</p>
+                    <p>Wähle Übungen aus deinen Lektionen:</p>
                     <div id="exercise-list" class="exercise-list">
-                        <!-- Exercise options will load here -->
+                        <!-- Übungsoptionen werden hier geladen -->
                     </div>
                 </div>
             </div>
@@ -56,18 +55,18 @@
             <div class="exercise-feedback" id="exercise-feedback"></div>
 
             <div class="exercise-actions" id="exercise-actions">
-                <!-- Action buttons will appear here -->
+                <!-- Aktionsschaltflächen erscheinen hier -->
             </div>
         </div>
     </main>
 
     <footer class="footer">
         <nav class="footer-nav">
-            <a href="about.html">About</a>
-            <a href="privacy.html">Privacy</a>
-            <a href="contact.html">Contact</a>
+            <a href="about.html">Über</a>
+            <a href="privacy.html">Datenschutz</a>
+            <a href="contact.html">Kontakt</a>
         </nav>
-        <p>&copy; 2025 Learn German Daily</p>
+        <p>&copy; 2025 Deutsch lernen täglich</p>
     </footer>
 
     <script src="../scripts/db.js"></script>

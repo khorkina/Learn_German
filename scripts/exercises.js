@@ -21,7 +21,7 @@ async function loadExerciseList() {
             option.className = 'exercise-option';
             option.innerHTML = `
                 <h3>${lesson.title}</h3>
-                <p>${lesson.level} - Lesson ${lesson.number}</p>
+                <p>${lesson.level} - Lektion ${lesson.number}</p>
             `;
             option.addEventListener('click', () => loadExercises(lesson));
             exerciseList.appendChild(option);
@@ -36,13 +36,13 @@ async function loadExercises(lesson) {
         currentQuestionIndex = 0;
         score = 0;
         
-        document.getElementById('exercise-title').textContent = `${lesson.title} - Exercises`;
+        document.getElementById('exercise-title').textContent = `${lesson.title} - Übungen`;
         document.getElementById('total-questions').textContent = currentExercises.length;
         
         showQuestion();
     } catch (error) {
         console.error('Error loading exercises:', error);
-        alert('Error loading exercises. Please try again.');
+        alert('Fehler beim Laden der Übungen. Bitte versuche es erneut.');
     }
 }
 
@@ -69,12 +69,12 @@ function showQuestion() {
             <input type="text" 
                    class="exercise-input" 
                    id="answer-input" 
-                   placeholder="Type your answer..."
+                   placeholder="Antwort eingeben..."
                    autocomplete="off">
         `;
         
         actionsDiv.innerHTML = `
-            <button class="btn btn-primary" onclick="checkAnswer()">Check Answer</button>
+            <button class="btn btn-primary" onclick="checkAnswer()">Antwort prüfen</button>
         `;
         
         // Allow Enter key to submit
@@ -103,7 +103,7 @@ function showQuestion() {
         contentDiv.appendChild(choicesDiv);
         
         actionsDiv.innerHTML = `
-            <button class="btn btn-primary" onclick="checkMultipleChoice()">Check Answer</button>
+            <button class="btn btn-primary" onclick="checkMultipleChoice()">Antwort prüfen</button>
         `;
     }
 }
@@ -133,22 +133,22 @@ function checkAnswer() {
     if (isCorrect) {
         score++;
         feedbackDiv.className = 'exercise-feedback show correct';
-        feedbackDiv.innerHTML = '✓ Correct! ' + (exercise.explanation || '');
+        feedbackDiv.innerHTML = '✓ Richtig! ' + (exercise.explanation || '');
     } else {
         feedbackDiv.className = 'exercise-feedback show incorrect';
-        feedbackDiv.innerHTML = `✗ Incorrect. The correct answer is: <strong>${exercise.answer}</strong>` + 
+        feedbackDiv.innerHTML = `✗ Falsch. Die richtige Antwort ist: <strong>${exercise.answer}</strong>` + 
             (exercise.explanation ? `<br>${exercise.explanation}` : '');
     }
     
     const actionsDiv = document.getElementById('exercise-actions');
     actionsDiv.innerHTML = `
-        <button class="btn btn-primary" onclick="nextQuestion()">Next Question</button>
+        <button class="btn btn-primary" onclick="nextQuestion()">Nächste Frage</button>
     `;
 }
 
 function checkMultipleChoice() {
     if (selectedChoiceIndex === null) {
-        alert('Please select an answer first.');
+        alert('Bitte wähle zuerst eine Antwort aus.');
         return;
     }
     
@@ -161,16 +161,16 @@ function checkMultipleChoice() {
     if (isCorrect) {
         score++;
         feedbackDiv.className = 'exercise-feedback show correct';
-        feedbackDiv.innerHTML = '✓ Correct! ' + (exercise.explanation || '');
+        feedbackDiv.innerHTML = '✓ Richtig! ' + (exercise.explanation || '');
     } else {
         feedbackDiv.className = 'exercise-feedback show incorrect';
-        feedbackDiv.innerHTML = `✗ Incorrect. The correct answer is: <strong>${exercise.options[exercise.correctIndex]}</strong>` + 
+        feedbackDiv.innerHTML = `✗ Falsch. Die richtige Antwort ist: <strong>${exercise.options[exercise.correctIndex]}</strong>` + 
             (exercise.explanation ? `<br>${exercise.explanation}` : '');
     }
     
     const actionsDiv = document.getElementById('exercise-actions');
     actionsDiv.innerHTML = `
-        <button class="btn btn-primary" onclick="nextQuestion()">Next Question</button>
+        <button class="btn btn-primary" onclick="nextQuestion()">Nächste Frage</button>
     `;
 }
 
@@ -187,17 +187,17 @@ function showResults() {
     
     contentDiv.innerHTML = `
         <div style="text-align: center; padding: var(--space-2xl);">
-            <h2>Exercise Complete!</h2>
+            <h2>Übung abgeschlossen!</h2>
             <div class="stat-value">${score} / ${currentExercises.length}</div>
             <p style="font-size: var(--font-size-lg); margin-top: var(--space-md);">
-                You scored ${percentage}%
+                Dein Ergebnis: ${percentage}%
             </p>
         </div>
     `;
     
     actionsDiv.innerHTML = `
-        <button class="btn btn-primary" onclick="location.reload()">Try Another Exercise</button>
-        <a href="progress.html" class="btn btn-secondary">View Progress</a>
+        <button class="btn btn-primary" onclick="location.reload()">Weitere Übung starten</button>
+        <a href="progress.html" class="btn btn-secondary">Fortschritt anzeigen</a>
     `;
     
     document.getElementById('exercise-feedback').className = 'exercise-feedback';

@@ -1,30 +1,30 @@
-// Progress page logic
+// Fortschrittsseite Logik
 document.addEventListener('DOMContentLoaded', async () => {
     await loadProgressData();
 });
 
 async function loadProgressData() {
-    // Load streak
+    // Lernserie (Streak)
     const streak = await db.getStreak();
     document.getElementById('streak-days').textContent = streak;
     
-    // Load lesson progress
+    // Lektionen-Fortschritt
     const allProgress = await db.getAllProgress();
     const completedLessons = allProgress.filter(p => p.completed);
     document.getElementById('total-lessons').textContent = completedLessons.length;
     
-    // Load vocabulary
+    // Vokabular laden
     const allVocab = await db.getAllVocabulary();
     const learnedVocab = allVocab.filter(v => v.learned);
     document.getElementById('total-vocab').textContent = learnedVocab.length;
     
-    // Calculate exercise accuracy (placeholder)
+    // Übungsgenauigkeit (Platzhalter)
     document.getElementById('exercise-accuracy').textContent = '—';
     
-    // Load level progress
+    // Fortschritt nach Niveau laden
     await loadLevelProgress();
     
-    // Load recent activity
+    // Letzte Aktivitäten laden
     await loadRecentActivity();
 }
 
@@ -57,7 +57,7 @@ async function loadLevelProgress() {
                 <div class="level-progress-fill" style="width: ${percentage}%"></div>
             </div>
             <div class="level-stats">
-                <span>${completed} / ${levelLessons.length} lessons completed</span>
+                <span>${completed} / ${levelLessons.length} Lektionen abgeschlossen</span>
             </div>
         `;
         
@@ -70,14 +70,14 @@ async function loadRecentActivity() {
     const manifest = await loadManifest();
     const activityDiv = document.getElementById('recent-activity-list');
     
-    // Sort by timestamp, most recent first
+    // Nach Zeitstempel sortieren (neueste zuerst)
     const recentProgress = allProgress
         .filter(p => p.completed)
         .sort((a, b) => b.timestamp - a.timestamp)
         .slice(0, 10);
     
     if (recentProgress.length === 0) {
-        activityDiv.innerHTML = '<p style="text-align: center; color: var(--color-text-secondary); padding: var(--space-lg);">No activity yet. Complete your first lesson to get started!</p>';
+        activityDiv.innerHTML = '<p style="text-align: center; color: var(--color-text-secondary); padding: var(--space-lg);">Noch keine Aktivitäten. Schließe deine erste Lektion ab, um zu beginnen!</p>';
         return;
     }
     
@@ -90,7 +90,7 @@ async function loadRecentActivity() {
         item.innerHTML = `
             <div>
                 <div class="activity-description">
-                    Completed <strong>${lesson.title}</strong>
+                    Abgeschlossen: <strong>${lesson.title}</strong>
                 </div>
                 <div class="activity-date">${formatDate(progress.timestamp)}</div>
             </div>
@@ -106,7 +106,7 @@ async function loadManifest() {
         const response = await fetch('../content/manifest.json');
         return await response.json();
     } catch (error) {
-        console.error('Error loading manifest:', error);
+        console.error('Fehler beim Laden des Manifests:', error);
         return { lessons: [] };
     }
 }

@@ -42,7 +42,7 @@ async function displayLessons(lessons) {
     libraryGrid.innerHTML = '';
     
     if (lessons.length === 0) {
-        libraryGrid.innerHTML = '<p style="text-align: center; color: var(--color-text-secondary);">No lessons available for this level yet.</p>';
+        libraryGrid.innerHTML = '<p style="text-align: center; color: var(--color-text-secondary);">Für dieses Niveau sind noch keine Lektionen verfügbar.</p>';
         return;
     }
     
@@ -58,11 +58,11 @@ async function displayLessons(lessons) {
         item.innerHTML = `
             <div class="library-item-header">
                 <h3>${lesson.title}</h3>
-                ${isCompleted ? '<span class="completion-badge">✓ Completed</span>' : ''}
+                ${isCompleted ? '<span class="completion-badge">✓ Abgeschlossen</span>' : ''}
             </div>
             <p>
                 <span class="level-badge">${lesson.level}</span>
-                Lesson ${lesson.number}
+                Lektion ${lesson.number}
                 ${lesson.description ? ` - ${lesson.description}` : ''}
             </p>
         `;

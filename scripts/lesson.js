@@ -63,7 +63,7 @@ async function loadLessonContent(lesson) {
         
         document.getElementById('lesson-title').textContent = lessonData.title;
         document.getElementById('lesson-level').textContent = lesson.level;
-        document.getElementById('lesson-number').textContent = `Lesson ${lesson.number}`;
+        document.getElementById('lesson-number').textContent = `Lektion ${lesson.number}`;
         
         const contentDiv = document.getElementById('lesson-content');
         contentDiv.innerHTML = '';
@@ -73,14 +73,14 @@ async function loadLessonContent(lesson) {
             const grammarSection = document.createElement('div');
             grammarSection.className = 'lesson-section';
             grammarSection.innerHTML = `
-                <h2>Grammar</h2>
+                <h2>Grammatik</h2>
                 ${lessonData.grammar.map(item => `
                     <h3>${item.topic}</h3>
                     <p>${item.explanation}</p>
                     ${item.examples ? item.examples.map(ex => `
                         <div class="example-box">
                             <div class="example-german">${ex.german}</div>
-                            <div class="example-english">${ex.english}</div>
+                            <div class="example-english">${ex.english || ''}</div>
                         </div>
                     `).join('') : ''}
                 `).join('')}
@@ -93,12 +93,12 @@ async function loadLessonContent(lesson) {
             const vocabSection = document.createElement('div');
             vocabSection.className = 'lesson-section';
             vocabSection.innerHTML = `
-                <h2>Vocabulary</h2>
+                <h2>Wortschatz</h2>
                 <div class="vocab-list">
                     ${lessonData.vocabulary.map(word => `
                         <div class="vocab-item">
                             <span class="vocab-german">${word.german}</span>
-                            <span class="vocab-english">${word.english}</span>
+                            <span class="vocab-english">${word.english || ''}</span>
                         </div>
                     `).join('')}
                 </div>
@@ -110,7 +110,7 @@ async function loadLessonContent(lesson) {
                 await db.saveVocabulary({
                     id: `${lesson.id}_${word.german}`,
                     german: word.german,
-                    english: word.english,
+                    english: word.english, // оставляем поле как есть (может быть undefined)
                     level: lesson.level,
                     lessonId: lesson.id,
                     learned: false
@@ -123,11 +123,11 @@ async function loadLessonContent(lesson) {
             const phrasesSection = document.createElement('div');
             phrasesSection.className = 'lesson-section';
             phrasesSection.innerHTML = `
-                <h2>Useful Phrases</h2>
+                <h2>Nützliche Ausdrücke</h2>
                 ${lessonData.phrases.map(phrase => `
                     <div class="example-box">
                         <div class="example-german">${phrase.german}</div>
-                        <div class="example-english">${phrase.english}</div>
+                        <div class="example-english">${phrase.english || ''}</div>
                     </div>
                 `).join('')}
             `;
@@ -136,7 +136,7 @@ async function loadLessonContent(lesson) {
         
     } catch (error) {
         console.error('Error loading lesson content:', error);
-        contentDiv.innerHTML = '<p>Error loading lesson. Please try again.</p>';
+        contentDiv.innerHTML = '<p>Fehler beim Laden der Lektion. Bitte versuche es erneut.</p>';
     }
 }
 
@@ -167,13 +167,13 @@ async function completeLesson() {
         }
     }
     
-    alert('Lesson completed! Great work!');
+    alert('Lektion abgeschlossen! Gut gemacht!');
     window.location.href = 'daily-lesson.html';
 }
 
 function showNoLessons() {
-    document.getElementById('lesson-title').textContent = 'No lessons available';
-    document.getElementById('lesson-content').innerHTML = '<p>Check back soon for new lessons!</p>';
+    document.getElementById('lesson-title').textContent = 'Keine Lektionen verfügbar';
+    document.getElementById('lesson-content').innerHTML = '<p>Schau bald wieder vorbei für neue Lektionen!</p>';
     document.getElementById('complete-lesson').style.display = 'none';
 }
 

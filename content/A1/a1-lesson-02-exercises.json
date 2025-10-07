@@ -1,13 +1,13 @@
 [
   {
     "type": "fill-in",
-    "question": "Complete: Ich ____ Anna Müller. (My name is Anna Müller)",
+    "question": "Ergänze: Ich ____ Anna Müller.",
     "answer": "heiße",
-    "explanation": "The verb 'heißen' means 'to be called'. In first person: ich heiße."
+    "explanation": "Das Verb „heißen“ bedeutet „genannt werden“. In der ersten Person: ich heiße."
   },
   {
     "type": "multiple-choice",
-    "question": "Choose the correct sentence to say where you live:",
+    "question": "Wähle den richtigen Satz, um zu sagen, wo du wohnst:",
     "options": [
       "Ich komme Berlin.",
       "Ich wohne in Berlin.",
@@ -16,17 +16,17 @@
     ],
     "correctIndex": 1,
     "answer": "Ich wohne in Berlin.",
-    "explanation": "'wohnen in' means 'to live in'. The correct form is 'Ich wohne in Berlin.'"
+    "explanation": "„wohnen in“ bedeutet „in ... wohnen“. Der richtige Satz ist: Ich wohne in Berlin."
   },
   {
     "type": "fill-in",
-    "question": "Complete: Ich komme ____ Deutschland.",
+    "question": "Ergänze: Ich komme ____ Deutschland.",
     "answer": "aus",
-    "explanation": "The preposition 'aus' means 'from' when talking about origin."
+    "explanation": "Die Präposition „aus“ wird verwendet, wenn man über die Herkunft spricht."
   },
   {
     "type": "multiple-choice",
-    "question": "Which question means 'What is your profession?'",
+    "question": "Welche Frage bedeutet: Was ist Ihr Beruf?",
     "options": [
       "Wie heißen Sie?",
       "Wo wohnen Sie?",
@@ -35,17 +35,17 @@
     ],
     "correctIndex": 2,
     "answer": "Was sind Sie von Beruf?",
-    "explanation": "‘Was sind Sie von Beruf?’ asks about someone's profession or job."
+    "explanation": "„Was sind Sie von Beruf?“ fragt nach dem Beruf einer Person."
   },
   {
     "type": "fill-in",
-    "question": "Complete: Ich arbeite als ____ . (I work as a teacher)",
-    "answer": "Lehrer" ,
-    "explanation": "‘arbeiten als’ means ‘to work as’. Example: Ich arbeite als Lehrer / Lehrerin."
+    "question": "Ergänze: Ich arbeite als ____ .",
+    "answer": "Lehrer",
+    "explanation": "„arbeiten als“ bedeutet „als ... arbeiten“. Beispiel: Ich arbeite als Lehrer / Lehrerin."
   },
   {
     "type": "multiple-choice",
-    "question": "Which sentence correctly describes appearance?",
+    "question": "Welcher Satz beschreibt das Aussehen richtig?",
     "options": [
       "Sie hat braune Haare und blaue Augen.",
       "Sie ist braune Haare und blaue Augen.",
@@ -54,17 +54,17 @@
     ],
     "correctIndex": 0,
     "answer": "Sie hat braune Haare und blaue Augen.",
-    "explanation": "Use 'haben' for features (to have): Sie hat braune Haare."
+    "explanation": "Mit „haben“ beschreibt man Merkmale: Sie hat braune Haare."
   },
   {
     "type": "fill-in",
-    "question": "Complete: Er ist sehr ____ . (He is very friendly)",
+    "question": "Ergänze: Er ist sehr ____ .",
     "answer": "freundlich",
-    "explanation": "Adjectives like 'freundlich' (friendly) follow 'sein' without endings."
+    "explanation": "Adjektive wie „freundlich“ stehen nach „sein“ ohne Endung."
   },
   {
     "type": "multiple-choice",
-    "question": "Choose the correct answer: Wie alt bist du?",
+    "question": "Wähle die richtige Antwort: Wie alt bist du?",
     "options": [
       "Ich bin alt.",
       "Ich bin 25 Jahre alt.",
@@ -73,17 +73,17 @@
     ],
     "correctIndex": 1,
     "answer": "Ich bin 25 Jahre alt.",
-    "explanation": "To say age, use 'sein': Ich bin ... Jahre alt."
+    "explanation": "Um das Alter zu sagen, verwendet man „sein“: Ich bin ... Jahre alt."
   },
   {
     "type": "fill-in",
-    "question": "Complete: Das ist mein Freund. ____ heißt Lukas.",
+    "question": "Ergänze: Das ist mein Freund. ____ heißt Lukas.",
     "answer": "Er",
-    "explanation": "‘Er’ means 'he'. Pronoun used to refer to masculine nouns like 'Freund'."
+    "explanation": "„Er“ ist das Pronomen für maskuline Nomen wie „Freund“."
   },
   {
     "type": "multiple-choice",
-    "question": "Which sentence is correct?",
+    "question": "Welcher Satz ist richtig?",
     "options": [
       "Ich sind Student.",
       "Ich bin Student.",
@@ -92,6 +92,6 @@
     ],
     "correctIndex": 1,
     "answer": "Ich bin Student.",
-    "explanation": "‘sein’ is used to describe who or what someone is: Ich bin Student."
+    "explanation": "Mit „sein“ beschreibt man, wer oder was jemand ist: Ich bin Student."
   }
 ]

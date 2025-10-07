@@ -1,13 +1,13 @@
 [
   {
     "type": "fill-in",
-    "question": "Complete with the correct Subjunctive II form: Wenn ich Zeit _____ (haben), würde ich kommen.",
+    "question": "Ergänze mit der richtigen Konjunktiv-II-Form: Wenn ich Zeit _____ (haben), würde ich kommen.",
     "answer": "hätte",
-    "explanation": "The Subjunctive II of 'haben' is 'hätte' (from 'hatte' with umlaut)."
+    "explanation": "Der Konjunktiv II von „haben“ ist „hätte“."
   },
   {
     "type": "multiple-choice",
-    "question": "Which sentence uses Subjunctive II correctly for a polite request?",
+    "question": "Welcher Satz verwendet den Konjunktiv II richtig für eine höfliche Bitte?",
     "options": [
       "Kannst du mir helfen?",
       "Könntest du mir helfen?",
@@ -15,17 +15,17 @@
       "Du kannst mir helfen."
     ],
     "correctIndex": 1,
-    "explanation": "Könntest (Subjunctive II) is more polite than the indicative 'kannst'."
+    "explanation": "„Könntest“ ist höflicher als der Indikativ „kannst“."
   },
   {
     "type": "fill-in",
-    "question": "Transform to Subjunctive II: Er sagte, er ist krank. → Er sagte, er _____ krank.",
+    "question": "Setze in den Konjunktiv II um: Er sagte, er ist krank. → Er sagte, er _____ krank.",
     "answer": "wäre",
-    "explanation": "In indirect speech with doubt or when forms match indicative, use Subjunctive II: wäre."
+    "explanation": "In der indirekten Rede mit Zweifel oder bei gleichen Formen verwendet man den Konjunktiv II: wäre."
   },
   {
     "type": "multiple-choice",
-    "question": "What is the Subjunctive II form of 'sollen' (should)?",
+    "question": "Wie lautet die Konjunktiv-II-Form von „sollen“?",
     "options": [
       "sollt",
       "sollte",
@@ -33,17 +33,17 @@
       "soll"
     ],
     "correctIndex": 1,
-    "explanation": "The Subjunctive II of 'sollen' is 'sollte', used for recommendations and advice."
+    "explanation": "Der Konjunktiv II von „sollen“ ist „sollte“."
   },
   {
     "type": "fill-in",
-    "question": "Complete the irrealis conditional: Wäre ich früher gekommen, _____ ich ihn getroffen. (hätte/würde)",
+    "question": "Ergänze den irrealen Konditionalsatz: Wäre ich früher gekommen, _____ ich ihn getroffen. (hätte/würde)",
     "answer": "hätte",
-    "explanation": "For past subjunctive (irrealis of past), use 'hätte/wäre + past participle'."
+    "explanation": "Für den irrealen Konjunktiv der Vergangenheit verwendet man „hätte/wäre + Partizip II“."
   },
   {
     "type": "multiple-choice",
-    "question": "Which expresses a hypothetical situation?",
+    "question": "Welche Aussage drückt eine hypothetische Situation aus?",
     "options": [
       "Ich habe viel Geld.",
       "Wenn ich viel Geld hätte...",
@@ -51,30 +51,30 @@
       "Ich werde viel Geld haben."
     ],
     "correctIndex": 1,
-    "explanation": "Subjunctive II with 'wenn' clause expresses contrary-to-fact hypotheticals."
+    "explanation": "Der Konjunktiv II mit „wenn“-Satz drückt eine irreale Bedingung aus."
   },
   {
     "type": "fill-in",
-    "question": "Polite form: Complete with Subjunctive II: _____ Sie mir bitte sagen, wie spät es ist? (können)",
+    "question": "Höfliche Form: Ergänze mit Konjunktiv II: _____ Sie mir bitte sagen, wie spät es ist? (können)",
     "answer": "Könnten",
-    "explanation": "Könnten Sie is the polite Subjunctive II form for requests."
+    "explanation": "„Könnten Sie“ ist die höfliche Konjunktiv-II-Form für Bitten."
   },
   {
     "type": "multiple-choice",
-    "question": "What does 'An deiner Stelle würde ich...' mean?",
+    "question": "Was bedeutet „An deiner Stelle würde ich...“?",
     "options": [
-      "At your place I would...",
-      "In your place I would...",
-      "For your sake I would...",
-      "Instead of you I would..."
+      "An deinem Ort würde ich...",
+      "An deiner Stelle würde ich...",
+      "Für dich würde ich...",
+      "Statt deiner würde ich..."
     ],
     "correctIndex": 1,
-    "explanation": "This idiom means 'In your place/If I were you, I would...'"
+    "explanation": "Diese Wendung bedeutet: Wenn ich du wäre, würde ich..."
   },
   {
     "type": "fill-in",
-    "question": "Complete: Es _____ besser, wenn du früher kämest. (sein in Subjunctive II)",
+    "question": "Ergänze: Es _____ besser, wenn du früher kämest. (sein im Konjunktiv II)",
     "answer": "wäre",
-    "explanation": "Wäre is the Subjunctive II form of sein, used for hypothetical statements."
+    "explanation": "„Wäre“ ist die Konjunktiv-II-Form von „sein“ und wird für hypothetische Aussagen verwendet."
   }
 ]

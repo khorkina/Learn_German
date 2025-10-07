@@ -31,7 +31,7 @@
   function renderPOSOptions(items){
     const pos = Array.from(new Set(items.map(x => x.part || '—'))).sort();
     posFilter.innerHTML =
-      '<option value="all">All</option>' +
+      '<option value="all">Alle</option>' +
       pos.map(p=>`<option value="${p}">${p}</option>`).join('');
   }
 
@@ -52,7 +52,7 @@
     const q = searchInput.value.trim();
     const pos = posFilter.value;
     const filtered = all.filter(x => matches(q,x) && (pos==='all' || (x.part||'—')===pos));
-    stats.textContent = `${filtered.length} / ${all.length} entries`;
+    stats.textContent = `${filtered.length} / ${all.length} Einträge`;
 
     list.innerHTML = filtered.map(item => `
       <article class="word-item">

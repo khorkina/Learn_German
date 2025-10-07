@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Words • A1</title>
+  <title>Wörter • A1</title>
   <link rel="stylesheet" href="../styles/tokens.css" />
   <link rel="stylesheet" href="../styles/main.css" />
   <link rel="stylesheet" href="../styles/pages.css" />
@@ -11,44 +11,44 @@
 <body>
   <header class="header">
     <nav class="nav">
-      <a href="../index.html" class="logo">Learn German</a>
-      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <a href="../index.html" class="logo">Deutsch lernen</a>
+      <button class="nav-toggle" aria-label="Navigation umschalten">☰</button>
       <ul class="nav-menu">
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="levels.html">Levels</a></li>
-        <li><a href="daily-lesson.html">Daily Lesson</a></li>
-        <li><a href="library.html">Library</a></li>
-        <li><a href="exercises.html">Exercises</a></li>
-        <li><a href="progress.html">Progress</a></li>
-        <li><a href="words.html" class="active">Words</a></li>
+        <li><a href="../index.html">Startseite</a></li>
+        <li><a href="levels.html">Niveaustufen</a></li>
+        <li><a href="daily-lesson.html">Tägliche Lektion</a></li>
+        <li><a href="library.html">Bibliothek</a></li>
+        <li><a href="exercises.html">Übungen</a></li>
+        <li><a href="progress.html">Fortschritt</a></li>
+        <li><a href="words.html" class="active">Wörter</a></li>
       </ul>
     </nav>
   </header>
 
   <main class="container page words">
-    <h1 class="page-title">Words</h1>
+    <h1 class="page-title">Wörter</h1>
 
     <div class="card">
       <div class="card-content">
         <div class="toolbar" style="display:flex; gap:12px; flex-wrap:wrap; align-items:center;">
           <label>
-            Level
+            Niveau
             <select id="level-select">
               <option value="A1" selected>A1</option>
-              <option value="A2" disabled>A2 (coming)</option>
-              <option value="B1" disabled>B1 (coming)</option>
-              <option value="B2" disabled>B2 (coming)</option>
-              <option value="C1" disabled>C1 (coming)</option>
+              <option value="A2" disabled>A2 (bald verfügbar)</option>
+              <option value="B1" disabled>B1 (bald verfügbar)</option>
+              <option value="B2" disabled>B2 (bald verfügbar)</option>
+              <option value="C1" disabled>C1 (bald verfügbar)</option>
             </select>
           </label>
           <label>
             Filter
-            <input id="search-input" type="search" placeholder="Search word or example…" />
+            <input id="search-input" type="search" placeholder="Wort oder Beispiel suchen…" />
           </label>
           <label>
-            Part of speech
+            Wortart
             <select id="pos-filter">
-              <option value="all" selected>All</option>
+              <option value="all" selected>Alle</option>
             </select>
           </label>
         </div>
@@ -57,7 +57,7 @@
 
     <section class="card" style="margin-top:16px;">
       <div class="card-content">
-        <div id="stats" class="muted" style="margin-bottom:8px;">Loading…</div>
+        <div id="stats" class="muted" style="margin-bottom:8px;">Wird geladen…</div>
         <div id="words-list" class="wordlist"></div>
       </div>
     </section>
@@ -65,11 +65,11 @@
 
   <footer class="footer">
     <nav class="footer-nav">
-      <a href="about.html">About</a>
-      <a href="privacy.html">Privacy</a>
-      <a href="contact.html">Contact</a>
+      <a href="about.html">Über</a>
+      <a href="privacy.html">Datenschutz</a>
+      <a href="contact.html">Kontakt</a>
     </nav>
-    <p>&copy; 2025 Learn German Daily</p>
+    <p>&copy; 2025 Deutsch lernen täglich</p>
   </footer>
 
   <script src="../scripts/db.js"></script>

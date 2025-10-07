@@ -10,32 +10,32 @@ async function loadLevels() {
     const levels = [
         {
             id: 'A1',
-            name: 'A1 - Beginner',
-            description: 'Start your German journey. Learn basic phrases, introduce yourself, and handle simple everyday situations.',
+            name: 'A1 - Anfänger',
+            description: 'Starte deine Deutschreise. Lerne grundlegende Redemittel, stelle dich vor und meistere einfache Alltagssituationen.',
             lessons: []
         },
         {
             id: 'A2',
-            name: 'A2 - Elementary',
-            description: 'Build on basics. Discuss familiar topics, describe experiences, and understand common phrases.',
+            name: 'A2 - Grundstufe',
+            description: 'Baue auf den Grundlagen auf. Sprich über vertraute Themen, beschreibe Erfahrungen und verstehe häufige Wendungen.',
             lessons: []
         },
         {
             id: 'B1',
-            name: 'B1 - Intermediate',
-            description: 'Handle most travel situations. Describe experiences, dreams, and explain opinions on familiar matters.',
+            name: 'B1 - Mittelstufe',
+            description: 'Bewältige die meisten Reisesituationen. Beschreibe Erfahrungen und Träume und begründe Meinungen zu vertrauten Themen.',
             lessons: []
         },
         {
             id: 'B2',
-            name: 'B2 - Upper Intermediate',
-            description: 'Understand complex texts. Interact fluently with native speakers and express yourself clearly on many topics.',
+            name: 'B2 - Obere Mittelstufe',
+            description: 'Verstehe komplexe Texte. Unterhalte dich flüssig mit Muttersprachlern und drücke dich klar zu vielen Themen aus.',
             lessons: []
         },
         {
             id: 'C1',
-            name: 'C1 - Advanced',
-            description: 'Express yourself fluently. Understand demanding texts and use the language effectively for social, academic, and professional purposes.',
+            name: 'C1 - Fortgeschritten',
+            description: 'Drücke dich fließend aus. Verstehe anspruchsvolle Texte und nutze die Sprache sicher in sozialen, akademischen und beruflichen Kontexten.',
             lessons: []
         }
     ];
@@ -68,8 +68,8 @@ async function loadLevels() {
                 <div class="level-progress-fill" style="width: ${percentage}%"></div>
             </div>
             <div class="level-stats">
-                <span>${completed} / ${levelLessons.length} lessons</span>
-                <span>${percentage}% complete</span>
+                <span>${completed} / ${levelLessons.length} Lektionen</span>
+                <span>${percentage}% abgeschlossen</span>
             </div>
         `;
         

@@ -1,19 +1,19 @@
 [
   {
     "type": "fill-in",
-    "question": "How do you say 'Hello' in German?",
+    "question": "Wie sagt man „Hello“ auf Deutsch?",
     "answer": "Hallo",
-    "explanation": "Hallo is the most common informal greeting in German."
+    "explanation": "„Hallo“ ist die häufigste informelle Begrüßung im Deutschen."
   },
   {
     "type": "fill-in",
-    "question": "Complete: Ich ____ Maria. (My name is Maria)",
+    "question": "Ergänze: Ich ____ Maria.",
     "answer": "heiße",
-    "explanation": "The verb 'heißen' means 'to be called/named'. In first person: ich heiße."
+    "explanation": "Das Verb „heißen“ bedeutet „genannt werden“. In der ersten Person: ich heiße."
   },
   {
     "type": "multiple-choice",
-    "question": "Which greeting is appropriate in the morning?",
+    "question": "Welche Begrüßung ist am Morgen passend?",
     "options": [
       "Guten Abend",
       "Guten Morgen",
@@ -21,17 +21,17 @@
       "Auf Wiedersehen"
     ],
     "correctIndex": 1,
-    "explanation": "Guten Morgen means 'Good morning' and is used in the morning hours."
+    "explanation": "„Guten Morgen“ wird morgens verwendet."
   },
   {
     "type": "fill-in",
-    "question": "How do you ask 'Where do you come from?' formally in German?",
+    "question": "Wie fragt man formell: Woher kommen Sie?",
     "answer": "Woher kommen Sie",
-    "explanation": "Use 'Woher kommen Sie?' for the formal question about origin."
+    "explanation": "„Woher kommen Sie?“ ist die formelle Frage nach der Herkunft."
   },
   {
     "type": "multiple-choice",
-    "question": "What is the correct conjugation: Ich ____ aus Deutschland.",
+    "question": "Was ist die richtige Konjugation: Ich ____ aus Deutschland.",
     "options": [
       "kommt",
       "kommen",
@@ -39,17 +39,17 @@
       "kommst"
     ],
     "correctIndex": 2,
-    "explanation": "'Ich komme' is the first person singular form of 'kommen' (to come)."
+    "explanation": "„Ich komme“ ist die erste Person Singular von „kommen“."
   },
   {
     "type": "fill-in",
-    "question": "Complete: Wie geht ____ Ihnen? (How are you - formal)",
+    "question": "Ergänze: Wie geht ____ Ihnen?",
     "answer": "es",
-    "explanation": "The phrase 'Wie geht es Ihnen?' is the formal way to ask how someone is."
+    "explanation": "„Wie geht es Ihnen?“ ist die formelle Art zu fragen, wie es jemandem geht."
   },
   {
     "type": "multiple-choice",
-    "question": "Which is the informal way to say goodbye?",
+    "question": "Welche Form ist die informelle Verabschiedung?",
     "options": [
       "Auf Wiedersehen",
       "Guten Tag",
@@ -57,12 +57,12 @@
       "Freut mich"
     ],
     "correctIndex": 2,
-    "explanation": "Tschüss is the informal goodbye, while Auf Wiedersehen is formal."
+    "explanation": "„Tschüss“ ist die informelle Verabschiedung, während „Auf Wiedersehen“ formell ist."
   },
   {
     "type": "fill-in",
-    "question": "Complete: Ich ____ in Berlin. (I live in Berlin)",
+    "question": "Ergänze: Ich ____ in Berlin.",
     "answer": "wohne",
-    "explanation": "The verb 'wohnen' means 'to live'. First person: ich wohne."
+    "explanation": "Das Verb „wohnen“ bedeutet „leben“. In der ersten Person: ich wohne."
   }
 ]
