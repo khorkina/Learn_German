@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v5-2025-10-06';
+const CACHE_VERSION = 'v6-2025-10-07'; // ⚠️ меняй при каждом релизе
 const STATIC_CACHE = `learn-german-static-${CACHE_VERSION}`;
 const RUNTIME_CACHE = `learn-german-runtime-${CACHE_VERSION}`;
 
@@ -13,13 +13,13 @@ const STATIC_ASSETS = [
   './scripts/exercises.js', './scripts/progress.js'
 ];
 
+// ✅ автообновление воркера
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(STATIC_CACHE).then(cache =>
       cache.addAll(STATIC_ASSETS.map(u => new Request(u, { cache: 'reload' })))
     )
   );
-  // сразу активироваться
   self.skipWaiting();
 });
 
@@ -31,15 +31,20 @@ self.addEventListener('activate', (event) => {
       }))
     )
   );
-  // сразу взять контроль над клиентами
   self.clients.claim();
 });
 
-// Хелпер: проверка на контент JSON (манифест/уроки)
+// 🔎 Helper: нормализуем список статических URL под текущий scope (важно для GitHub Pages)
+const staticURLs = new Set(
+  STATIC_ASSETS.map(u => new URL(u, self.registration.scope).href)
+);
+
+// 📄 Контент JSON (манифест/уроки) — network first
 const isContentJSON = (url) => {
   try {
     const u = new URL(url);
-    return u.pathname.startsWith('/content/') && u.pathname.endsWith('.json');
+    // было startsWith('/content/'): ломается на GitHub Pages.
+    return u.pathname.includes('/content/') && u.pathname.endsWith('.json');
   } catch { return false; }
 };
 
@@ -47,7 +52,10 @@ self.addEventListener('fetch', (event) => {
   const req = event.request;
   const url = new URL(req.url);
 
-  // 1) Для JSON контента — Network First (чтобы видеть новые уроки сразу)
+  // Только GET к своему origin обрабатываем кэшем
+  if (req.method !== 'GET' || url.origin !== location.origin) return;
+
+  // 1) JSON-контент — Network First
   if (isContentJSON(req.url)) {
     event.respondWith((async () => {
       try {
@@ -57,31 +65,42 @@ self.addEventListener('fetch', (event) => {
         return net;
       } catch {
         const cached = await caches.match(req);
-        if (cached) return cached;
-        // Последний шанс: 404, если и в кэше нет
-        return new Response('Not found', { status: 404 });
+        return cached || new Response('Not found', { status: 404 });
       }
     })());
     return;
   }
 
-  // 2) Для статических файлов — Stale-While-Revalidate
-  if (req.method === 'GET' && (url.origin === location.origin)) {
+  // 2) Статические ассеты из списка — SWR в STATIC_CACHE
+  if (staticURLs.has(req.url)) {
     event.respondWith((async () => {
       const cached = await caches.match(req);
-      const fetchPromise = (async () => {
+      const updatePromise = (async () => {
         try {
           const net = await fetch(req);
-          const cache = await caches.open(STATIC_CACHE);
-          cache.put(req, net.clone());
-          return net;
-        } catch { /* offline */ }
+          if (net && net.ok) {
+            const cache = await caches.open(STATIC_CACHE);
+            await cache.put(req, net.clone());
+          }
+        } catch { /* офлайн — ничего */ }
       })();
-      return cached || fetchPromise || fetch(req);
+      return cached || updatePromise.then(() => caches.match(req)) || fetch(req);
     })());
     return;
   }
 
-  // 3) Всё остальное — напрямую в сеть
-  // (или добавь нужную стратегию под API)
+  // 3) Остальные локальные GET — SWR в RUNTIME_CACHE
+  event.respondWith((async () => {
+    const cached = await caches.match(req);
+    const updatePromise = (async () => {
+      try {
+        const net = await fetch(req);
+        if (net && net.ok) {
+          const cache = await caches.open(RUNTIME_CACHE);
+          await cache.put(req, net.clone());
+        }
+      } catch { /* офлайн */ }
+    })();
+    return cached || updatePromise.then(() => caches.match(req)) || fetch(req);
+  })());
 });
