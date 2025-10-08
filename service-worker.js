@@ -55,7 +55,21 @@ self.addEventListener('fetch', (event) => {
   // Только GET к своему origin обрабатываем кэшем
   if (req.method !== 'GET' || url.origin !== location.origin) return;
 
-  // 1) JSON-контент — Network First
+  // 🔸 0) Если это медиапоток c Range — всегда напрямую в сеть (никакого кэша!)
+  if (req.headers.has('range')) {
+    event.respondWith(fetch(req)); // пусть сервер отдаёт 206 Partial Content
+    return;
+  }
+
+  // 🔎 помощники
+  const isMediaFile = (u) => {
+    try {
+      const p = new URL(u).pathname.toLowerCase();
+      return p.endsWith('.mp3') || p.endsWith('.ogg') || p.endsWith('.wav');
+    } catch { return false; }
+  };
+
+  // 1) JSON-контент — Network First (как было)
   if (isContentJSON(req.url)) {
     event.respondWith((async () => {
       try {
@@ -71,7 +85,24 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // 2) Статические ассеты из списка — SWR в STATIC_CACHE
+  // 🔸 1.5) Аудио/медиа — Network First, БЕЗ кэширования (или только полные 200)
+  if (isMediaFile(req.url)) {
+    event.respondWith((async () => {
+      try {
+        const net = await fetch(req, { cache: 'no-store' });
+        // Не кэшируем потоковые ответы/Range; оставим как есть
+        // (Если очень нужно кэшировать, то только когда net.status === 200)
+        return net;
+      } catch {
+        // В офлайне — попробуем кеш, если вдруг там есть полный файл
+        const cached = await caches.match(req);
+        return cached || new Response('', { status: 503, statusText: 'Offline' });
+      }
+    })());
+    return;
+  }
+
+  // 2) Статические ассеты из списка — SWR в STATIC_CACHE (как было)
   if (staticURLs.has(req.url)) {
     event.respondWith((async () => {
       const cached = await caches.match(req);
@@ -89,7 +120,7 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // 3) Остальные локальные GET — SWR в RUNTIME_CACHE
+  // 3) Остальные локальные GET — SWR в RUNTIME_CACHE (как было)
   event.respondWith((async () => {
     const cached = await caches.match(req);
     const updatePromise = (async () => {

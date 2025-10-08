@@ -1,6 +1,14 @@
 // === Daily lesson page logic ===
 let currentLesson = null;
 
+const GH_BASE = (document.querySelector('meta[name="gh-base"]')?.content || '/').replace(/\/+$/, '') + '/';
+function asset(path) {
+  // убираем ведущие ./ или /
+  const clean = String(path).replace(/^(\.\/|\/)+/, '');
+  return GH_BASE + clean;
+}
+
+
 document.addEventListener('DOMContentLoaded', async () => {
     await loadDailyLesson();
     
