@@ -1,0 +1,78 @@
+{
+  "title": "Familie, Zahlen und Berufe",
+  "level": "A1",
+  "number": 4,
+  "grammar": [
+    {
+      "topic": "Possessivartikel (mein, dein, sein, ihr)",
+      "explanation": "Possessivartikel zeigen Besitz an. Sie richten sich nach der Person und dem Genus des Nomens.",
+      "examples": [
+        { "german": "Das ist mein Vater." },
+        { "german": "Ist das deine Mutter?" },
+        { "german": "Sein Bruder wohnt in Berlin." },
+        { "german": "Ihre Schwester ist Studentin." }
+      ]
+    },
+    {
+      "topic": "Berufe und Artikel",
+      "explanation": "Berufsbezeichnungen stehen im Deutschen meist ohne Artikel, wenn man über sich selbst spricht. Beispiel: Ich bin Lehrer. – Ich bin Ärztin.",
+      "examples": [
+        { "german": "Ich bin Student." },
+        { "german": "Sie ist Verkäuferin." },
+        { "german": "Er ist Ingenieur." }
+      ]
+    },
+    {
+      "topic": "Zahlen von 0 bis 100",
+      "explanation": "Zahlen sind wichtig für Telefonnummern, Adressen und Preise. Von 0 bis 20 sind sie unregelmäßig, ab 21 kombiniert man Zehner und Einer: 21 = einundzwanzig.",
+      "examples": [
+        { "german": "eins, zwei, drei, vier, fünf, sechs, sieben, acht, neun, zehn" },
+        { "german": "zwanzig, einundzwanzig, zweiunddreißig, vierzig, hundert" }
+      ]
+    },
+    {
+      "topic": "Fragen nach Personen und Familienstand",
+      "explanation": "Mit ‚Wer‘ fragt man nach Personen. Mit ‚Wie‘ oder ‚Was‘ kann man nach Familienstand fragen.",
+      "examples": [
+        { "german": "Wer ist das?" },
+        { "german": "Das ist meine Mutter." },
+        { "german": "Bist du verheiratet?" },
+        { "german": "Nein, ich bin ledig." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "german": "die Familie" },
+    { "german": "der Vater" },
+    { "german": "die Mutter" },
+    { "german": "der Bruder" },
+    { "german": "die Schwester" },
+    { "german": "der Sohn" },
+    { "german": "die Tochter" },
+    { "german": "verheiratet" },
+    { "german": "ledig" },
+    { "german": "der Beruf" },
+    { "german": "der Lehrer / die Lehrerin" },
+    { "german": "der Arzt / die Ärztin" },
+    { "german": "der Verkäufer / die Verkäuferin" },
+    { "german": "der Ingenieur / die Ingenieurin" },
+    { "german": "die Telefonnummer" },
+    { "german": "die Adresse" },
+    { "german": "die Zahl" },
+    { "german": "die Arbeit" },
+    { "german": "der Kollege / die Kollegin" },
+    { "german": "die Firma" }
+  ],
+  "phrases": [
+    { "german": "Das ist meine Familie." },
+    { "german": "Ich habe einen Bruder und eine Schwester." },
+    { "german": "Wie alt bist du?" },
+    { "german": "Ich bin zweiundzwanzig Jahre alt." },
+    { "german": "Was bist du von Beruf?" },
+    { "german": "Ich bin Studentin." },
+    { "german": "Wie ist deine Telefonnummer?" },
+    { "german": "Meine Telefonnummer ist 0157 392 64 281." },
+    { "german": "Bist du verheiratet?" },
+    { "german": "Nein, ich bin ledig." }
+  ]
+}

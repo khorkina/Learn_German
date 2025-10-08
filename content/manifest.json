@@ -28,6 +28,24 @@
       "exercisesFile": "a1-lesson-03-exercises.json"
     },
     {
+      "id": "a1-lesson-04",
+      "level": "A1",
+      "number": 4,
+      "title": "Familie, Zahlen und Berufe",
+      "description": "Lerne, über Familie, Zahlen und Berufe zu sprechen und einfache Fragen zu stellen.",
+      "file": "a1-lesson-04.json",
+      "exercisesFile": "a1-lesson-04-exercises.json"
+    },
+        {
+      "id": "a1-lesson-05",
+      "level": "A1",
+      "number": 5,
+      "title": "Tagesablauf und Uhrzeit",
+      "description": "Lerne, deinen Tagesablauf zu beschreiben, Uhrzeiten zu sagen und trennbare Verben zu benutzen.",
+      "file": "a1-lesson-05.json",
+      "exercisesFile": "a1-lesson-05-exercises.json"
+    },
+    {
       "id": "c1-lesson-01",
       "level": "C1",
       "number": 1,

@@ -1,0 +1,68 @@
+{
+  "title": "Tagesablauf und Uhrzeit",
+  "level": "A1",
+  "number": 5,
+  "grammar": [
+    {
+      "topic": "Trennbare Verben",
+      "explanation": "Viele deutsche Verben bestehen aus einem Präfix und einem Verb. Im Präsens steht das Präfix am Satzende. Beispiel: aufstehen, einkaufen, fernsehen.",
+      "examples": [
+        { "german": "Ich stehe um sieben Uhr auf." },
+        { "german": "Er kauft am Samstag ein." },
+        { "german": "Wir sehen abends fern." }
+      ]
+    },
+    {
+      "topic": "Die Uhrzeit",
+      "explanation": "Die Zeitangabe erfolgt mit ‚Uhr‘. Man kann sie formal oder informell sagen: 7:15 = sieben Uhr fünfzehn / Viertel nach sieben.",
+      "examples": [
+        { "german": "Wie spät ist es? – Es ist acht Uhr dreißig." },
+        { "german": "Es ist halb neun." }
+      ]
+    },
+    {
+      "topic": "Tagesablauf mit Verben im Präsens",
+      "explanation": "Man beschreibt den Alltag mit Verben im Präsens. Das Subjekt steht am Satzanfang, das Verb an zweiter Stelle.",
+      "examples": [
+        { "german": "Ich stehe um sieben Uhr auf." },
+        { "german": "Ich frühstücke um halb acht." },
+        { "german": "Ich gehe zur Arbeit." },
+        { "german": "Ich komme um sechs Uhr nach Hause." }
+      ]
+    },
+    {
+      "topic": "Wochentage",
+      "explanation": "Die Wochentage werden großgeschrieben. Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag.",
+      "examples": [
+        { "german": "Am Montag gehe ich zur Schule." },
+        { "german": "Am Wochenende habe ich frei." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "german": "aufstehen" },
+    { "german": "frühstücken" },
+    { "german": "arbeiten" },
+    { "german": "lernen" },
+    { "german": "einkaufen" },
+    { "german": "fernsehen" },
+    { "german": "schlafen" },
+    { "german": "die Uhr" },
+    { "german": "die Zeit" },
+    { "german": "der Tag" },
+    { "german": "der Morgen" },
+    { "german": "der Abend" },
+    { "german": "die Nacht" },
+    { "german": "am Montag" },
+    { "german": "am Wochenende" }
+  ],
+  "phrases": [
+    { "german": "Wie spät ist es?" },
+    { "german": "Es ist Viertel nach acht." },
+    { "german": "Ich stehe um sieben Uhr auf." },
+    { "german": "Ich gehe um acht Uhr zur Arbeit." },
+    { "german": "Ich komme um siebzehn Uhr nach Hause." },
+    { "german": "Ich sehe abends fern." },
+    { "german": "Ich gehe um Mitternacht schlafen." }
+  ]
+}

@@ -1,0 +1,59 @@
+[
+  {
+    "type": "fill-in",
+    "question": "Ergänze: Das ist ____ Mutter.",
+    "answer": "meine",
+    "explanation": "„Mutter“ ist feminin, daher heißt es „meine Mutter“."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Wie sagt man: „I am a teacher“ auf Deutsch?",
+    "options": ["Ich bin Lehrer.", "Ich habe Lehrer.", "Ich bin ein Lehrer.", "Ich habe ein Lehrer."],
+    "correctIndex": 0,
+    "explanation": "Bei Berufsbezeichnungen steht meist kein Artikel: „Ich bin Lehrer.“"
+  },
+  {
+    "type": "fill-in",
+    "question": "Zähle weiter: zehn, elf, zwölf, ____.",
+    "answer": "dreizehn",
+    "explanation": "Nach zwölf kommt dreizehn."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Welche Aussage ist richtig?",
+    "options": [
+      "Meine Bruder heißt Tim.",
+      "Mein Bruder heißt Tim.",
+      "Mein Brüder heißt Tim.",
+      "Meinen Bruder heißt Tim."
+    ],
+    "correctIndex": 1,
+    "explanation": "Richtig ist: „Mein Bruder heißt Tim.“ – Nominativ maskulin."
+  },
+  {
+    "type": "fill-in",
+    "question": "Wie fragt man nach dem Beruf?",
+    "answer": "Was bist du von Beruf?",
+    "explanation": "Die Standardfrage lautet: „Was bist du von Beruf?“"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Welche Zahl ist richtig geschrieben?",
+    "options": ["einundzwanzig", "einsundzwanzig", "einundzwanziq", "einzundzwanzig"],
+    "correctIndex": 0,
+    "explanation": "Die korrekte Schreibweise ist „einundzwanzig“."
+  },
+  {
+    "type": "fill-in",
+    "question": "Ergänze: Sie ist ______.",
+    "answer": "verheiratet",
+    "explanation": "„verheiratet“ bedeutet, dass sie einen Ehemann hat."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Wie lautet die richtige Form des Possessivartikels? ____ Bruder wohnt in Berlin.",
+    "options": ["Mein", "Meine", "Meinen", "Meins"],
+    "correctIndex": 0,
+    "explanation": "„Bruder“ ist maskulin, daher „mein Bruder“."
+  }
+]

@@ -108,7 +108,7 @@ function showQuestion() {
         contentDiv.appendChild(choicesDiv);
         
         actionsDiv.innerHTML = `
-            <button class="btn btn-primary" onclick="checkMultipleChoice()">Ответ prüfen</button>
+            <button class="btn btn-primary" onclick="checkMultipleChoice()">Antwort prüfen</button>
         `;
     }
 }

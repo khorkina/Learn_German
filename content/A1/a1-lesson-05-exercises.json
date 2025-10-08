@@ -1,0 +1,78 @@
+[
+  {
+    "type": "multiple-choice",
+    "question": "Was bedeutet das trennbare Verb „aufstehen“?",
+    "options": ["sich setzen", "aufwachen", "aufstehen", "ausgehen"],
+    "correctIndex": 2,
+    "explanation": "„aufstehen“ = den Sitz/ das Bett verlassen."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Wähle den Satz mit korrekter Wortstellung (trennbares Verb):",
+    "options": [
+      "Ich um sieben Uhr aufstehe.",
+      "Ich stehe um sieben Uhr auf.",
+      "Ich stehe auf um sieben Uhr.",
+      "Um sieben Uhr ich stehe auf."
+    ],
+    "correctIndex": 1,
+    "explanation": "Präfix steht am Satzende: „… stehe … auf.“"
+  },
+  {
+    "type": "fill-in",
+    "question": "Ergänze: Es ist ____ Uhr dreißig.",
+    "answer": "acht",
+    "explanation": "8:30 = acht Uhr dreißig."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Wie sagt man 7:45 informell (standarddeutsch)?",
+    "options": ["Viertel vor acht", "Dreiviertel acht", "Viertel nach sieben", "Halb acht"],
+    "correctIndex": 0,
+    "explanation": "Standarddeutsch: „Viertel vor acht“."
+  },
+  {
+    "type": "fill-in",
+    "question": "Ergänze: Am Sonntag ____ ich lange.",
+    "answer": "schlafe",
+    "explanation": "„ich schlafe“ (schlafen, Präsens)."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Wann sieht er fern?",
+    "options": ["morgens", "mittags", "abends", "nie"],
+    "correctIndex": 2,
+    "explanation": "Satzbasis: „Er sieht abends fern.“"
+  },
+  {
+    "type": "fill-in",
+    "question": "Ergänze: Ich gehe um acht Uhr ____ Arbeit.",
+    "answer": "zur",
+    "explanation": "Feste Verbindung: „zur Arbeit“."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Welcher Tag kommt nach Mittwoch?",
+    "options": ["Dienstag", "Donnerstag", "Freitag", "Montag"],
+    "correctIndex": 1,
+    "explanation": "Nach Mittwoch folgt Donnerstag."
+  },
+  {
+    "type": "fill-in",
+    "question": "Ergänze: Ich komme um ____ Uhr nach Hause. (16:00)",
+    "answer": "sechzehn",
+    "explanation": "16:00 = sechzehn Uhr."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Welche Aussage ist korrekt?",
+    "options": [
+      "Ich frühstücke um halb acht.",
+      "Ich frühstücke um halb neunundzwanzig.",
+      "Ich frühstücke um viertel dreißig.",
+      "Ich frühstücke um acht halb."
+    ],
+    "correctIndex": 0,
+    "explanation": "„halb acht“ = 7:30."
+  }
+]
