@@ -170,14 +170,24 @@ function renderInterleaved(lessonData, version) {
           <p>${sec.task || ''}</p>
         `;
 
-        // === Картинка темы (с версией для антикэша) ===
+        // === Картинка темы + Аудио (с антикэшем) ===
         if (media) {
             const fig = document.createElement('figure');
             fig.className = 'media-item';
-            const src = `../img/lesson1/${media.key}.webp?v=${version}`;
+
+            const v = window.APP_VERSION || Date.now();
+            const imgSrc = `../img/lesson1/${media.key}.webp?v=${v}`;
+            const audioSrc = media.audio ? `../audio/lesson1/${media.audio}?v=${v}` : null;
+
             fig.innerHTML = `
-                <img src="${src}" alt="${media.alt}" loading="lazy">
+                <img src="${imgSrc}" alt="${media.alt}" loading="lazy">
                 <figcaption>${media.alt}</figcaption>
+                ${audioSrc ? `
+                <audio controls preload="none" class="lesson-audio">
+                    <source src="${audioSrc}" type="audio/mpeg">
+                    Dein Browser unterstützt das Audio-Element nicht.
+                </audio>
+                ` : ''}
             `;
             wrapper.appendChild(fig);
         }

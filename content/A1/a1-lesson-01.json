@@ -268,15 +268,57 @@
     }
   ],
   "media_plan": [
-    {"key":"01_meeting","alt":"Begrüßung im internationalen Online-Meeting","style":"freundlicher Cartoon, Büro, Laptop, Sprechblasen mit Begrüßungen"},
-    {"key":"02_family_calls","alt":"Familie grüßt morgens und abends per Video","style":"Split-Screen: Morgen/Abend"},
-    {"key":"03_greetings_triptych","alt":"Drei kleine Szenen: Morgen, Tag, Abend","style":"Vignetten mit Uhrsymbolen"},
-    {"key":"04_world_map","alt":"Herkunftslinien von Ländern zu Städten","style":"Karte, kleine Flaggen"},
-    {"key":"05_alphabet_song","alt":"Schüler singt Alphabet, Buchstaben fliegen","style":"verspielt, didaktisch"},
-    {"key":"06_houses_cities","alt":"Kleine Häuser mit Stadtnamen Köln, Bonn, Toruń, Damaskus","style":"sanfte Farben"},
-    {"key":"07_kitchen_talk","alt":"Adita und Tarek in der Küche mit Tassen","style":"nahbar, warm"},
-    {"key":"08_registration_form","alt":"Anmeldung am Schreibtisch, Formular, Stift","style":"klar, neutral"},
-    {"key":"09_w_questions","alt":"Vier Studierende mit Karten: Wie, Woher, Wo, Wer","style":"Klassenzimmer"},
-    {"key":"10_germany_map","alt":"Deutschlandkarte mit Wahrzeichen","style":"Icon-Städte: Dom, Brandenburger Tor, Fernsehturm"}
-  ]
+  {
+    "key": "01_meeting",
+    "alt": "Begrüßung im internationalen Online-Meeting",
+    "style": "freundlicher Cartoon, Büro, Laptop, Sprechblasen mit Begrüßungen",
+    "audio": "01_meeting.mp3"
+  },
+  {
+    "key": "02_family_calls",
+    "alt": "Familie grüßt morgens und abends per Video",
+    "style": "Split-Screen: Morgen/Abend"
+  },
+  {
+    "key": "03_greetings_triptych",
+    "alt": "Drei kleine Szenen: Morgen, Tag, Abend",
+    "style": "Vignetten mit Uhrsymbolen"
+  },
+  {
+    "key": "04_world_map",
+    "alt": "Herkunftslinien von Ländern zu Städten",
+    "style": "Karte, kleine Flaggen"
+  },
+  {
+    "key": "05_alphabet_song",
+    "alt": "Schüler singt Alphabet, Buchstaben fliegen",
+    "style": "verspielt, didaktisch"
+  },
+  {
+    "key": "06_houses_cities",
+    "alt": "Kleine Häuser mit Stadtnamen Köln, Bonn, Toruń, Damaskus",
+    "style": "sanfte Farben"
+  },
+  {
+    "key": "07_kitchen_talk",
+    "alt": "Adita und Tarek in der Küche mit Tassen",
+    "style": "nahbar, warm"
+  },
+  {
+    "key": "08_registration_form",
+    "alt": "Anmeldung am Schreibtisch, Formular, Stift",
+    "style": "klar, neutral"
+  },
+  {
+    "key": "09_w_questions",
+    "alt": "Vier Studierende mit Karten: Wie, Woher, Wo, Wer",
+    "style": "Klassenzimmer"
+  },
+  {
+    "key": "10_germany_map",
+    "alt": "Deutschlandkarte mit Wahrzeichen",
+    "style": "Icon-Städte: Dom, Brandenburger Tor, Fernsehturm"
+  }
+]
+
 }
