@@ -1,4 +1,4 @@
-// Daily lesson page logic
+// === Daily lesson page logic ===
 let currentLesson = null;
 
 document.addEventListener('DOMContentLoaded', async () => {
@@ -24,17 +24,17 @@ async function loadDailyLesson() {
 async function loadNextLesson() {
     const manifest = await loadManifest();
     const allProgress = await db.getAllProgress();
-    
+
     // Найти первую незавершённую лекцию
     let nextLesson = manifest.lessons.find(lesson => {
         const progress = allProgress.find(p => p.id === lesson.id);
         return !progress || !progress.completed;
     });
-    
+
     if (!nextLesson && manifest.lessons.length > 0) {
         nextLesson = manifest.lessons[0];
     }
-    
+
     if (nextLesson) {
         await loadLessonContent(nextLesson);
     } else {
@@ -45,7 +45,7 @@ async function loadNextLesson() {
 async function loadSpecificLesson(lessonId) {
     const manifest = await loadManifest();
     const lesson = manifest.lessons.find(l => l.id === lessonId);
-    
+
     if (lesson) {
         await loadLessonContent(lesson);
     } else {
@@ -53,21 +53,23 @@ async function loadSpecificLesson(lessonId) {
     }
 }
 
+// === Загрузка урока с антикэшем ===
 async function loadLessonContent(lesson) {
     currentLesson = lesson;
-    
+
     try {
-        const response = await fetch(`../content/${lesson.level}/${lesson.file}`);
+        const v = window.APP_VERSION || Date.now();
+        const response = await fetch(`../content/${lesson.level}/${lesson.file}?v=${v}`, { cache: 'no-store' });
         const lessonData = await response.json();
-        
+
         document.getElementById('lesson-title').textContent = lessonData.title;
         document.getElementById('lesson-level').textContent = lesson.level;
         document.getElementById('lesson-number').textContent = `Lektion ${lesson.number}`;
-        
+
         const contentDiv = document.getElementById('lesson-content');
         contentDiv.innerHTML = '';
 
-        // === Lernziele (Цели урока) ===
+        // === Lernziele ===
         if (lessonData.goals) {
             const goalsSection = document.createElement('div');
             goalsSection.className = 'lesson-section';
@@ -107,9 +109,7 @@ async function loadLessonContent(lesson) {
                 <h2>Wortschatz</h2>
                 <div class="vocab-list">
                     ${lessonData.vocabulary.map(word => `
-                        <div class="vocab-item">
-                            <span class="vocab-german">${word.german}</span>
-                        </div>
+                        <div class="vocab-item"><span class="vocab-german">${word.german}</span></div>
                     `).join('')}
                 </div>
             `;
@@ -123,16 +123,14 @@ async function loadLessonContent(lesson) {
             phrasesSection.innerHTML = `
                 <h2>Nützliche Ausdrücke</h2>
                 ${lessonData.phrases.map(phrase => `
-                    <div class="example-box">
-                        <div class="example-german">${phrase.german}</div>
-                    </div>
+                    <div class="example-box"><div class="example-german">${phrase.german}</div></div>
                 `).join('')}
             `;
             contentDiv.appendChild(phrasesSection);
         }
 
         // === Interleaved rendering: Sektionen + Medien + Übungen ===
-        renderInterleaved(lessonData);
+        renderInterleaved(lessonData, v);
 
     } catch (error) {
         console.error('Error loading lesson content:', error);
@@ -141,77 +139,70 @@ async function loadLessonContent(lesson) {
     }
 }
 
-// === Функция для рендера по темам ===
-function renderInterleaved(lessonData) {
-  const contentDiv = document.getElementById('lesson-content');
+// === Рендер по темам ===
+function renderInterleaved(lessonData, version) {
+    const contentDiv = document.getElementById('lesson-content');
 
-  const mapping = [
-    { media: '01_meeting', exIds: ['1a','1b'] },
-    { media: '02_family_calls', exIds: ['2a'] },
-    { media: '03_greetings_triptych', exIds: ['3a','3b'] },
-    { media: '04_world_map', exIds: ['4b','4c'] },
-    { media: '05_alphabet_song', exIds: ['5a','5b'] },
-    { media: '06_houses_cities', exIds: ['6a'] },
-    { media: '07_kitchen_talk', exIds: ['7a'] },
-    { media: '08_registration_form', exIds: ['8b','8c'] },
-    { media: '09_w_questions', exIds: ['9b','9d'] },
-    { media: '10_germany_map', exIds: ['10a','10d'] }
-  ];
+    const mapping = [
+        { media: '01_meeting', exIds: ['1a','1b'] },
+        { media: '02_family_calls', exIds: ['2a'] },
+        { media: '03_greetings_triptych', exIds: ['3a','3b'] },
+        { media: '04_world_map', exIds: ['4b','4c'] },
+        { media: '05_alphabet_song', exIds: ['5a','5b'] },
+        { media: '06_houses_cities', exIds: ['6a'] },
+        { media: '07_kitchen_talk', exIds: ['7a'] },
+        { media: '08_registration_form', exIds: ['8b','8c'] },
+        { media: '09_w_questions', exIds: ['9b','9d'] },
+        { media: '10_germany_map', exIds: ['10a','10d'] }
+    ];
 
-  const mediaByKey = Object.fromEntries((lessonData.media_plan || []).map(m => [m.key, m]));
-  const exById = Object.fromEntries((lessonData.exercises || []).map(ex => [ex.id, ex]));
+    const mediaByKey = Object.fromEntries((lessonData.media_plan || []).map(m => [m.key, m]));
+    const exById = Object.fromEntries((lessonData.exercises || []).map(ex => [ex.id, ex]));
 
-  (lessonData.sections || []).forEach((sec, idx) => {
-    const map = mapping[idx] || {};
-    const media = mediaByKey[map.media];
-    const wrapper = document.createElement('section');
-    wrapper.className = 'lesson-section interleaved';
+    (lessonData.sections || []).forEach((sec, idx) => {
+        const map = mapping[idx] || {};
+        const media = mediaByKey[map.media];
+        const wrapper = document.createElement('section');
+        wrapper.className = 'lesson-section interleaved';
 
-    wrapper.innerHTML = `
-      <h2>${sec.title}</h2>
-      <p>${sec.task || ''}</p>
-    `;
+        wrapper.innerHTML = `
+          <h2>${sec.title}</h2>
+          <p>${sec.task || ''}</p>
+        `;
 
-    // Картинка темы
-    if (media) {
-      const fig = document.createElement('figure');
-      fig.className = 'media-item';
-      const src = `../img/lesson1/${media.key}.webp`;
-      fig.innerHTML = `
-        <img src="${src}" alt="${media.alt}" loading="lazy">
-        <figcaption>${media.alt}</figcaption>
-      `;
-      wrapper.appendChild(fig);
-    }
+        // === Картинка темы (с версией для антикэша) ===
+        if (media) {
+            const fig = document.createElement('figure');
+            fig.className = 'media-item';
+            const src = `../img/lesson1/${media.key}.webp?v=${version}`;
+            fig.innerHTML = `
+                <img src="${src}" alt="${media.alt}" loading="lazy">
+                <figcaption>${media.alt}</figcaption>
+            `;
+            wrapper.appendChild(fig);
+        }
 
-    // Упражнения
-    const exWrap = document.createElement('div');
-    exWrap.className = 'exercise-group';
-    (map.exIds || []).forEach(id => {
-      const ex = exById[id];
-      if (!ex) return;
-      const box = document.createElement('article');
-      box.className = `exercise exercise-${ex.type}`;
-      box.innerHTML = `
-        <h4>${ex.id}. ${ex.title}</h4>
-        ${ex.instructions ? `<p>${ex.instructions}</p>` : ''}
-        ${renderExerciseBody(ex)}
-      `;
-      exWrap.appendChild(box);
+        // === Упражнения ===
+        const exWrap = document.createElement('div');
+        exWrap.className = 'exercise-group';
+        (map.exIds || []).forEach(id => {
+            const ex = exById[id];
+            if (!ex) return;
+            const box = document.createElement('article');
+            box.className = `exercise exercise-${ex.type}`;
+            box.innerHTML = `
+                <h4>${ex.id}. ${ex.title}</h4>
+                ${ex.instructions ? `<p>${ex.instructions}</p>` : ''}
+                ${renderExerciseBody(ex)}
+            `;
+            exWrap.appendChild(box);
+        });
+        wrapper.appendChild(exWrap);
+        contentDiv.appendChild(wrapper);
     });
-    wrapper.appendChild(exWrap);
-    contentDiv.appendChild(wrapper);
-  });
-
-  // убираем старый блок “Illustrationen”, если где-то отрисовался
-  document.querySelectorAll('.lesson-section h2').forEach(h => {
-    if (h.textContent.trim() === 'Illustrationen') {
-      h.closest('.lesson-section')?.remove();
-    }
-  });
 }
 
-// === Вспомогательная функция для отображения упражнений ===
+// === Рендер тела упражнения ===
 function renderExerciseBody(ex) {
     if (ex.type === 'dialogue' && ex.dialogue) {
         return `<div>${ex.dialogue.map(d => `<p>• ${d.german}</p>`).join('')}</div>`;
@@ -241,20 +232,21 @@ function renderExerciseBody(ex) {
     return '';
 }
 
-// === Вспомогательные функции ===
+// === Завершение урока ===
 async function completeLesson() {
     if (!currentLesson) return;
-    
+
     await db.saveProgress(currentLesson.id, {
         completed: true,
         completedAt: Date.now()
     });
-    
+
     await db.updateStreak();
-    
-    const response = await fetch(`../content/${currentLesson.level}/${currentLesson.file}`);
+
+    const v = window.APP_VERSION || Date.now();
+    const response = await fetch(`../content/${currentLesson.level}/${currentLesson.file}?v=${v}`, { cache: 'no-store' });
     const lessonData = await response.json();
-    
+
     if (lessonData.vocabulary) {
         for (const word of lessonData.vocabulary) {
             const vocabId = `${currentLesson.id}_${word.german}`;
@@ -264,20 +256,23 @@ async function completeLesson() {
             }
         }
     }
-    
+
     alert('Lektion abgeschlossen! Gut gemacht!');
     window.location.href = 'daily-lesson.html';
 }
 
+// === Нет уроков ===
 function showNoLessons() {
     document.getElementById('lesson-title').textContent = 'Keine Lektionen verfügbar';
     document.getElementById('lesson-content').innerHTML = '<p>Schau bald wieder vorbei für neue Lektionen!</p>';
     document.getElementById('complete-lesson').style.display = 'none';
 }
 
+// === Загрузка манифеста с антикэшем ===
 async function loadManifest() {
     try {
-        const response = await fetch('../content/manifest.json');
+        const v = window.APP_VERSION || Date.now();
+        const response = await fetch(`../content/manifest.json?v=${v}`, { cache: 'no-store' });
         return await response.json();
     } catch (error) {
         console.error('Error loading manifest:', error);
