@@ -275,9 +275,10 @@
     "audio": "01_meeting.mp3"
   },
   {
-    "key": "02_family_calls",
-    "alt": "Familie grüßt morgens und abends per Video",
-    "style": "Split-Screen: Morgen/Abend"
+  "key": "02_family_calls",
+  "alt": "Familie grüßt morgens und abends per Video",
+  "style": "Split-Screen: Morgen/Abend",
+  "audio": "02_family_calls.mp3"
   },
   {
     "key": "03_greetings_triptych",
@@ -300,14 +301,16 @@
     "style": "sanfte Farben"
   },
   {
-    "key": "07_kitchen_talk",
-    "alt": "Adita und Tarek in der Küche mit Tassen",
-    "style": "nahbar, warm"
+  "key": "07_kitchen_talk",
+  "alt": "Adita und Tarek in der Küche mit Tassen",
+  "style": "nahbar, warm",
+  "audio": "07_kitchen_talk.mp3"
   },
   {
-    "key": "08_registration_form",
-    "alt": "Anmeldung am Schreibtisch, Formular, Stift",
-    "style": "klar, neutral"
+  "key": "08_registration_form",
+  "alt": "Anmeldung am Schreibtisch, Formular, Stift",
+  "style": "klar, neutral",
+  "audio": "08_registration_form.mp3"
   },
   {
     "key": "09_w_questions",
