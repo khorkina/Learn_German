@@ -563,3 +563,78 @@
         width: 100%;
     }
 }
+
+/* --- Lesson media --- */
+.lesson-section h2 { margin-top: 2rem; }
+
+/* --- Lesson media (по одной большой картинке) --- */
+.media-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 32px; /* расстояние между картинками */
+  margin-top: 20px;
+}
+
+.media-item {
+  background: var(--surface, #fff);
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(0,0,0,.08);
+  overflow: hidden;
+  max-width: 960px;
+  margin: 0 auto; /* центрирует */
+}
+
+.media-item img {
+  width: 100%;
+  height: auto;
+  max-height: 600px;
+  object-fit: contain;
+  display: block;
+  background: #f6f6f6;
+}
+
+.media-item figcaption {
+  padding: 10px 14px;
+  font-size: 1rem;
+  line-height: 1.4;
+  color: var(--text-muted, #555);
+  text-align: center;
+}
+
+/* interleaved layout */
+.lesson-section.interleaved {
+  max-width: 980px;
+  margin: 36px auto;
+}
+
+.interleaved .media-item {
+  background: #f8f6f2;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 2px 16px rgba(0,0,0,.08);
+  margin: 16px 0 8px;
+}
+
+.interleaved .media-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  background: #f3f3f3;
+}
+
+.exercise-group { margin-top: 12px; }
+.exercise-group h3 { margin: 8px 0 10px; }
+
+.exercise {
+  padding: 12px 14px;
+  border: 1px solid rgba(0,0,0,.06);
+  border-radius: 12px;
+  background: #fff;
+  margin: 10px 0;
+}
+
+.ex-table { width: 100%; border-collapse: collapse; }
+.ex-table th, .ex-table td { border: 1px solid #e5e5e5; padding: 6px 8px; text-align: left; }
+.ex-list, .ex-prompts { margin: 6px 0 0 18px; }
+.ex-letters, .ex-numbers { font-family: ui-monospace, monospace; }

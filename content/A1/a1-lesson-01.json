@@ -1,104 +1,282 @@
 {
-  "title": "Begrüßungen und Vorstellungen",
-  "level": "A1",
+  "title": "Begrüßungen, Herkunft, Wohnort und Anmeldung",
+  "level": "A1.1",
   "number": 1,
+  "goals": [
+    "Personen begrüßen und sich vorstellen",
+    "Nach Name, Herkunft, Wohnort, Telefonnummer fragen",
+    "Das Alphabet buchstabieren (A–Z, Ä Ö Ü ß)",
+    "Zahlen 0–10 verstehen und sagen",
+    "Formulare mit Basisdaten ausfüllen",
+    "Fragen mit Wie, Woher, Wo bilden"
+  ],
   "grammar": [
     {
-      "topic": "Grundlegende Begrüßungen",
-      "explanation": "Im Deutschen variieren die Begrüßungen je nach Tageszeit und Formalität. „Guten Morgen“, „Guten Tag“ und „Guten Abend“ sind formelle Begrüßungen. „Hallo“ ist informell und kann jederzeit verwendet werden.",
+      "topic": "Begrüßungen und Abschiede",
+      "explanation": "Formell: Guten Morgen, Guten Tag, Guten Abend, Auf Wiedersehen. Informell: Hallo, Hi, Tschüss, Tschö (Köln), Wiederschaun/Servus (Süddeutschland/Österreich), Moin (Norddeutschland).",
       "examples": [
-        {
-          "german": "Guten Morgen! Wie geht es Ihnen?"
-        },
-        {
-          "german": "Hallo! Wie geht's?"
-        }
+        {"german": "Guten Morgen, Frau Kovač."},
+        {"german": "Hallo, Bülent!"},
+        {"german": "Auf Wiedersehen! Bis morgen."},
+        {"german": "Tschüss! Schönen Abend."}
       ]
     },
     {
-      "topic": "Personalpronomen",
-      "explanation": "Im Deutschen gibt es drei Personen im Singular und Plural: „ich“, „du“, „er/sie/es“, „wir“, „ihr“, „sie/Sie“.",
+      "topic": "Personalpronomen und Verben: sein, heißen, kommen, wohnen",
+      "explanation": "sein: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind. heißen: ich heiße, du heißt, er/sie/es heißt, wir heißen, ihr heißt, sie/Sie heißen. kommen: komme/kommst/kommt/kommen/kommt/kommen. wohnen: wohne/wohnst/wohnt/wohnen/wohnt/wohnen.",
       "examples": [
-        {
-          "german": "Ich heiße Maria. Wie heißt du?"
-        },
-        {
-          "german": "Er kommt aus Deutschland."
-        }
+        {"german": "Ich bin Adita. Ich komme aus Kenia und wohne in Köln."},
+        {"german": "Wie heißt du? – Ich heiße Tarek."},
+        {"german": "Wo wohnen Sie? – Ich wohne in Bonn."}
       ]
     },
     {
-      "topic": "Das Verb „sein“",
-      "explanation": "Das Verb „sein“ ist unregelmäßig und wesentlich für Vorstellungen. Konjugation: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind.",
+      "topic": "W-Fragen und Satzstellung",
+      "explanation": "Fragewort + konjugiertes Verb auf Position 2 + Subjekt: Wie heißen Sie? Woher kommst du? Wo wohnen Sie? In Aussagesätzen steht das Verb auf Position 2: Ich komme aus Polen.",
       "examples": [
-        {
-          "german": "Ich bin Student."
-        },
-        {
-          "german": "Wir sind aus Berlin."
-        }
+        {"german": "Wie ist Ihre Telefonnummer?"},
+        {"german": "Ich wohne in Köln-Deutz."}
+      ]
+    },
+    {
+      "topic": "Alphabet und Buchstabieren",
+      "explanation": "a b c d e f g h i j k l m n o p q r s t u v w x y z; Umlaute: ä ö ü; ß = „Eszett“. Beim Buchstabieren sagt man: a wie Anton, b wie Berlin (optional).",
+      "examples": [
+        {"german": "Mein Familienname ist Monte: M-O-N-T-E."},
+        {"german": "Die E-Mail? – K wie Köln, o, v, a, č."}
+      ]
+    },
+    {
+      "topic": "Zahlen 0–10",
+      "explanation": "null, eins, zwei, drei, vier, fünf, sechs, sieben, acht, neun, zehn. Für Telefonnummern spricht man Ziffern nacheinander.",
+      "examples": [
+        {"german": "Meine Nummer ist 01322 417890."},
+        {"german": "Die Postleitzahl ist 53111."}
       ]
     }
   ],
   "vocabulary": [
-    {
-      "german": "Hallo"
-    },
-    {
-      "german": "Guten Morgen"
-    },
-    {
-      "german": "Guten Tag"
-    },
-    {
-      "german": "Guten Abend"
-    },
-    {
-      "german": "Tschüss"
-    },
-    {
-      "german": "Auf Wiedersehen"
-    },
-    {
-      "german": "heißen"
-    },
-    {
-      "german": "kommen aus"
-    },
-    {
-      "german": "wohnen"
-    },
-    {
-      "german": "sein"
-    }
+    {"german": "der Name"}, {"german": "der Familienname"}, {"german": "der Vorname"},
+    {"german": "die Stadt"}, {"german": "das Land"}, {"german": "die Adresse"},
+    {"german": "die Postleitzahl (PLZ)"}, {"german": "die Telefonnummer"},
+    {"german": "der Morgen / der Abend / der Tag"},
+    {"german": "das Formular"}, {"german": "die Anmeldung"},
+    {"german": "fragen"}, {"german": "antworten"}, {"german": "buchstabieren"}
   ],
   "phrases": [
+    {"german": "Wie heißen Sie? / Wie heißt du?"},
+    {"german": "Ich heiße … / Mein Name ist …"},
+    {"german": "Woher kommen Sie? – Ich komme aus …"},
+    {"german": "Wo wohnen Sie? – Ich wohne in …"},
+    {"german": "Wie ist Ihre Telefonnummer? – Meine Nummer ist …"},
+    {"german": "Wie ist die Postleitzahl? – Die Postleitzahl ist …"},
+    {"german": "Freut mich! / Sehr erfreut."},
+    {"german": "Entschuldigung, wie schreibt man …?"}
+  ],
+  "sections": [
+    {"title": "1. In der Firma", "task": "Hören und lesen: Begrüßung im Meeting. Rollen spielen."},
+    {"title": "2. Familie Keser privat", "task": "Guten Morgen, Guten Tag, Guten Abend – passende Situationen."},
+    {"title": "3. Kurze Dialoge", "task": "Gespräche ordnen und nachsprechen."},
+    {"title": "4. Herkunft", "task": "Länder und Städte. Woher kommst du?"},
+    {"title": "5. Buchstabieren", "task": "Alphabet singen und Namen buchstabieren."},
+    {"title": "6. Wohnort", "task": "Ich wohne in … Wo wohnst du jetzt?"},
+    {"title": "7. Personen vorstellen", "task": "Das ist Adita. Das ist Tarek. Vorstellen mit Herkunft und Wohnort."},
+    {"title": "8. Die Anmeldung", "task": "Formular ausfüllen: Name, Adresse, PLZ, Telefon."},
+    {"title": "9. W-Fragen", "task": "Wie, Woher, Wo – Fragen bilden und beantworten."},
+    {"title": "10. Deutschlandkarte", "task": "Nachbarländer und Städte. Abschiedsformeln regional."}
+  ],
+  "exercises": [
     {
-      "german": "Wie heißen Sie?"
+      "id": "1a",
+      "type": "dialogue",
+      "title": "Begrüßung im Büro",
+      "instructions": "Lesen Sie die Sprechblasen und sprechen Sie nach.",
+      "dialogue": [
+        {"german": "Guten Tag, ich heiße Rafael Díaz. Ich bin in Quito, Ecuador."},
+        {"german": "Guten Tag, ich heiße Adita Bitok. Ich bin in Nairobi, Kenia."},
+        {"german": "Guten Tag, ich bin Mila Kovač."},
+        {"german": "Herzlich willkommen. Ich heiße Bülent Keser."}
+      ]
     },
     {
-      "german": "Ich heiße..."
+      "id": "1b",
+      "type": "pattern-drill",
+      "title": "Im Kurs begrüßen",
+      "instructions": "Sagen Sie: Guten Tag, ich heiße … / Ich bin … – und fragen Sie: Wie heißen Sie?",
+      "prompts": ["Guten Tag, ich heiße …", "Guten Tag, ich bin …"]
     },
     {
-      "german": "Woher kommen Sie?"
+      "id": "2a",
+      "type": "matching",
+      "title": "Welche Begrüßung passt?",
+      "instructions": "Ordnen Sie Morgen/Tag/Abend den Bildern zu.",
+      "items": ["Guten Morgen.", "Guten Tag.", "Guten Abend."]
     },
     {
-      "german": "Ich komme aus..."
+      "id": "3a",
+      "type": "order",
+      "title": "Gespräche ordnen",
+      "instructions": "Bringen Sie die Sätze in die richtige Reihenfolge.",
+      "sets": [
+        ["Guten Tag, ich bin Mila Kovač.", "Guten Tag, ich heiße Sandra Holt.", "Und wie heißen Sie?", "Tom Broder.", "Ah, Sie sind Herr Broder! Wie geht’s?", "Danke, gut."],
+        ["Hallo, ich bin Sandra. Und wer bist du?", "Hallo, ich bin Ines.", "Hallo, ich heiße Tarek.", "Entschuldigung, wie heißt du?", "Tarek.", "Hallo Tarek. Wie geht’s?", "Danke, gut."]
+      ]
     },
     {
-      "german": "Wo wohnen Sie?"
+      "id": "3b",
+      "type": "fill-in",
+      "title": "Pronomen und Verben ergänzen",
+      "instructions": "Ergänzen Sie: ich/du/Sie + sein/heißen.",
+      "items": [
+        {"question": "Wie heißen ___?", "answer": "Sie"},
+        {"question": "Ich ___ Sandra Holt.", "answer": "heiße"},
+        {"question": "Wer bist ___?", "answer": "du"},
+        {"question": "Ich ___ Tarek.", "answer": "bin"}
+      ]
     },
     {
-      "german": "Ich wohne in..."
+      "id": "4b",
+      "type": "table-map",
+      "title": "Woher kommen die Personen?",
+      "instructions": "Ordnen Sie Name – Land – Stadt zu.",
+      "table": [
+        {"Name":"Adita Bitok","Land":"Kenia","Stadt":"Nairobi"},
+        {"Name":"Lena Kamińska","Land":"Polen","Stadt":"Toruń"},
+        {"Name":"Tarek Abadi","Land":"Syrien","Stadt":"Damaskus"},
+        {"Name":"Molly Bell","Land":"die USA","Stadt":"Los Angeles"},
+        {"Name":"Ines Monte","Land":"Mexiko","Stadt":"Puebla"}
+      ]
     },
     {
-      "german": "Freut mich!"
+      "id": "4c",
+      "type": "speaking",
+      "title": "Länder und Städte im Kurs",
+      "instructions": "Sagen Sie: Ich komme aus …, aus … . Und du?",
+      "prompts": [
+        "Ich komme aus Polen, aus Posen. Woher kommst du?",
+        "Ich komme aus …",
+        "Ich komme aus Marokko, aus Fez, und du?"
+      ]
     },
     {
-      "german": "Wie geht es Ihnen?"
+      "id": "5a",
+      "type": "alphabet",
+      "title": "Alphabet sprechen oder singen",
+      "instructions": "Sprechen oder singen Sie das Alphabet mit.",
+      "letters": "a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö ü ß"
     },
     {
-      "german": "Mir geht es gut, danke."
+      "id": "5b",
+      "type": "spelling",
+      "title": "Buchstabieren – Ratespiel",
+      "instructions": "Buchstabieren Sie Ländernamen. Raten Sie.",
+      "examples": ["V-I-E-T-N-A-M", "T-S-C-H-E-C-H-I-E-N"]
+    },
+    {
+      "id": "6a",
+      "type": "qa",
+      "title": "Wohnort jetzt",
+      "instructions": "Antworten Sie kurz.",
+      "qa": [
+        {"q":"Woher kommen Sie, Frau Monte?","a":"Ich komme aus Mexiko, aus Puebla."},
+        {"q":"Und wo wohnen Sie jetzt?","a":"Ich wohne in Köln."},
+        {"q":"Und Sie, Frau Kovač?","a":"Ich komme aus Kroatien und wohne in Köln-Deutz."}
+      ]
+    },
+    {
+      "id": "7a",
+      "type": "description",
+      "title": "Das ist Adita / Das ist Tarek",
+      "instructions": "Lesen Sie und ergänzen Sie die Tabelle.",
+      "text": [
+        "Das ist Adita. Sie kommt aus Kenia, aus Nairobi. Sie wohnt jetzt in Köln.",
+        "Das ist Tarek. Er kommt aus Syrien, aus Damaskus. Er wohnt jetzt in Bonn."
+      ]
+    },
+    {
+      "id": "8b",
+      "type": "form",
+      "title": "Anmeldung ausfüllen",
+      "instructions": "Hören Sie und ergänzen Sie das Formular (Simulationsdaten).",
+      "form_fields": ["Familienname","Vorname","Adresse","PLZ/Ort","Telefon"],
+      "sample": {
+        "Familienname": "Abadi",
+        "Vorname": "Tarek",
+        "Adresse": "Heinestraße 9, Köln",
+        "PLZ/Ort": "53111 Bonn (Beispiel)",
+        "Telefon": "0175 519056"
+      },
+      "dialogue": [
+        "Guten Morgen Herr Abadi, mein Name ist Mila Kovač.",
+        "Wie schreibt man Abadi, bitte? – A-B-A-D-I.",
+        "Und wie ist der Vorname? – Tarek, T-A-R-E-K.",
+        "Wie ist die Postleitzahl? – 53111.",
+        "Und die Telefonnummer? – 01322 417890."
+      ]
+    },
+    {
+      "id": "8c",
+      "type": "numbers",
+      "title": "Zahlen 0–10",
+      "instructions": "Lesen und sprechen Sie die Zahlen.",
+      "numbers": ["0","1","2","3","4","5","6","7","8","9","10"]
+    },
+    {
+      "id": "9b",
+      "type": "question-build",
+      "title": "W-Fragen bilden",
+      "instructions": "Schreiben Sie Fragen mit Wie, Woher, Wo (Verb auf Position 2).",
+      "prompts": [
+        "Wie ___ Sie? – Ich heiße Bülent Keser.",
+        "Woher ___ du? – Ich komme aus Syrien.",
+        "Wo ___ Sie? – Ich wohne in Köln."
+      ],
+      "solutions": [
+        "heißen", "kommst", "wohnen"
+      ]
+    },
+    {
+      "id": "9d",
+      "type": "dialog-completion",
+      "title": "Dialog ergänzen",
+      "instructions": "Ergänzen Sie Lücken und sprechen Sie den Dialog.",
+      "lines": [
+        "Guten Tag.",
+        "Wie ist der Familienname? – ___",
+        "Wie ist die Telefonnummer? – ___",
+        "Wo wohnen Sie? – ___",
+        "Guten Tag, wie heißen Sie, bitte? – ___"
+      ]
+    },
+    {
+      "id": "10a",
+      "type": "map-neighbours",
+      "title": "Nachbarländer von Deutschland",
+      "instructions": "Ordnen Sie Ländernamen zu: Belgien, Dänemark, Polen, Tschechien, Österreich, die Schweiz, Frankreich, Luxemburg, die Niederlande.",
+      "note": "Optionale Städtezuordnung: Hamburg, Köln, Dresden, Rostock, Berlin, München, Stuttgart, Frankfurt."
+    },
+    {
+      "id": "10d",
+      "type": "regional-farewells",
+      "title": "Abschied regional",
+      "instructions": "Ordnen Sie zu: Tschö (Köln), Wiederschaun/Servus (München), Tschüss (Hamburg).",
+      "pairs": [
+        {"phrase":"Tschö","stadt":"Köln"},
+        {"phrase":"Wiederschaun / Servus","stadt":"München"},
+        {"phrase":"Tschüss","stadt":"Hamburg"}
+      ]
     }
+  ],
+  "media_plan": [
+    {"key":"01_meeting","alt":"Begrüßung im internationalen Online-Meeting","style":"freundlicher Cartoon, Büro, Laptop, Sprechblasen mit Begrüßungen"},
+    {"key":"02_family_calls","alt":"Familie grüßt morgens und abends per Video","style":"Split-Screen: Morgen/Abend"},
+    {"key":"03_greetings_triptych","alt":"Drei kleine Szenen: Morgen, Tag, Abend","style":"Vignetten mit Uhrsymbolen"},
+    {"key":"04_world_map","alt":"Herkunftslinien von Ländern zu Städten","style":"Karte, kleine Flaggen"},
+    {"key":"05_alphabet_song","alt":"Schüler singt Alphabet, Buchstaben fliegen","style":"verspielt, didaktisch"},
+    {"key":"06_houses_cities","alt":"Kleine Häuser mit Stadtnamen Köln, Bonn, Toruń, Damaskus","style":"sanfte Farben"},
+    {"key":"07_kitchen_talk","alt":"Adita und Tarek in der Küche mit Tassen","style":"nahbar, warm"},
+    {"key":"08_registration_form","alt":"Anmeldung am Schreibtisch, Formular, Stift","style":"klar, neutral"},
+    {"key":"09_w_questions","alt":"Vier Studierende mit Karten: Wie, Woher, Wo, Wer","style":"Klassenzimmer"},
+    {"key":"10_germany_map","alt":"Deutschlandkarte mit Wahrzeichen","style":"Icon-Städte: Dom, Brandenburger Tor, Fernsehturm"}
   ]
 }

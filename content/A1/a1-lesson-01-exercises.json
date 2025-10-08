@@ -3,66 +3,266 @@
     "type": "fill-in",
     "question": "Wie sagt man „Hello“ auf Deutsch?",
     "answer": "Hallo",
-    "explanation": "„Hallo“ ist die häufigste informelle Begrüßung im Deutschen."
+    "explanation": "„Hallo“ ist die häufigste informelle Begrüßung."
   },
   {
     "type": "fill-in",
     "question": "Ergänze: Ich ____ Maria.",
     "answer": "heiße",
-    "explanation": "Das Verb „heißen“ bedeutet „genannt werden“. In der ersten Person: ich heiße."
+    "explanation": "1. Person Singular von „heißen“: ich heiße."
   },
   {
     "type": "multiple-choice",
     "question": "Welche Begrüßung ist am Morgen passend?",
-    "options": [
-      "Guten Abend",
-      "Guten Morgen",
-      "Gute Nacht",
-      "Auf Wiedersehen"
-    ],
+    "options": ["Guten Abend","Guten Morgen","Gute Nacht","Auf Wiedersehen"],
     "correctIndex": 1,
-    "explanation": "„Guten Morgen“ wird morgens verwendet."
+    "explanation": "„Guten Morgen“ verwendet man morgens."
   },
   {
     "type": "fill-in",
-    "question": "Wie fragt man formell: Woher kommen Sie?",
-    "answer": "Woher kommen Sie",
-    "explanation": "„Woher kommen Sie?“ ist die formelle Frage nach der Herkunft."
+    "question": "Formuliere die formelle Frage: ____ kommen Sie?",
+    "answer": "Woher",
+    "explanation": "Formell: „Woher kommen Sie?“"
   },
   {
     "type": "multiple-choice",
-    "question": "Was ist die richtige Konjugation: Ich ____ aus Deutschland.",
-    "options": [
-      "kommt",
-      "kommen",
-      "komme",
-      "kommst"
-    ],
+    "question": "Ergänze: Ich ____ aus Deutschland.",
+    "options": ["kommt","kommen","komme","kommst"],
     "correctIndex": 2,
-    "explanation": "„Ich komme“ ist die erste Person Singular von „kommen“."
+    "explanation": "Ich komme (1. Person Singular)."
   },
   {
     "type": "fill-in",
     "question": "Ergänze: Wie geht ____ Ihnen?",
     "answer": "es",
-    "explanation": "„Wie geht es Ihnen?“ ist die formelle Art zu fragen, wie es jemandem geht."
+    "explanation": "„Wie geht es Ihnen?“ – Standardfrage."
   },
   {
     "type": "multiple-choice",
-    "question": "Welche Form ist die informelle Verabschiedung?",
-    "options": [
-      "Auf Wiedersehen",
-      "Guten Tag",
-      "Tschüss",
-      "Freut mich"
-    ],
+    "question": "Welche Verabschiedung ist informell?",
+    "options": ["Auf Wiedersehen","Guten Tag","Tschüss","Guten Abend"],
     "correctIndex": 2,
-    "explanation": "„Tschüss“ ist die informelle Verabschiedung, während „Auf Wiedersehen“ formell ist."
+    "explanation": "„Tschüss“ ist informell."
   },
   {
     "type": "fill-in",
     "question": "Ergänze: Ich ____ in Berlin.",
     "answer": "wohne",
-    "explanation": "Das Verb „wohnen“ bedeutet „leben“. In der ersten Person: ich wohne."
+    "explanation": "„wohnen“: ich wohne, du wohnst, ..."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Welche Frage ist korrekt (du-Form)?",
+    "options": ["Wie heißen du?","Wie heißt du?","Wie heißt Sie?","Wie heißen Sie?"],
+    "correctIndex": 1,
+    "explanation": "Mit „du“: „Wie heißt du?“"
+  },
+  {
+    "type": "fill-in",
+    "question": "Setze ein: Ich ____ Student. (sein)",
+    "answer": "bin",
+    "explanation": "Konjugation von „sein“: ich bin."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Welche Begrüßung passt am Abend?",
+    "options": ["Guten Abend","Guten Morgen","Servus","Moin"],
+    "correctIndex": 0,
+    "explanation": "„Guten Abend“ ab ca. 18 Uhr."
+  },
+  {
+    "type": "fill-in",
+    "question": "Formell fragen: Wie ____ Ihr Name?",
+    "answer": "ist",
+    "explanation": "„Wie ist Ihr Name?“"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Wähle die korrekte Reihenfolge:",
+    "options": ["Ich komme aus Polen ich heiße Anna.","Ich heiße Anna. Ich komme aus Polen.","Heiße ich Anna, komme ich aus Polen.","Ich kommt aus Polen. Ich heiße Anna."],
+    "correctIndex": 1,
+    "explanation": "Zwei Hauptsätze in richtiger Form."
+  },
+  {
+    "type": "fill-in",
+    "question": "Ergänze: Wo ____ Sie? – In Köln.",
+    "answer": "wohnen",
+    "explanation": "Mit „Sie“: Verb auf Position 2 – „wohnen“."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "„Moin“ sagt man typischerweise …",
+    "options": ["in Süddeutschland","in Norddeutschland","in Österreich","in der Schweiz"],
+    "correctIndex": 1,
+    "explanation": "„Moin“ ist norddeutsch."
+  },
+  {
+    "type": "fill-in",
+    "question": "Bilde die Frage (Sie): ____ heißen Sie?",
+    "answer": "Wie",
+    "explanation": "Fragewort + Verb + Subjekt: „Wie heißen Sie?“"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Welche Aussage ist korrekt?",
+    "options": ["Du sind aus Syrien.","Ich bin aus Syrien.","Ich bist aus Syrien.","Er bin aus Syrien."],
+    "correctIndex": 1,
+    "explanation": "„Ich bin …“ ist korrekt."
+  },
+  {
+    "type": "fill-in",
+    "question": "Setze ein: Woher ____ du?",
+    "answer": "kommst",
+    "explanation": "2. Person Singular: du kommst."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Welche Formel ist formell?",
+    "options": ["Tschö!","Bis dann!","Auf Wiedersehen!","Ciao!"],
+    "correctIndex": 2,
+    "explanation": "„Auf Wiedersehen!“ ist formell."
+  },
+  {
+    "type": "fill-in",
+    "question": "Buchstabiere: „ß“ heißt ____.",
+    "answer": "Eszett",
+    "explanation": "Das „ß“ nennt man Eszett."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Welche Zahl ist korrekt geschrieben?",
+    "options": ["fünf","funf","fuenf","fün"],
+    "correctIndex": 0,
+    "explanation": "Mit Umlaut: fünf."
+  },
+  {
+    "type": "fill-in",
+    "question": "Ergänze: Meine Nummer ist 0 1 3 2 2 ____ 7 8 9 0.",
+    "answer": "4",
+    "explanation": "Ziffern werden einzeln gesprochen."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Wähle die richtige PLZ-Aussage:",
+    "options": ["Die Postleitzahl sind 53111.","Die Postleitzahl ist 53111.","Der Postleitzahl ist 53111.","Das Postleitzahl ist 53111."],
+    "correctIndex": 1,
+    "explanation": "„Die Postleitzahl ist …“"
+  },
+  {
+    "type": "fill-in",
+    "question": "Setze ein (Artikel + Nomen): ____ Vorname ist Tarek.",
+    "answer": "Mein",
+    "explanation": "Possessivpronomen 1. Pers. Sg.: mein Vorname."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Welche Frage nutzt „wo“ (Ort, nicht Herkunft)?",
+    "options": ["Wo wohnst du?","Woher kommst du?","Wie heißt du?","Wann kommst du?"],
+    "correctIndex": 0,
+    "explanation": "„Wo“ = Ort; „Woher“ = Herkunft."
+  },
+  {
+    "type": "fill-in",
+    "question": "Ergänze im Dialog: – Guten Tag, wie ____ Sie? – Ich heiße Kovač.",
+    "answer": "heißen",
+    "explanation": "Formell: Wie heißen Sie?"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Richtige Konjugation von „sein“ (3. Pers. Sg.)?",
+    "options": ["er sind","sie bist","er ist","es seid"],
+    "correctIndex": 2,
+    "explanation": "er/sie/es ist."
+  },
+  {
+    "type": "fill-in",
+    "question": "Schreibe: Ich komme ____ Polen, aus Toruń.",
+    "answer": "aus",
+    "explanation": "Präposition „aus“ bei Ländern/Städten."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Welche Reihenfolge ist richtig (Frage Satzklammer)?",
+    "options": ["Wo du wohnst?","Wo wohnst du?","Wo du kommst her?","Wo kommst du her bist?"],
+    "correctIndex": 1,
+    "explanation": "Fragewort + Verb (P2) + Subjekt."
+  },
+  {
+    "type": "fill-in",
+    "question": "Schreibe höflich: Ihre Telefonnummer, ____?",
+    "answer": "bitte",
+    "explanation": "„… bitte?“ – höfliche Nachfrage."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Welche Abschiedsformel ist regional für Köln?",
+    "options": ["Servus","Tschö","Moin","Grüß Gott"],
+    "correctIndex": 1,
+    "explanation": "„Tschö“ sagt man u. a. in Köln."
+  },
+  {
+    "type": "fill-in",
+    "question": "Ergänze: Entschuldigung, wie ____ man „Abadi“?",
+    "answer": "schreibt",
+    "explanation": "„Wie schreibt man …?“"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Wähle die richtige Antwort: „Wie heißt du?“",
+    "options": ["Ich bin aus Syrien.","Ich heiße Adita.","Ich wohne in Köln.","Guten Abend!"],
+    "correctIndex": 1,
+    "explanation": "Auf die Namensfrage: „Ich heiße …“"
+  },
+  {
+    "type": "fill-in",
+    "question": "Setze ein: Wir ____ in Bonn. (wohnen)",
+    "answer": "wohnen",
+    "explanation": "1. Pers. Pl.: wir wohnen."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Welche Begrüßung ist neutral und jederzeit möglich?",
+    "options": ["Guten Morgen","Hallo","Guten Abend","Gute Nacht"],
+    "correctIndex": 1,
+    "explanation": "„Hallo“ passt fast immer (informell)."
+  },
+  {
+    "type": "fill-in",
+    "question": "Alphabet: Ergänze die Umlaute: ä, __, __",
+    "answer": "ö, ü",
+    "explanation": "Drei Umlaute: ä, ö, ü."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Vervollständige: Ich ___ Mila. Und ___ wohnen Sie?",
+    "options": ["heiße / wo","heißt / woher","heiße / wo","heiße / woher"],
+    "correctIndex": 2,
+    "explanation": "„Ich heiße …“; Frage nach Ort: „wo wohnen …?“"
+  },
+  {
+    "type": "fill-in",
+    "question": "Ergänze mit „sein“: Sie ____ neu hier.",
+    "answer": "sind",
+    "explanation": "Höflichkeitsform „Sie“: sind."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Wähle die korrekte Schreibweise der Stadt:",
+    "options": ["Niarobi","Nairobi","Nayrobi","Nairobbi"],
+    "correctIndex": 1,
+    "explanation": "Richtig: Nairobi."
+  },
+  {
+    "type": "fill-in",
+    "question": "Setze ein: Guten ____! (am Nachmittag/Tag)",
+    "answer": "Tag",
+    "explanation": "Tagsüber: „Guten Tag!“"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Welche Antwort passt zu „Woher kommen Sie?“",
+    "options": ["Ich wohne in Bonn.","Ich komme aus Mexiko.","Ich heiße Ines.","Guten Morgen!"],
+    "correctIndex": 1,
+    "explanation": "Herkunft: „Ich komme aus …“"
   }
 ]
